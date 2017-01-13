@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all-en.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2016-06-08T20:00:00-04:00</updated><entry><title>Test</title><link href="http://tommyblanchard.com/test.html" rel="alternate"></link><published>2016-06-08T20:00:00-04:00</published><updated>2016-06-08T20:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2016-06-08:/test.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all-en.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2016-06-08T20:00:00-04:00</updated><entry><title>Test</title><link href="http://tommyblanchard.com/test" rel="alternate"></link><published>2016-06-08T20:00:00-04:00</published><updated>2016-06-08T20:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2016-06-08:/test</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
@@ -1050,7 +1050,7 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="python firsts"></category></entry><entry><title>Test2</title><link href="http://tommyblanchard.com/test2.html" rel="alternate"></link><published>2016-06-08T20:00:00-04:00</published><updated>2016-06-08T20:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2016-06-08:/test2.html</id><summary type="html">
+</content><category term="python firsts"></category></entry><entry><title>Test2</title><link href="http://tommyblanchard.com/test2" rel="alternate"></link><published>2016-06-08T20:00:00-04:00</published><updated>2016-06-08T20:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2016-06-08:/test2</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;
 &lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
