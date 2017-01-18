@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Tommy Blanchard - Tommy Blanchard</title><link>http://tommyblanchard.com/</link><description></description><lastBuildDate>Wed, 18 Jan 2017 10:06:33 -0500</lastBuildDate><item><title>Hello, world!</title><link>http://tommyblanchard.com/hello-world</link><description>&lt;p&gt;As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tommy Blanchard</dc:creator><pubDate>Wed, 18 Jan 2017 10:06:33 -0500</pubDate><guid isPermaLink="false">tag:tommyblanchard.com,2017-01-18:/hello-world</guid></item><item><title>This Website</title><link>http://tommyblanchard.com/this-website</link><description>&lt;p&gt;I felt it was fitting to write the first "Project" article on this website, since it's the most recent little project I've been working on.&lt;/p&gt;
 &lt;h3&gt;Choosing a framework&lt;/h3&gt;
-&lt;p&gt;I was looking for a few things in a website: Something easily customizable, easily publishable, capable of blog feeds, and that could …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tommy Blanchard</dc:creator><pubDate>Wed, 18 Jan 2017 10:04:08 -0500</pubDate><guid isPermaLink="false">tag:tommyblanchard.com,2017-01-18:/this-website</guid><category>Pelican</category><category>Python</category><category>Static site generators</category></item><item><title>Test2</title><link>http://tommyblanchard.com/test2</link><description>
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="TEST"&gt;TEST&lt;a class="anchor-link" href="#TEST"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is a test&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tommy Blanchard</dc:creator><pubDate>Wed, 08 Jun 2016 20:00:00 -0400</pubDate><guid isPermaLink="false">tag:tommyblanchard.com,2016-06-08:/test2</guid><category>python firsts</category></item></channel></rss>
+&lt;p&gt;I was looking for a few things in a website: Something easily customizable, easily publishable, capable of blog feeds, and that could …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tommy Blanchard</dc:creator><pubDate>Wed, 18 Jan 2017 10:04:08 -0500</pubDate><guid isPermaLink="false">tag:tommyblanchard.com,2017-01-18:/this-website</guid><category>Pelican</category><category>Python</category><category>Static site generators</category></item></channel></rss>
