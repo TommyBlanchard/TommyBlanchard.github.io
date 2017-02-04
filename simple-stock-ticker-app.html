@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Tommy Blanchard - Tommy Blanchard</title>
+        <title>Simple Stock Ticker App</title>
         <link rel="stylesheet" href="http://tommyblanchard.com/theme/css/main.css" />
         <link href="http://tommyblanchard.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Tommy Blanchard Atom Feed" />
     
@@ -23,18 +23,23 @@
                     <li><a href="/publications">Publications</a></li>
                     <li><a href="/press">Press</a></li>
                     <li><a href="http://tommyblanchard.com/category/blog">Blog</a></li>
-                    <li><a href="http://tommyblanchard.com/category/projects">Projects</a></li>
+                    <li class="active"><a href="http://tommyblanchard.com/category/projects">Projects</a></li>
                 </ul>
                 </nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://tommyblanchard.com/simple-stock-ticker-app" rel="bookmark"
+           title="Permalink to Simple Stock Ticker App">Simple Stock Ticker App</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/simple-stock-ticker-app">Simple Stock Ticker App</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <span>Sat 04 February 2017</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/flask">Flask</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/requests">Requests</a>, <a href="http://tommyblanchard.com/tag/heroku">Heroku</a></span>
-</footer><!-- /.post-info --><p>This was just a very simple learning project I did as part of <a href="https://www.thedataincubator.com/">The Data Incubator</a> program.</p>
+</footer><!-- /.post-info -->      <p>This was just a very simple learning project I did as part of <a href="https://www.thedataincubator.com/">The Data Incubator</a> program.</p>
 <p>The project itself was just a simple stock ticker. It requires as input the ticker, and produces a graph of the stock prices over time. <a href="http://day8blanchard.herokuapp.com/index">Here is the finished product</a>. You can also see the code for it <a href="https://github.com/TommyBlanchard/FlaskHerokuStockTicker">here</a>.</p>
 <h3>Flask Framework</h3>
 <p><a href="http://flask.pocoo.org/">Flask</a> is a lightweight Python framework. It's pretty simple to use. Set up some template html files, define some GET and POST methods, and you're good to go.</p>
@@ -46,63 +51,24 @@
 <h3>Plotting Data</h3>
 <p>After requesting the data and getting it into a usable format, I plotted it using <a href="http://bokeh.pydata.org/en/latest/">Bokeh</a>.</p>
 <p>Overall I really like Bokeh - some things are easier to do in Bokeh than in either Seaborn or matplotlib. But it definitely isn't perfect, and some things that feel like they should be trivial end up being more work than you would expect.</p>
-<p>But the real power of Bokeh is that the figures it produces can be output into javascript format so they can easily be placed into a website. So the code for the Bokeh figure is easily just placed into the graph.html template as javascript code, and it appears, all while staying in Python world.</p><p><a href="http://tommyblanchard.com/simple-stock-ticker-app#disqus_thread">comments</a></p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <ol id="posts-list" class="hfeed">
+<p>But the real power of Bokeh is that the figures it produces can be output into javascript format so they can easily be placed into a website. So the code for the Bokeh figure is easily just placed into the graph.html template as javascript code, and it appears, all while staying in Python world.</p>
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "simple-stock-ticker-app";
+        var disqus_url = "http://tommyblanchard.com/simple-stock-ticker-app";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//tommyblanchard.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
 
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/reasons-i-left-academia" rel="bookmark"
-                           title="Permalink to Reasons I left academia">Reasons I left academia</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Sat 28 January 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/academia">Academia</a>, <a href="http://tommyblanchard.com/tag/life">Life</a></span>
-</footer><!-- /.post-info -->                <p>I recently made the transition from academia to industry. Some people were surprised I decided to leave - I had had a pretty successful academic career. So why did I want to leave? I've read a lot of articles and opinions on reasons people leave academia. The common reasons I often …</p>
-                <a class="readmore" href="http://tommyblanchard.com/reasons-i-left-academia">read more</a>
-<p><a href="http://tommyblanchard.com/reasons-i-left-academia#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/hello-world" rel="bookmark"
-                           title="Permalink to Hello, world!">Hello, world!</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Thu 26 January 2017</span>
-
-</footer><!-- /.post-info -->                <p>As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the …</p>
-                <a class="readmore" href="http://tommyblanchard.com/hello-world">read more</a>
-<p><a href="http://tommyblanchard.com/hello-world#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/this-website" rel="bookmark"
-                           title="Permalink to This Website">This Website</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Wed 18 January 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/pelican">Pelican</a>, <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/static-site-generators">Static site generators</a></span>
-</footer><!-- /.post-info -->                <p>I felt it was fitting to write the first "Project" article on this website, since it's the most recent little project I've been working on.</p>
-<h3>Choosing a framework</h3>
-<p>I was looking for a few things in a website: Something easily customizable, easily publishable, capable of blog feeds, and that could …</p>
-                <a class="readmore" href="http://tommyblanchard.com/this-website">read more</a>
-<p><a href="http://tommyblanchard.com/this-website#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-            </ol><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </section><!-- /#content -->
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="social">
                         <h2>social</h2>
