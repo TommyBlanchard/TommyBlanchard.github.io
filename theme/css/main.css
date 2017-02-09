@@ -47,6 +47,36 @@ h3, h4, h5, h6 { margin-top: .8em; }
 	
 hr { border: 2px solid #EEEEEE; }
 
+/* Word Cloud */
+ul.tagcloud {
+  list-style: none;
+    padding: 0;
+}
+
+ul.tagcloud li {
+    display: inline-block;
+}
+
+li.tag-1 {
+    font-size: 150%;
+}
+
+li.tag-2 {
+    font-size: 120%;
+}
+
+li.tag-2 {
+    font-size: 100%;
+}
+
+li.tag-4 {
+    font-size: 80%;
+}
+ul.tagcloud .list-group-item <span>.badge {
+    background-color: grey;
+    color: white;
+}
+
 /* Anchors */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
