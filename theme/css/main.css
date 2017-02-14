@@ -55,7 +55,7 @@ section#wrapper{
     position: relative;
 }
 
-section#tagcloud{   
+div#tagcloud{   
     right: -110px;
     top: 200px;
     position: absolute;
