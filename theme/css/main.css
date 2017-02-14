@@ -56,10 +56,10 @@ section#wrapper{
 }
 
 div#tagcloud{   
-    right: -110px;
-    top: 200px;
+    right: -150px;
+    top: 300px;
     position: absolute;
-    width: 100px;
+    width: 140px;
     background: white;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
