@@ -81,15 +81,15 @@ li.tag-1 {
 }
 
 li.tag-2 {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 li.tag-2 {
-    font-size: 80%;
+    font-size: 100%;
 }
 
 li.tag-4 {
-    font-size: 70%;
+    font-size: 100%;
 }
 ul.tagcloud.list-group-item <span>.badge {
     background-color: grey;
