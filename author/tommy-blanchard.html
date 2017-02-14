@@ -16,8 +16,8 @@
 </head>
 
 
-    
 <body id="index" class="home">
+<section id="wrapper">
         <header id="banner" class="body">
                 <h1><a href="http://tommyblanchard.com/">Tommy Blanchard </a></h1>
             <!-- THIS IS THE NAV BAR AT THE TOP -->
@@ -32,53 +32,66 @@
             <!-- END NAV BAR -->
             
         </header><!-- /#banner -->
-                    
-       <!--  <section id="tagcloud" class="body">
-            <h1> Projects </h1>
-                <h2> (<Category 'Blog'>, [(<Tag 'Life'>, 4, 1), (<Tag 'Academia'>, 4, 1)]) </h2>
-                <h3> what</h3> 
-                <h2> (<Category 'Projects'>, [(<Tag 'Python'>, 1, 2), (<Tag 'Static site generators'>, 4, 1), (<Tag 'Pelican'>, 4, 1), (<Tag 'Heroku'>, 4, 1), (<Tag 'Requests'>, 4, 1), (<Tag 'Bokeh'>, 4, 1), (<Tag 'Flask'>, 4, 1)]) </h2>
-                <h3> what</h3> 
+        <section id="block-wrapper">
+            <div id="tagcloud">
+                    <b>Blog Tags</b>
                 <ul class="tagcloud">
-                </ul> 
-        </section> -->
-
-            <aside id="featured" class="body">
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/life">
+                            Life
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/academia">
+                            Academia
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        
+            </ul> 
+</div>
+            <section id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/simple-stock-ticker-app">Simple Stock Ticker App</a></h1>
+                    <h1 class="entry-title"><a href="http://tommyblanchard.com/reasons-i-left-academia">Reasons I left academia</a></h1>
 <footer class="post-info">
-        <span>Sat 04 February 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/flask">Flask</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/requests">Requests</a>, <a href="http://tommyblanchard.com/tag/heroku">Heroku</a></span>
-</footer><!-- /.post-info --><p>This was just a very simple learning project I did as part of <a href="https://www.thedataincubator.com/">The Data Incubator</a> program.</p>
-<p>The project itself was just a simple stock ticker. It requires as input the ticker, and produces a graph of the stock prices over time. <a href="http://day8blanchard.herokuapp.com/index">Here is the finished product</a>. You can also see the code for it <a href="https://github.com/TommyBlanchard/FlaskHerokuStockTicker">here</a>.</p>
-<h3>Flask Framework</h3>
-<p><a href="http://flask.pocoo.org/">Flask</a> is a lightweight Python framework. It's pretty simple to use. Set up some template html files, define some GET and POST methods, and you're good to go.</p>
-<p>The Data Incubator provded <a href="https://github.com/thedataincubator/flask-demo">a pretty simple template</a> for getting started. It provided some sample files, but the app itself just returned whatever the index template was.</p>
-<p>The modified the template to have two pages: the index page, which just has a GET command, and a graph page, which has POST.</p>
-<p>On the index page, the user inputs the ticker they want. This is used in the POST command, which requests and then plots the data.</p>
-<h3>Requesting Data</h3>
-<p>The data I used for my stock ticker came from <a href="https://blog.quandl.com/api-for-stock-data">Quandl</a>. I used Python's <a href="http://docs.python-requests.org/en/master/">Requests</a> library to make API requests.</p>
-<h3>Plotting Data</h3>
-<p>After requesting the data and getting it into a usable format, I plotted it using <a href="http://bokeh.pydata.org/en/latest/">Bokeh</a>.</p>
-<p>Overall I really like Bokeh - some things are easier to do in Bokeh than in either Seaborn or matplotlib. But it definitely isn't perfect, and some things that feel like they should be trivial end up being more work than you would expect.</p>
-<p>But the real power of Bokeh is that the figures it produces can be output into javascript format so they can easily be placed into a website. So the code for the Bokeh figure is easily just placed into the graph.html template as javascript code, and it appears, all while staying in Python world.</p><p><a href="http://tommyblanchard.com/simple-stock-ticker-app#disqus_thread">comments</a></p>                </article>
+        <span>Sun 12 February 2017</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/academia">Academia</a>, <a href="http://tommyblanchard.com/tag/life">Life</a></span>
+</footer><!-- /.post-info --><p>I recently made the transition from academia to industry. Some people were surprised I decided to leave - I had had a pretty successful academic career. So why did I want to leave? I've read a lot of articles and opinions on reasons people leave academia. The common reasons I often saw people cite for why they decided to leave didn't resonate with me. It's usually things like that the academic job market is too tough, or that industry pays better. The better pay is certainly nice, but certainly wasn't an impetus for my switch. I had never really worried about the job market. So why did I decide to leave?</p>
+<h2>Becoming unhappy in academia</h2>
+<p>I was pretty happy during my PhD. I learned a lot throughout it, got a lot of positive feedback, felt respected, and interacted with my peers a lot. Even so, by my last year, and especially after starting my postdoc, I was slowly becoming less satisfied. Eventually I was just not happy. I became stressed out, and research wasn't fun anymore.</p>
+<p>One day I was describing my work environment to my roommate who works in industry. I told him I had maybe one to three meetings with people throughout the week. I explained that during my day, I mostly was by myself in an office. He said that sounded like it really sucked. That off-hand comment was actually really eye-opening to me. It had never occurred to me that working in such isolation probably wasn't good for me. It seemed just like the natural process of becoming more independent would of course mean more isolation.</p>
+<p>As a postdoc or a grad student, it would often just be me and my advisor on a project. If my advisor was busy (frequently the case), it meant I was alone on the project. If others were involved in the project, in my experience their involvement was pretty superficial and communications usually occurred via email, or meetings once every month or two. It really didn't feel like I had anyone 'with me' on solving issues on a project, which was stressful. More importantly, I felt lonely.</p>
+<p>Talking to other friends in industry reinforced the impression that it was much less isolating to work in industry than in research. They talked about frequent code-reviews and stand-up meetings. Since project turn-around was much quicker, project meetings were much more frequent. There was always a lot of interaction going on.</p>
+<h2>Few reasons to stay</h2>
+<p>After I had pinpointed why I was feeling so unhappy, I did a lot of soul-searching on why I was so set on an academic career in the first place.</p>
+<p>Supposedly the big advantages of academia are the intellectual satisfaction of research and the freedom to research what you want. However, I didn't feel intellectually satisfied. Science works slowly, with incremental advances. Every paper I wrote was just one interpretation of one small data set about what one small brain area did in one contrived task. I was familiar with the big theories in my field, and there wasn't any new big ideas that were exciting me any more. Intellectually, focusing on such a narrow space of science was just becoming boring.</p>
+<p>The intellectual freedom didn't sound that exciting to me anymore. Sure, I could set up a wide range of different experiments, except 1) they had to be in line with a fundable research plan, and 2) they had to lead to publications. It seemed more like pressure to come up with good ideas than freedom to do what I want.</p>
+<p>I'm a bit ashamed to admit that for me, the factor that made the decision difficult was the level of fame and prestige that comes with being an academic researcher. It's nice to have your name on a bunch of publications, to get some media attention, and have international colleagues that respect you.</p>
+<h2>Costs of staying</h2>
+<p>My growing unhappiness forced me to really face the sacrifices I was making by staying in academia. The biggest issue for me was the cost to my personal relationships. Academia meant moving at the whims of the academic job market - due to how few jobs there are, there's little freedom in where you live geographically. Already the moves I had done for academia had cost me important relationships. There was also putting off thinking about starting a family because I didn't feel like my life was stable enough to start one.</p>
+<h2>Deciding to leave</h2>
+<p>I think there's a big disconnect in mentality between academia and industry because they offer very different types of rewards. In academia, all of the metrics you have for how well you're doing don't exist in industry: publications, citations, H-index, etc. Until I really started to feel the cost of academia in terms of my happiness, I never felt the allure of industry because it didn't offer me these rewards I had been trained to seek through my academic training. Similarly, it was easy to ignore the income one could make in industry because money isn't one of the big motivators in academia since (at least at the postdoc level) everyone is making about the same low amount.</p>
+<p>Once I was forced to really open my eyes to the possibility of leaving, suddenly I had to consider what an industry job could offer me. It was painful going through the process of changing my mentality and accepting that I might never get another publication, but that was okay because publications only mean anything in academia.</p>
+<p>Eventually I started learning more about data science. I learned how it would allow me to work with different data, do the parts of science I love (analysis), and give me freedom to find jobs I wanted. I thought it sounded like a much better place for me. Hopefully that judgment was right!</p><p><a href="http://tommyblanchard.com/reasons-i-left-academia#disqus_thread">comments</a></p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <ol id="posts-list" class="hfeed">
             <li><article class="hentry">
                 <header>
-                    <h1><a href="http://tommyblanchard.com/reasons-i-left-academia" rel="bookmark"
-                           title="Permalink to Reasons I left academia">Reasons I left academia</a></h1>
+                    <h1><a href="http://tommyblanchard.com/simple-stock-ticker-app" rel="bookmark"
+                           title="Permalink to Simple Stock Ticker App">Simple Stock Ticker App</a></h1>
                 </header>
 
                 <div class="entry-content">
 <footer class="post-info">
-        <span>Sat 28 January 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/academia">Academia</a>, <a href="http://tommyblanchard.com/tag/life">Life</a></span>
-</footer><!-- /.post-info -->                <p>I recently made the transition from academia to industry. Some people were surprised I decided to leave - I had had a pretty successful academic career. So why did I want to leave? I've read a lot of articles and opinions on reasons people leave academia. The common reasons I often …</p>
-                <a class="readmore" href="http://tommyblanchard.com/reasons-i-left-academia">read more</a>
-<p><a href="http://tommyblanchard.com/reasons-i-left-academia#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
+        <span>Sat 04 February 2017</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/flask">Flask</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/requests">Requests</a>, <a href="http://tommyblanchard.com/tag/heroku">Heroku</a></span>
+</footer><!-- /.post-info -->                <p>This was just a very simple learning project I did as part of <a href="https://www.thedataincubator.com/">The Data Incubator</a> program.</p>
+<p>The project itself was just a simple stock ticker. It requires as input the ticker, and produces a graph of the stock prices over time. <a href="http://day8blanchard.herokuapp.com/index">Here is the finished product</a>. You can also …</p>
+                <a class="readmore" href="http://tommyblanchard.com/simple-stock-ticker-app">read more</a>
+<p><a href="http://tommyblanchard.com/simple-stock-ticker-app#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
             </article></li>
             <li><article class="hentry">
                 <header>
@@ -115,6 +128,7 @@
     Page 1 / 1
 </p>
             </section><!-- /#content -->
+        </section>
         <section id="extras" class="body">
                 <div class="social">
                         <h2>social</h2>

@@ -48,6 +48,25 @@ h3, h4, h5, h6 { margin-top: .8em; }
 hr { border: 2px solid #EEEEEE; }
 
 /* Word Cloud */
+
+section#wrapper{
+    width: 800px;
+    margin: auto auto auto auto;
+    position: relative;
+}
+
+section#tagcloud{   
+    right: -110px;
+    top: 200px;
+    position: absolute;
+    width: 100px;
+    background: white;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+
 ul.tagcloud {
   list-style: none;
     padding: 0;
@@ -72,7 +91,7 @@ li.tag-2 {
 li.tag-4 {
     font-size: 80%;
 }
-ul.tagcloud .list-group-item <span>.badge {
+ul.tagcloud.list-group-item <span>.badge {
     background-color: grey;
     color: white;
 }
