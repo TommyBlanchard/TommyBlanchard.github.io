@@ -50,13 +50,13 @@ hr { border: 2px solid #EEEEEE; }
 /* Word Cloud */
 
 section#wrapper{
-    width: 900px;
+    width: 800px;
     margin: auto auto auto auto;
     position: relative;
 }
 
 div#tagcloud{   
-    right: -100px;
+    right: -150px;
     top: 250px;
     position: absolute;
     width: 140px;
