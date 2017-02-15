@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Tommy Blanchard - Projects</title>
+        <title>Unique Tag Cloud for Each Category in Pelican</title>
         <link rel="stylesheet" href="http://tommyblanchard.com/theme/css/main.css" />
         <link href="http://tommyblanchard.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Tommy Blanchard Atom Feed" />
     
@@ -33,7 +33,8 @@
             
         </header><!-- /#banner -->
         <section id="block-wrapper">
-            <div id="tagcloud">
+
+<div id="tagcloud">
                     <b><center>Projects Tags</center></b>
                 <ul class="tagcloud">
                         <li class="tag-1">
@@ -93,13 +94,20 @@
                         
             </ul> 
 </div>
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican">Unique Tag Cloud for Each Category in Pelican</a></h1>
+
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican" rel="bookmark"
+           title="Permalink to Unique Tag Cloud for Each Category in Pelican">Unique Tag Cloud for Each Category in Pelican</a></h1>
+    </header>
+
+    <div class="entry-content">
 <footer class="post-info">
         <span>Wed 15 February 2017</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/pelican">Pelican</a>, <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/jinga2">Jinga2</a>, <a href="http://tommyblanchard.com/tag/css">CSS</a></span>
-</footer><!-- /.post-info --><p><a href="http://docs.getpelican.com/en/stable/">Pelican</a> allows you to put articles into different 'categories'. On this site, I have the <a href="http://tommyblanchard.com/category/blog">Blog</a> and <a href="http://tommyblanchard.com/category/projects">Projects</a> categories. I wanted 'Projects' to be able to function as a portfolio. Ideally, it would have a tag cloud to allow someone to see all the different tools I've used for different projects, and easily find projects that involved the tools they're interested in.</p>
+</footer><!-- /.post-info -->      <p><a href="http://docs.getpelican.com/en/stable/">Pelican</a> allows you to put articles into different 'categories'. On this site, I have the <a href="http://tommyblanchard.com/category/blog">Blog</a> and <a href="http://tommyblanchard.com/category/projects">Projects</a> categories. I wanted 'Projects' to be able to function as a portfolio. Ideally, it would have a tag cloud to allow someone to see all the different tools I've used for different projects, and easily find projects that involved the tools they're interested in.</p>
 <p>By default, Pelican does not have a tag cloud. In recent versions, <a href="http://docs.getpelican.com/en/stable/faq.html#my-tag-cloud-is-missing-broken-since-i-upgraded-pelican">they've taken the tag cloud functionality out of the main program</a> and put it into <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">a plugin</a>. However, the plugin counts all tags across all articles, meaning my 'Blog' tags would be mixed in with the 'Projects' tags. I ended up needing to modify the plugin to get the functionality I wanted. Instructions in case you want to do the same thing are below.</p>
 <h3>Set up</h3>
 <p>Since I modified the base tag_cloud plugin, the set up is very similar to that described on the official <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">tag cloud plugin page</a>. First, <strong>pelicanconf.py</strong> needs to be modified to look for the tag cloud plugin. If this is your first plugin, you should simply add these lines:</p>
@@ -193,47 +201,28 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 <h3>Known issues</h3>
 <p>If you have overlap in the tags used between the two categories, the page for that tag will give the tag cloud for whatever the first article on the page is for that tag.</p>
 <p>Since I used the same names as for the basic tag cloud plugin, this is not compatible with the base tag cloud.</p>
-<p>If this somehow becomes popular, I might try to make this plugin a bit more official - giving it a unique name, adding some tests, and creating a tagcloud.html file that just gets included instead of copying and pasting the same code to two separate locations. So if you're using the plugin (or interested in it), let me know! Right now I only put in enough work to get it working for myself.</p><p><a href="http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican#disqus_thread">comments</a></p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <ol id="posts-list" class="hfeed">
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/simple-stock-ticker-app" rel="bookmark"
-                           title="Permalink to Simple Stock Ticker App">Simple Stock Ticker App</a></h1>
-                </header>
+<p>If this somehow becomes popular, I might try to make this plugin a bit more official - giving it a unique name, adding some tests, and creating a tagcloud.html file that just gets included instead of copying and pasting the same code to two separate locations. So if you're using the plugin (or interested in it), let me know! Right now I only put in enough work to get it working for myself.</p>
+    </div><!-- /.entry-content -->
+    <div class="comments">
+      <h2>Comments !</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_identifier = "unique-tag-cloud-for-each-category-in-pelican";
+        var disqus_url = "http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//tommyblanchard.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    </div>
 
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Sat 04 February 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/flask">Flask</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/requests">Requests</a>, <a href="http://tommyblanchard.com/tag/heroku">Heroku</a></span>
-</footer><!-- /.post-info -->                <p>This was just a very simple learning project I did as part of <a href="https://www.thedataincubator.com/">The Data Incubator</a> program.</p>
-<p>The project itself was just a simple stock ticker. It requires as input the ticker, and produces a graph of the stock prices over time. <a href="http://day8blanchard.herokuapp.com/index">Here is the finished product</a>. You can also …</p>
-                <a class="readmore" href="http://tommyblanchard.com/simple-stock-ticker-app">read more</a>
-<p><a href="http://tommyblanchard.com/simple-stock-ticker-app#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/this-website" rel="bookmark"
-                           title="Permalink to This Website">This Website</a></h1>
-                </header>
+  </article>
+</section>
 
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Wed 18 January 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/pelican">Pelican</a>, <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/static-site-generators">Static site generators</a></span>
-</footer><!-- /.post-info -->                <p>I felt it was fitting to write the first "Project" article on this website, since it's the most recent little project I've been working on.</p>
-<h3>Choosing a framework</h3>
-<p>I was looking for a few things in a website: Something easily customizable, easily publishable, capable of blog feeds, and that could …</p>
-                <a class="readmore" href="http://tommyblanchard.com/this-website">read more</a>
-<p><a href="http://tommyblanchard.com/this-website#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-            </ol><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 1
-</p>
-            </section><!-- /#content -->
+
+</section>
+
         </section>
         <section id="extras" class="body">
                 <div class="social">

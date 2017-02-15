@@ -39,7 +39,19 @@
                         <li class="tag-1">
                             <a href="http://tommyblanchard.com/tag/python">
                             Python
+                                    <span class="badge">(3)</span>
+                            </a>
+                        </li>
+                        <li class="tag-2">
+                            <a href="http://tommyblanchard.com/tag/pelican">
+                            Pelican
                                     <span class="badge">(2)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/flask">
+                            Flask
+                                    <span class="badge">(1)</span>
                             </a>
                         </li>
                         <li class="tag-4">
@@ -49,8 +61,20 @@
                             </a>
                         </li>
                         <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/jinga2">
+                            Jinga2
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/heroku">
                             Heroku
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/css">
+                            CSS
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -66,45 +90,134 @@
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/flask">
-                            Flask
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/pelican">
-                            Pelican
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
                         
             </ul> 
 </div>
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/this-website">This Website</a></h1>
+                    <h1 class="entry-title"><a href="http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican">Unique Tag Cloud for Each Category in Pelican</a></h1>
+<footer class="post-info">
+        <span>Wed 15 February 2017</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/pelican">Pelican</a>, <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/jinga2">Jinga2</a>, <a href="http://tommyblanchard.com/tag/css">CSS</a></span>
+</footer><!-- /.post-info --><p><a href="http://docs.getpelican.com/en/stable/">Pelican</a> allows you to put articles into different 'categories'. On this site, I have the <a href="http://tommyblanchard.com/category/blog">Blog</a> and <a href="http://tommyblanchard.com/category/projects">Projects</a> categories. I wanted 'Projects' to be able to function as a portfolio. Ideally, it would have a tag cloud to allow someone to see all the different tools I've used for different projects, and easily find projects that involved the tools they're interested in.</p>
+<p>By default, Pelican does not have a tag cloud. In recent versions, <a href="http://docs.getpelican.com/en/stable/faq.html#my-tag-cloud-is-missing-broken-since-i-upgraded-pelican">they've taken the tag cloud functionality out of the main program</a> and put it into <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">a plugin</a>. However, the plugin counts all tags across all articles, meaning my 'Blog' tags would be mixed in with the 'Projects' tags. I ended up needing to modify the plugin to get the functionality I wanted. Instructions in case you want to do the same thing are below.</p>
+<h3>Set up</h3>
+<p>Since I modified the base tag_cloud plugin, the set up is very similar to that described on the official <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">tag cloud plugin page</a>. First, <strong>pelicanconf.py</strong> needs to be modified to look for the tag cloud plugin. If this is your first plugin, you should simply add these lines:</p>
+<div class="highlight"><pre><span></span>PLUGIN_PATHS = [&quot;plugins&quot;]
+PLUGINS = [&quot;tag_cloud&quot;]
+</pre></div>
+
+
+<p>Otherwise, just add "tag_cloud" to your current PLUGINS list.</p>
+<p>Next, you'll need the tag_cloud.py file, and need to place it in your plugins folder. You can download my version of tag_cloud.py from the <a href="https://github.com/TommyBlanchard/pelican-plugins/tree/master/tag_cloud">github repo</a>.</p>
+<p>The basic change from the original script is that instead of having a tag_cloud structure with just a list of the tags, tag_cloud is a dictionary with each key being a category and each value being a tag list. The hard part is that Pelican doesn't allow you to use dictionaries in its templates - it converts everything to a list. For clarity, I change the dictionary to a list before passing it to the generator. In the templates I use Jinga2 to loop through all of the entries and find the matching category, like an inefficient dictionary, as explained below.</p>
+<h3>Displaying the tag cloud</h3>
+<p>To display the tag clouds is a little more complicated than with the basic plugin. You probably don't want to tag clouds showing up on every page - I only wanted them on the category pages themselves, article pages, and tags pages.</p>
+<p>The different themes all have similar structures, but some might be a bit different. I use the <a href="https://github.com/blueicefield/pelican-blueidea">blueidea theme</a>.</p>
+<p>To have the tag list for a category appear on article pages, the following code should be added <strong>article.html</strong>:</p>
+<div class="highlight"><pre><span></span><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;tagcloud&quot;</span><span class="nt">&gt;</span>
+    <span class="cp">{%</span> <span class="k">for</span> <span class="nv">cat</span> <span class="k">in</span> <span class="nv">tag_cloud</span> <span class="cp">%}</span>
+        <span class="cp">{%</span> <span class="k">if</span> <span class="nv">article.category</span> <span class="o">==</span> <span class="nv">cat.0</span> <span class="cp">%}</span>
+                <span class="nt">&lt;b&gt;&lt;center&gt;</span><span class="cp">{{</span> <span class="nv">cat.0</span> <span class="cp">}}</span> Tags<span class="nt">&lt;/center&gt;&lt;/b&gt;</span>
+                <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;tagcloud&quot;</span><span class="nt">&gt;</span>
+                    <span class="cp">{%</span> <span class="k">for</span> <span class="nv">tag</span> <span class="k">in</span> <span class="nv">cat.1</span> <span class="cp">%}</span>
+                        <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;tag-</span><span class="cp">{{</span> <span class="nv">tag.1</span> <span class="cp">}}</span><span class="s">&quot;</span><span class="nt">&gt;</span>
+                            <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">SITEURL</span> <span class="cp">}}</span><span class="s">/</span><span class="cp">{{</span> <span class="nv">tag.0.url</span> <span class="cp">}}</span><span class="s">&quot;</span><span class="nt">&gt;</span>
+                                <span class="cp">{{</span> <span class="nv">tag.0</span> <span class="cp">}}</span>
+                                <span class="cp">{%</span> <span class="k">if</span> <span class="nv">TAG_CLOUD_BADGE</span> <span class="cp">%}</span>
+                                    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;badge&quot;</span><span class="nt">&gt;</span>(<span class="cp">{{</span> <span class="nv">tag.2</span> <span class="cp">}}</span>)<span class="nt">&lt;/span&gt;</span>
+                                <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+                            <span class="nt">&lt;/a&gt;</span>
+                        <span class="nt">&lt;/li&gt;</span>
+                    <span class="cp">{%</span> <span class="k">endfor</span> <span class="cp">%}</span>                        
+            <span class="nt">&lt;/ul&gt;</span> 
+         <span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+     <span class="cp">{%</span> <span class="k">endfor</span> <span class="cp">%}</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div>
+
+
+<p>The placement of the code depends a bit on how you plan to style it and where you want it to show up. I have mine near the top, right below <strong>{% block content %}</strong></p>
+<p>To add the tag cloud to the tags and categories pages, the same code needs to be added to index.html. Place it within the first item conditional, right after this:</p>
+<div class="highlight"><pre><span></span><span class="c">{# First item #}</span><span class="x"></span>
+<span class="cp">{%</span> <span class="k">if</span> <span class="nb">loop</span><span class="nv">.first</span> <span class="k">and</span> <span class="k">not</span> <span class="nv">articles_page.has_previous</span><span class="o">()</span> <span class="cp">%}</span><span class="x"></span>
+</pre></div>
+
+
+<p>This will take the category of the first article appearing on the page and generate the appropriate category tag cloud.</p>
+<h3>Settings and CSS Styling</h3>
+<p>The tag cloud should now display, just not necessarily how you want or where you want.</p>
+<p>The plugin allows you to have different sizes for tags based on how common they are. This can be altered by changing the TAG_CLOUD_STEPS value (default is 4, you can set TAG_CLOUD_STEPS=num in <strong>pelicanconf.py</strong>). So use the following, adding as many li.tag-# as you have TAG_CLOUD_STEPS. You can also style the tag cloud list any way you want:</p>
+<div class="highlight"><pre><span></span><span class="nt">ul</span><span class="nc">.tagcloud</span> <span class="p">{</span>
+  <span class="nb">list-style</span><span class="o">:</span> <span class="nb">none</span><span class="p">;</span>
+    <span class="nb">padding</span><span class="o">:</span> <span class="m">0</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">ul</span><span class="nc">.tagcloud</span> <span class="nt">li</span> <span class="p">{</span>
+    <span class="nb">display</span><span class="o">:</span> <span class="nb">inline</span><span class="o">-</span><span class="nb">block</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">li</span><span class="nc">.tag-1</span> <span class="p">{</span>
+    <span class="nb">font-size</span><span class="o">:</span> <span class="m">150%</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nt">li</span><span class="nc">.tag-2</span> <span class="p">{</span>
+    <span class="nb">font-size</span><span class="o">:</span> <span class="m">120%</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>You can also use CSS to style the div the tag appears in. Here is mine:</p>
+<div class="highlight"><pre><span></span><span class="nt">div</span><span class="nn">#tagcloud</span><span class="p">{</span>   
+    <span class="nb">right</span><span class="o">:</span> <span class="m">-150px</span><span class="p">;</span>
+    <span class="nb">top</span><span class="o">:</span> <span class="m">250px</span><span class="p">;</span>
+    <span class="nb">position</span><span class="o">:</span> <span class="nb">absolute</span><span class="p">;</span>
+    <span class="nb">width</span><span class="o">:</span> <span class="m">140px</span><span class="p">;</span>
+    <span class="nb">background</span><span class="o">:</span> <span class="nb">white</span><span class="p">;</span>
+    <span class="nb">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="nb">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">10px</span><span class="p">;</span>
+    <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="nb">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">10px</span> <span class="m">10px</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>(I have a fixed-width wrapper around everything including my tagcloud, so this positioning puts my sidebar just outside of the main content area)</p>
+<p>Full list of settings and defaults (you can add these lines to pelicanconf.py and change whatever values you want. If they don't exist in pelicanconf.py the defaults will be used):</p>
+<div class="highlight"><pre><span></span>TAG_CLOUD_STEPS=4 #number of different sizes of fonts in the tag cloud
+TAG_CLOUD_MAX_ITEMS=100 #number of different tags that can appear in tag cloud
+TAG_CLOUD_SORTING=&#39;size&#39; #how tags will be ordered in the tag cloud. Valid values: random, alphabetically, alphabetically-rev, size and size-rev
+TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
+</pre></div>
+
+
+<h3>Known issues</h3>
+<p>If you have overlap in the tags used between the two categories, the page for that tag will give the tag cloud for whatever the first article on the page is for that tag.</p>
+<p>Since I used the same names as for the basic tag cloud plugin, this is not compatible with the base tag cloud.</p>
+<p>If this somehow becomes popular, I might try to make this plugin a bit more official - giving it a unique name, adding some tests, and creating a tagcloud.html file that just gets included instead of copying and pasting the same code to two separate locations. So if you're using the plugin (or interested in it), let me know! Right now I only put in enough work to get it working for myself.</p><p><a href="http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican#disqus_thread">comments</a></p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <ol id="posts-list" class="hfeed">
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://tommyblanchard.com/this-website" rel="bookmark"
+                           title="Permalink to This Website">This Website</a></h1>
+                </header>
+
+                <div class="entry-content">
 <footer class="post-info">
         <span>Wed 18 January 2017</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/pelican">Pelican</a>, <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/static-site-generators">Static site generators</a></span>
-</footer><!-- /.post-info --><p>I felt it was fitting to write the first "Project" article on this website, since it's the most recent little project I've been working on.</p>
+</footer><!-- /.post-info -->                <p>I felt it was fitting to write the first "Project" article on this website, since it's the most recent little project I've been working on.</p>
 <h3>Choosing a framework</h3>
-<p>I was looking for a few things in a website: Something easily customizable, easily publishable, capable of blog feeds, and that could easily incorporate Jupyter Notebooks directly into it.</p>
-<p>Looking around, it seemed the best fit for the job were static site generators. Static site generators are just programs that take a bunch of content, your settings and templates/stylesheets, and create static HTML files. Static site generators are simple to use, easy to customize, don't require some awkward web UI, and publishing is extremely fast and doesn't even require me to visit a website. They also have the advantage of being fast compared to any dynamic websites since the server just has to serve a plain HTML page. There are a few other advantages to them - <a href="https://davidwalsh.name/introduction-static-site-generators">I found this a helpful read</a>.</p>
-<p>With a static site generator, I can easily write an article in Markdown. Then with a couple simple terminal commands I can have it publish to the site.</p>
-<h3>Choosing a static site generator</h3>
-<p>It turns out <a href="https://jekyllrb.com/">Jekyll</a> is the most popular static site generator. That means it has the advantage of the biggest community of support. However, there were two major disadvantages for me. </p>
-<p>First, Jekyll is written in Ruby. I'm not very familiar with Ruby, and don't currently have any reason to learn it (besides for Jekyll). This means if I wanted to dig into the code to customize things, it would be a big pain. </p>
-<p>Second, Jekyll doesn't have easy support for Jupyter Notebooks. I want to be able to do some data exploration in a Jupyter Notebook, and then just upload the notebook as an article easily. While it is <a href="http://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html">possible to post Jupyter Notebooks with Jekyll</a>, it isn't supported natively and takes extra steps.</p>
-<p>After doing some research, I ended up deciding on <a href="http://docs.getpelican.com/en/stable/">Pelican</a>. Pelican is written in Python, my preferred language. With <a href="https://github.com/danielfrg/pelican-ipynb">a simple plugin</a>, publishing Jupyter Notebooks becomes almost as easy as publishing Markdown - a separate file needs to be created for the metadata. Making changes to notebooks and then republishing becomes trivial, and life is easy.</p>
-<h3>Website host</h3>
-<p>After I had figured out how I was going to create my website, I had to choose a place to put it. This was a no-brainer. Because I'm using a static website, I don't need any fancy server support. <a href="https://pages.github.com/">Github Pages</a> is free and allows me to change my site just by pushing to a Github repo. It also allows custom URLs (though not with HTTPS currently). So the whole process for publishing an article is: write Markdown or Jupyter Notebook, run pelican to generate the site pages, commit and push to Github. Super easy and quick!</p>
-<p>If you're looking for a tutorial on how to set up your own Github hosted Pelican website, <a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/">this tutorial</a> is super helpful.</p><p><a href="http://tommyblanchard.com/this-website#disqus_thread">comments</a></p>                </article>
+<p>I was looking for a few things in a website: Something easily customizable, easily publishable, capable of blog feeds, and that could …</p>
+                <a class="readmore" href="http://tommyblanchard.com/this-website">read more</a>
+<p><a href="http://tommyblanchard.com/this-website#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
+            </article></li>
+            </ol><!-- /#posts-list -->
 <p class="paginator">
     Page 1 / 1
 </p>
-            </aside><!-- /#featured -->
-            </ol><!-- /#posts-list -->
             </section><!-- /#content -->
         </section>
         <section id="extras" class="body">
