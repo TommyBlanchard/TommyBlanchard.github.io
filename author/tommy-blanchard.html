@@ -49,26 +49,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/heroku">
-                            Heroku
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/flask">
-                            Flask
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/bokeh">
                             Bokeh
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/static-site-generators">
-                            Static site generators
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -90,6 +72,24 @@
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/static-site-generators">
+                            Static site generators
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/flask">
+                            Flask
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/heroku">
+                            Heroku
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
                         
             </ul> 
 </div>
@@ -101,7 +101,7 @@
 <span>| tags: <a href="http://tommyblanchard.com/tag/pelican">Pelican</a>, <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/jinga2">Jinga2</a>, <a href="http://tommyblanchard.com/tag/css">CSS</a></span>
 </footer><!-- /.post-info --><p><a href="http://docs.getpelican.com/en/stable/">Pelican</a> allows you to put articles into different 'categories'. On this site, I have the <a href="http://tommyblanchard.com/category/blog">Blog</a> and <a href="http://tommyblanchard.com/category/projects">Projects</a> categories. I wanted 'Projects' to be able to function as a portfolio. Ideally, it would have a tag cloud to allow someone to see all the different tools I've used for different projects, and easily find projects that involved the tools they're interested in.</p>
 <p>By default, Pelican does not have a tag cloud. In recent versions, <a href="http://docs.getpelican.com/en/stable/faq.html#my-tag-cloud-is-missing-broken-since-i-upgraded-pelican">they've taken the tag cloud functionality out of the main program</a> and put it into <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">a plugin</a>. However, the plugin counts all tags across all articles, meaning my 'Blog' tags would be mixed in with the 'Projects' tags. I ended up needing to modify the plugin to get the functionality I wanted. Instructions in case you want to do the same thing are below.</p>
-<h2>Set up</h2>
+<h1>Set up</h1>
 <p>Since I modified the base tag_cloud plugin, the set up is very similar to that described on the official <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">tag cloud plugin page</a>. First, <strong>pelicanconf.py</strong> needs to be modified to look for the tag cloud plugin. If this is your first plugin, you should simply add these lines:</p>
 <div class="highlight"><pre><span></span>PLUGIN_PATHS = [&quot;plugins&quot;]
 PLUGINS = [&quot;tag_cloud&quot;]
@@ -111,7 +111,7 @@ PLUGINS = [&quot;tag_cloud&quot;]
 <p>Otherwise, just add "tag_cloud" to your current PLUGINS list.</p>
 <p>Next, you'll need the tag_cloud.py file, and need to place it in your plugins folder. You can download my version of tag_cloud.py from the <a href="https://github.com/TommyBlanchard/pelican-plugins/tree/master/tag_cloud">github repo</a>.</p>
 <p>The basic change from the original script is that instead of having a tag_cloud structure with just a list of the tags, tag_cloud is a dictionary with each key being a category and each value being a tag list. The hard part is that Pelican doesn't allow you to use dictionaries in its templates - it converts everything to a list. For clarity, I change the dictionary to a list before passing it to the generator. In the templates I use Jinga2 to loop through all of the entries and find the matching category, like an inefficient dictionary, as explained below.</p>
-<h2>Displaying the tag cloud</h2>
+<h1>Displaying the tag cloud</h1>
 <p>To display the tag clouds is a little more complicated than with the basic plugin. You probably don't want to tag clouds showing up on every page - I only wanted them on the category pages themselves, article pages, and tags pages.</p>
 <p>The different themes all have similar structures, but some might be a bit different. I use the <a href="https://github.com/blueicefield/pelican-blueidea">blueidea theme</a>.</p>
 <p>To have the tag list for a category appear on article pages, the following code should be added <strong>article.html</strong>:</p>
@@ -145,7 +145,7 @@ PLUGINS = [&quot;tag_cloud&quot;]
 
 
 <p>This will take the category of the first article appearing on the page and generate the appropriate category tag cloud.</p>
-<h2>Settings and CSS Styling</h2>
+<h1>Settings and CSS Styling</h1>
 <p>The tag cloud should now display, just not necessarily how you want or where you want.</p>
 <p>The plugin allows you to have different sizes for tags based on how common they are. This can be altered by changing the TAG_CLOUD_STEPS value (default is 4, you can set TAG_CLOUD_STEPS=num in <strong>pelicanconf.py</strong>). So use the following, adding as many li.tag-# as you have TAG_CLOUD_STEPS. You can also style the tag cloud list any way you want:</p>
 <div class="highlight"><pre><span></span><span class="nt">ul</span><span class="nc">.tagcloud</span> <span class="p">{</span>
@@ -190,7 +190,7 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 </pre></div>
 
 
-<h2>Known issues</h2>
+<h1>Known issues</h1>
 <p>If you have overlap in the tags used between the two categories, the page for that tag will give the tag cloud for whatever the first article on the page is for that tag.</p>
 <p>Since I used the same names as for the basic tag cloud plugin, this is not compatible with the base tag cloud.</p>
 <p>If this somehow becomes popular, I might try to make this plugin a bit more official - giving it a unique name, adding some tests, and creating a tagcloud.html file that just gets included instead of copying and pasting the same code to two separate locations. So if you're using the plugin (or interested in it), let me know! Right now I only put in enough work to get it working for myself.</p><p><a href="http://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican#disqus_thread">comments</a></p>                </article>
