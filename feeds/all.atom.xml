@@ -139,7 +139,7 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 &lt;p&gt;After doing some research, I ended up deciding on &lt;a href="http://docs.getpelican.com/en/stable/"&gt;Pelican&lt;/a&gt;. Pelican is written in Python, my preferred language. With &lt;a href="https://github.com/danielfrg/pelican-ipynb"&gt;a simple plugin&lt;/a&gt;, publishing Jupyter Notebooks becomes almost as easy as publishing Markdown - a separate file needs to be created for the metadata. Making changes to notebooks and then republishing becomes trivial, and life is easy.&lt;/p&gt;
 &lt;h3&gt;Website host&lt;/h3&gt;
 &lt;p&gt;After I had figured out how I was going to create my website, I had to choose a place to put it. This was a no-brainer. Because I'm using a static website, I don't need any fancy server support. &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; is free and allows me to change my site just by pushing to a Github repo. It also allows custom URLs (though not with HTTPS currently). So the whole process for publishing an article is: write Markdown or Jupyter Notebook, run pelican to generate the site pages, commit and push to Github. Super easy and quick!&lt;/p&gt;
-&lt;p&gt;If you're looking for a tutorial on how to set up your own Github hosted Pelican website, &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;this tutorial&lt;/a&gt; is super helpful.&lt;/p&gt;</content><category term="Pelican"></category><category term="Python"></category><category term="Static site generators"></category></entry><entry><title>Comparing Audience and Critic Ratings by Genre</title><link href="http://tommyblanchard.com/movie-genre-ratings" rel="alternate"></link><published>2016-02-21T00:00:00-05:00</published><updated>2016-02-21T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2016-02-21:/movie-genre-ratings</id><summary type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align=center"&gt;
+&lt;p&gt;If you're looking for a tutorial on how to set up your own Github hosted Pelican website, &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;this tutorial&lt;/a&gt; is super helpful.&lt;/p&gt;</content><category term="Pelican"></category><category term="Python"></category><category term="Static site generators"></category></entry><entry><title>Comparing Audience and Critic Ratings by Genre</title><link href="http://tommyblanchard.com/movie-genre-ratings" rel="alternate"></link><published>2016-02-21T00:00:00-05:00</published><updated>2016-02-21T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2016-02-21:/movie-genre-ratings</id><summary type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -158,7 +158,7 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
                         code_shown=false;
                         $('div.input').hide()
                       });
-                    &lt;/script&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align=center"&gt;
+                    &lt;/script&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -229,10 +229,10 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="dac2bd9b-6e3a-4598-a101-219a7fa17c60"&gt;&lt;/div&gt;
+&lt;div id="cfe79dcd-9569-4f2d-b244-4c2ee1d1bc8c"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#dac2bd9b-6e3a-4598-a101-219a7fa17c60');
+var element = $('#cfe79dcd-9569-4f2d-b244-4c2ee1d1bc8c');
 
 (function(global) {
   function now() {
