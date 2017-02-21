@@ -162,11 +162,11 @@ table {margin: .5em auto 1.5em auto;width: 98%;border-collapse: collapse;}
 
 	/* Thead */
 	thead th {padding: .5em .4em; text-align: center;}
-	thead td {}
+	thead td {padding: .5em .4em; text-align: center;}
 
 	/* Tbody */
-	tbody td {padding: .5em .4em;}
-	tbody th {padding: .5em .4em;}
+	tbody td {padding: .5em .4em; text-align: center;}
+	tbody th {padding: .5em .4em; text-align: center;}
 	
 	tbody .alt td {}
 	tbody .alt th {}
