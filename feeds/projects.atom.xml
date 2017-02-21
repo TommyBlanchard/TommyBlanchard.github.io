@@ -1164,10 +1164,10 @@ h6:hover .anchor-link {
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="52a77edc-fcd4-4b85-8a5e-4b9af9790f9c"&gt;&lt;/div&gt;
+&lt;div id="e6a1e022-e0c3-425b-91cb-6e02f8bb7042"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#52a77edc-fcd4-4b85-8a5e-4b9af9790f9c');
+var element = $('#e6a1e022-e0c3-425b-91cb-6e02f8bb7042');
 
 (function(global) {
   function now() {
@@ -2365,7 +2365,6 @@ var element = $('#52a77edc-fcd4-4b85-8a5e-4b9af9790f9c');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"&gt;&lt;/script&gt;
 &lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
