@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Yanone Kaffeesatz', arial, serif;
 }
 
+.entry-content h1, h2, h3, h4, h5, h6 {
+    margin-top: .5em
+}
+
 h3, h4, h5, h6 { margin-top: .8em; }
 	
 hr { border: 2px solid #EEEEEE; }
