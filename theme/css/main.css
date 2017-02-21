@@ -160,15 +160,13 @@ div.note {
 /* Tables */
 table {margin: .5em auto 1.5em auto;width: 98%;border-collapse: collapse;}
 
-th {text-align: center; padding: .5em 0 .5em 0}
-
 	/* Thead */
-	thead th {padding: .5em .4em; text-align: left;}
+	thead th {padding: .5em .4em; text-align: center;}
 	thead td {}
 
 	/* Tbody */
 	tbody td {padding: .5em .4em;}
-	tbody th {}
+	tbody th {padding: .5em .4em;}
 	
 	tbody .alt td {}
 	tbody .alt th {}
