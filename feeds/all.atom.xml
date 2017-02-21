@@ -212,10 +212,10 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="9f69f177-b39e-489c-8e00-ee29856e4dbc"&gt;&lt;/div&gt;
+&lt;div id="52a189cb-5ac2-4464-9e5c-cf0b443313b8"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#9f69f177-b39e-489c-8e00-ee29856e4dbc');
+var element = $('#52a189cb-5ac2-4464-9e5c-cf0b443313b8');
 
 (function(global) {
   function now() {

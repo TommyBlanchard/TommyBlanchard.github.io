@@ -159,7 +159,9 @@ div.note {
 
 /* Tables */
 table {margin: .5em auto 1.5em auto;width: 98%;border-collapse: collapse;}
-	
+
+th {text-align: center; padding: .5em 0 .5em 0}
+
 	/* Thead */
 	thead th {padding: .5em .4em; text-align: left;}
 	thead td {}
