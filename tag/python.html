@@ -56,8 +56,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/css">
-                            CSS
+                            <a href="http://tommyblanchard.com/tag/jinga2">
+                            Jinga2
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -68,8 +68,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-exploration">
-                            Data exploration
+                            <a href="http://tommyblanchard.com/tag/static-site-generators">
+                            Static site generators
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -80,8 +80,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/jinga2">
-                            Jinga2
+                            <a href="http://tommyblanchard.com/tag/css">
+                            CSS
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -92,8 +92,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/static-site-generators">
-                            Static site generators
+                            <a href="http://tommyblanchard.com/tag/data-exploration">
+                            Data exploration
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -246,9 +246,26 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 <footer class="post-info">
         <span>Sun 21 February 2016</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/data-exploration">Data exploration</a></span>
-</footer><!-- /.post-info -->                <br><header id="attribution" style="font-size: 90%;">
-                    This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'
-                    </header>
+</footer><!-- /.post-info -->                <br><header id="attribution" style="color:#999; font-size: 90%;">
+<b>This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'</b>
+</header>
+<script>
+                      function code_toggle() {
+                        if (code_shown){
+                          $('div.input').hide('500');
+                          $('#toggleButton').val('Show Code')
+                        } else {
+                          $('div.input').show('500');
+                          $('#toggleButton').val('Hide Code')
+                        }
+                        code_shown = !code_shown
+                      }
+
+                      $( document ).ready(function(){
+                        code_shown=false;
+                        $('div.input').hide()
+                      });
+                    </script>
                 <a class="readmore" href="http://tommyblanchard.com/movie-genre-ratings">read more</a>
 <p><a href="http://tommyblanchard.com/movie-genre-ratings#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
             </article></li>
