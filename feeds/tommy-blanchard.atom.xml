@@ -54,8 +54,8 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="#Introduction"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I recently rewatched my all-time favorite sci-fi series, Firefly. Afterwards, I was browsing its &lt;a href="https://www.rottentomatoes.com/tv/firefly/s01"&gt;Rotten Tomatoes page&lt;/a&gt;. I was surprised that critics were not impressed with the series (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10.&lt;/p&gt;
-&lt;p&gt;Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Perhaps science fiction is a polarizing genre. Geeks who actually like it tend to really like it, and everyone else tends to dislike it. Since the audience self-selects to go watch it, this would cause the audience score would be high. Consistent with this, the average audience rating of Firefly is 9.2/10, much higher than the critics. Critics might have less self-selection (needing to see all or most big movies/shows), so their ratings might be more reflective of the more general, non-geeky population.&lt;/p&gt;
+&lt;h1 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="#Introduction"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I recently rewatched my all-time favorite sci-fi series, Firefly. Afterwards, I was browsing its &lt;a href="https://www.rottentomatoes.com/tv/firefly/s01"&gt;Rotten Tomatoes page&lt;/a&gt;. I was surprised that critics were not impressed with the series (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10. But everyone I know who has seen it loves the series!&lt;/p&gt;
+&lt;p&gt;Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Perhaps science fiction is a polarizing genre. Geeks who understand the genre appreciate a good sci fi movie, and everyone else just doesn't get it. Since critics end up seeing all or most big movies/shows, their ratings might be more reflective of the general, non-geeky population. But the geeks who self-select to go watch it should love good science fiction. Consistent with this, the average audience rating of Firefly is 9.2/10.&lt;/p&gt;
 &lt;p&gt;Unsatisfied with just hypothesizing about this, I decided to look at some data.&lt;/p&gt;
 &lt;h2 id="Data-Source-and-Disclaimers"&gt;Data Source and Disclaimers&lt;a class="anchor-link" href="#Data-Source-and-Disclaimers"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The data I analyzed is from the 10 most popular movies every year from 1975-2015. I obtained the data from &lt;a href="https://www.crowdflower.com/data/blockbuster-database/"&gt;Crowdflower&lt;/a&gt;. The data used was largely a matter of convenience - it was the first data source I found that was fairly large and had genre labels, audience ratings, and critic ratings. That said, since these are 'blockbuster movies', the results might be a bit different than if we included less popular movies.&lt;/p&gt;
 &lt;/div&gt;
@@ -89,10 +89,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="90cb710a-2d9e-4c20-87c1-277ce5506df9"&gt;&lt;/div&gt;
+&lt;div id="e5613658-57cd-49ac-b424-fd16f3b8d9ab"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#90cb710a-2d9e-4c20-87c1-277ce5506df9');
+var element = $('#e5613658-57cd-49ac-b424-fd16f3b8d9ab');
 
 (function(global) {
   function now() {

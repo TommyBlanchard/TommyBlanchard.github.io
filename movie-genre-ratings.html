@@ -57,26 +57,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/heroku">
-                            Heroku
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/requests">
-                            Requests
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/jinga2">
                             Jinga2
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/static-site-generators">
-                            Static site generators
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -95,6 +77,24 @@
                         <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/flask">
                             Flask
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/heroku">
+                            Heroku
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/static-site-generators">
+                            Static site generators
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/requests">
+                            Requests
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -150,8 +150,8 @@
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h1><p>I recently rewatched my all-time favorite sci-fi series, Firefly. Afterwards, I was browsing its <a href="https://www.rottentomatoes.com/tv/firefly/s01">Rotten Tomatoes page</a>. I was surprised that critics were not impressed with the series (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10.</p>
-<p>Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Perhaps science fiction is a polarizing genre. Geeks who actually like it tend to really like it, and everyone else tends to dislike it. Since the audience self-selects to go watch it, this would cause the audience score would be high. Consistent with this, the average audience rating of Firefly is 9.2/10, much higher than the critics. Critics might have less self-selection (needing to see all or most big movies/shows), so their ratings might be more reflective of the more general, non-geeky population.</p>
+<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h1><p>I recently rewatched my all-time favorite sci-fi series, Firefly. Afterwards, I was browsing its <a href="https://www.rottentomatoes.com/tv/firefly/s01">Rotten Tomatoes page</a>. I was surprised that critics were not impressed with the series (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10. But everyone I know who has seen it loves the series!</p>
+<p>Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Perhaps science fiction is a polarizing genre. Geeks who understand the genre appreciate a good sci fi movie, and everyone else just doesn't get it. Since critics end up seeing all or most big movies/shows, their ratings might be more reflective of the general, non-geeky population. But the geeks who self-select to go watch it should love good science fiction. Consistent with this, the average audience rating of Firefly is 9.2/10.</p>
 <p>Unsatisfied with just hypothesizing about this, I decided to look at some data.</p>
 <h2 id="Data-Source-and-Disclaimers">Data Source and Disclaimers<a class="anchor-link" href="#Data-Source-and-Disclaimers">¶</a></h2><p>The data I analyzed is from the 10 most popular movies every year from 1975-2015. I obtained the data from <a href="https://www.crowdflower.com/data/blockbuster-database/">Crowdflower</a>. The data used was largely a matter of convenience - it was the first data source I found that was fairly large and had genre labels, audience ratings, and critic ratings. That said, since these are 'blockbuster movies', the results might be a bit different than if we included less popular movies.</p>
 </div>
@@ -185,10 +185,10 @@
 </div>
 </div>
 <div class="output_area"><div class="prompt"></div>
-<div id="90cb710a-2d9e-4c20-87c1-277ce5506df9"></div>
+<div id="e5613658-57cd-49ac-b424-fd16f3b8d9ab"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#90cb710a-2d9e-4c20-87c1-277ce5506df9');
+var element = $('#e5613658-57cd-49ac-b424-fd16f3b8d9ab');
 
 (function(global) {
   function now() {
