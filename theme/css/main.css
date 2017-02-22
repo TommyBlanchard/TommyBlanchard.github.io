@@ -162,7 +162,7 @@ div.note {
 }
 
 /* Tables */
-table {margin: .5em auto 1.5em auto;width: 98%;border-collapse: collapse;font-size: 80%; /* Base font size: 14px */}
+table {margin: .5em auto 1.5em auto;width: 80%;border-collapse: collapse;font-size: 75%; font-family: Helvetica}
 
 	/* Thead */
 	thead th {padding: .5em .4em; text-align: center;}
