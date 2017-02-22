@@ -57,20 +57,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/css">
-                            CSS
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/flask">
-                            Flask
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/jinga2">
-                            Jinga2
+                            <a href="http://tommyblanchard.com/tag/heroku">
+                            Heroku
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -81,8 +69,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-exploration">
-                            Data exploration
+                            <a href="http://tommyblanchard.com/tag/jinga2">
+                            Jinga2
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -93,8 +81,20 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/heroku">
-                            Heroku
+                            <a href="http://tommyblanchard.com/tag/data-exploration">
+                            Data exploration
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/css">
+                            CSS
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/flask">
+                            Flask
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -112,7 +112,7 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <span>Sun 21 February 2016</span>
+        <span>Tue 21 February 2017</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/data-exploration">Data exploration</a></span>
 </footer><!-- /.post-info -->      <br><header id="attribution" style="color:#999; font-size: 120%; text-align: center">
 <b>This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'</b>
@@ -150,9 +150,9 @@
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h1><p>I recently rewatched my all-time favorite sci-fi series Firefly, and its movie conclusion Serenity. Afterwards, I was browsing its <a href="https://www.rottentomatoes.com/tv/firefly/s01">Rotten Tomatoes page</a>. This showed that the audience loved it (with an average score of 4.6/5, which translates to 9.2/10), but critics were more skeptical (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10.</p>
-<p>Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Perhaps science fiction is a polarizing genre. Geeks who actually like it tend to really like it, and everyone else tends to dislike it. Since the audience self-selects to go watch it, this would cause the audience score would be high. Critics might have less self-selection (needing to see all or most big movies/shows), so their ratings might be more reflective of non-science fiction fans who don't 'get it'.</p>
-<p>I wanted to see if I could find some support for this hypothesis. So I decided to analyze how the audience and critics rated different popular movies.</p>
+<h1 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h1><p>I recently rewatched my all-time favorite sci-fi series, Firefly. Afterwards, I was browsing its <a href="https://www.rottentomatoes.com/tv/firefly/s01">Rotten Tomatoes page</a>. I was surprised that critics were not impressed with the series (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10.</p>
+<p>Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Perhaps science fiction is a polarizing genre. Geeks who actually like it tend to really like it, and everyone else tends to dislike it. Since the audience self-selects to go watch it, this would cause the audience score would be high. Consistent with this, the average audience rating of Firefly is 9.2/10, much higher than the critics. Critics might have less self-selection (needing to see all or most big movies/shows), so their ratings might be more reflective of the more general, non-geeky population.</p>
+<p>Unsatisfied with just hypothesizing about this, I decided to look at some data.</p>
 <h2 id="Data-Source-and-Disclaimers">Data Source and Disclaimers<a class="anchor-link" href="#Data-Source-and-Disclaimers">¶</a></h2><p>The data I analyzed is from the 10 most popular movies every year from 1975-2015. I obtained the data from <a href="https://www.crowdflower.com/data/blockbuster-database/">Crowdflower</a>. The data used was largely a matter of convenience - it was the first data source I found that was fairly large and had genre labels, audience ratings, and critic ratings. That said, since these are 'blockbuster movies', the results might be a bit different than if we included less popular movies.</p>
 </div>
 </div>
@@ -185,10 +185,10 @@
 </div>
 </div>
 <div class="output_area"><div class="prompt"></div>
-<div id="2aa5ce54-79c7-4669-9c55-2c50688f3061"></div>
+<div id="90cb710a-2d9e-4c20-87c1-277ce5506df9"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
+var element = $('#90cb710a-2d9e-4c20-87c1-277ce5506df9');
 
 (function(global) {
   function now() {
@@ -580,8 +580,8 @@ var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Critics-Are-More-Critical?">Critics Are More Critical?<a class="anchor-link" href="#Critics-Are-More-Critical?">¶</a></h1><p>I plotted each movie's audience and critic ratings, coloring by one of their genres. Note that most movies have multiple genres, so the coloring is a bit arbitrary. The red diagonal indicates where audience scores and critic scores are equal. Above the line means audiences rate the film higher, below means critics rate it higher.</p>
-<p>One immediately obvious result from the data is that critics just use a wider range of ratings. Specifically, critic scores go much lower than audience scores. Average critic scores go as low as 2.7/10 (for The Blue Lagoon and Staying Alive) and as high as 9.1 (for E.T., Raiders of the Lost Ark, and All the President's Men). Audience scores, on the other hand, only go from 5 (Godzilla, The Flinstones) to 8.8 (The Avengers, The Dark Knight, Guardians of the Galaxy). Unsurprisingly, the average critic score is lower than the average audience score - 6.58 to 6.96. Critic scores are lower than audience scores for 2106, while critics only rate movies higher than audiences for 1269 movies. This bias for critics to rate films lower than audiences <a href="https://economix.blogs.nytimes.com/2013/08/14/reviewing-the-movies-audiences-vs-critics/">is consistent with what others have found</a>.</p>
-<p>While the points are colored by genre, there aren't any obvious patterns because the colors only capture one of the genres, and the points overlap too much to see all of the colors.</p>
+<p>One immediately obvious result from the data is that critics just use a wider range of ratings. Specifically, critic scores go much lower than audience scores. Average critic scores go as low as 2.7/10 (for The Blue Lagoon and Staying Alive) and as high as 9.1 (for E.T., Raiders of the Lost Ark, and All the President's Men). Audience scores, on the other hand, only go from 5 (Godzilla, The Flinstones) to 8.8 (The Avengers, The Dark Knight, Guardians of the Galaxy). Unsurprisingly, the average critic score is lower than the average audience score - 6.58 for critics compared to 6.96 for audiences. This bias for critics to rate films lower than audiences <a href="https://economix.blogs.nytimes.com/2013/08/14/reviewing-the-movies-audiences-vs-critics/">is consistent with what others have found</a>.</p>
+<p>While the points are colored by genre, there aren't any obvious patterns because the colors only capture one of the genres, and the points overlap too much to see all of the colors. The data becomes more interpretable when we average across genre.</p>
 </div>
 </div>
 </div>
@@ -995,8 +995,8 @@ var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Now we can see my hypothesis was actually quite wrong. Sci-fi falls right in the middle of the pack in terms of how much the audience ratings differ from critics. Instead, fantasy leads the pack.</p>
-<p>What are the fantasy films where the audience and critics disagree so much?</p>
+<p>Now we can see my hypothesis was actually quite wrong. Sci-fi falls right in the middle of the pack in terms of how much the audience ratings differ from critics. Instead, fantasy leads the pack in genres that audiences love more than critics.</p>
+<p>To get a sense of what kinds of movies are driving this disagreement, we can look at the movies where the scores disagree most.</p>
 </div>
 </div>
 </div>
@@ -1018,7 +1018,7 @@ var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Fantasy-Movies-Audiences-Love-More-Than-Critics">Fantasy Movies Audiences Love More Than Critics<a class="anchor-link" href="#Fantasy-Movies-Audiences-Love-More-Than-Critics">¶</a></h2>
+<h2 id="Top-10-Fantasy-Movies-Audiences-Love-More-Than-Critics">Top 10 Fantasy Movies Audiences Love More Than Critics<a class="anchor-link" href="#Top-10-Fantasy-Movies-Audiences-Love-More-Than-Critics">¶</a></h2>
 </div>
 </div>
 </div>
@@ -1154,7 +1154,7 @@ var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Perhaps obvious in retrospect, The Twilight Saga and superhero movies seem to be a place where critics and the audience disagree most. I have to admit, I side with the critics on this one.</p>
+<p>Perhaps obvious in retrospect, The Twilight Saga and superhero movies is a place where critics and the audience disagree most.</p>
 <p>We can also look across all movies, what movies do the audience love much more than critics.</p>
 </div>
 </div>
@@ -1164,7 +1164,7 @@ var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Movies-Audiences-Love-More-Than-Critics">Movies Audiences Love More Than Critics<a class="anchor-link" href="#Movies-Audiences-Love-More-Than-Critics">¶</a></h2>
+<h2 id="Top-10-Movies-Audiences-Love-More-Than-Critics">Top 10 Movies Audiences Love More Than Critics<a class="anchor-link" href="#Top-10-Movies-Audiences-Love-More-Than-Critics">¶</a></h2>
 </div>
 </div>
 </div>
@@ -1434,7 +1434,7 @@ var element = $('#2aa5ce54-79c7-4669-9c55-2c50688f3061');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h1><p>If I had hoped that my science fiction films would be vindicated as being good movies as long as you were one of the people who 'got it', I have to admit this project backfired. Instead what I found is that people who choose to see Twilight tend to really like it, and science fiction isn't particularly stand-out in terms of how much audiences and critics disagree.</p>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h1><p>I had hoped that my science fiction films would be vindicated as being good movies as long as you were one of the people who 'got it', and in that sense this project backfired. Instead I've discovered that the same argument I was planning on using to defend my beloved genre actually works better as a defense of Twilight.</p>
 </div>
 </div>
 </div></br></br>
