@@ -79,10 +79,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="e80e8632-39e7-41e7-aad5-22c736f1968b"&gt;&lt;/div&gt;
+&lt;div id="e29578d9-6c5e-4dac-8847-d272ea1eec5d"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#e80e8632-39e7-41e7-aad5-22c736f1968b');
+var element = $('#e29578d9-6c5e-4dac-8847-d272ea1eec5d');
 
 (function(global) {
   function now() {
@@ -483,8 +483,8 @@ var element = $('#e80e8632-39e7-41e7-aad5-22c736f1968b');
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;One immediately obvious observation is that critics just use a wider range of ratings. Specifically, critic scores go much lower than audience scores. Average critic scores go as low as 2.7/10 (for &lt;em&gt;The Blue Lagoon&lt;/em&gt; and &lt;em&gt;Staying Alive&lt;/em&gt;) and as high as 9.1 (for &lt;em&gt;E.T.&lt;/em&gt;, &lt;em&gt;Raiders of the Lost Ark&lt;/em&gt;, and &lt;em&gt;All the President's Men&lt;/em&gt;). Audience scores, on the other hand, only go from 5 (&lt;em&gt;Godzilla&lt;/em&gt;, &lt;em&gt;The Flinstones&lt;/em&gt;) to 8.8 (&lt;em&gt;The Avengers&lt;/em&gt;, &lt;em&gt;The Dark Knight&lt;/em&gt;, &lt;em&gt;Guardians of the Galaxy&lt;/em&gt;). Unsurprisingly, the average critic score is lower than the average audience score - 6.58 for critics compared to 6.96 for audiences. This bias for critics to rate films lower than audiences &lt;a href="https://economix.blogs.nytimes.com/2013/08/14/reviewing-the-movies-audiences-vs-critics/"&gt;is consistent with what others have found&lt;/a&gt;. So across the board, audiences like f&lt;/p&gt;
-&lt;p&gt;While the points are colored by genre, there aren't any obvious patterns. The data becomes more interpretable when we average across genre.&lt;/p&gt;
+&lt;p&gt;One immediately obvious observation is that critics just use a wider range of ratings. Specifically, critic scores go much lower than audience scores. Average critic scores go as low as 2.7/10 (for &lt;em&gt;The Blue Lagoon&lt;/em&gt; and &lt;em&gt;Staying Alive&lt;/em&gt;) and as high as 9.1 (for &lt;em&gt;E.T.&lt;/em&gt;, &lt;em&gt;Raiders of the Lost Ark&lt;/em&gt;, and &lt;em&gt;All the President's Men&lt;/em&gt;). Audience scores, on the other hand, only go from 5 (&lt;em&gt;Godzilla&lt;/em&gt;, &lt;em&gt;The Flinstones&lt;/em&gt;) to 8.8 (&lt;em&gt;The Avengers&lt;/em&gt;, &lt;em&gt;The Dark Knight&lt;/em&gt;, &lt;em&gt;Guardians of the Galaxy&lt;/em&gt;). Unsurprisingly, the average critic score is lower than the average audience score - 6.58 for critics compared to 6.96 for audiences. This bias for critics to rate films lower than audiences &lt;a href="https://economix.blogs.nytimes.com/2013/08/14/reviewing-the-movies-audiences-vs-critics/"&gt;is consistent with what others have found&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So across the board, audiences rate films higher than critics. But does science fiction stand out as a genre, even taking into account the overall bias? While the points are colored by genre, there aren't any obvious patterns. The data becomes more interpretable when we average across genre.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
