@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Yanone Kaffeesatz', arial, serif;
 }
 
-.entry-content div.prompt, div.back-to-top, nav#menubar, .breadcrumb, .hidden-print, .output_prompt .anchor-link {
+.anchor-link {
     display: none
 }
 
