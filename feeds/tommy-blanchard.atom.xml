@@ -79,10 +79,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="14a3728d-1d48-42b3-9983-4e7e0b75cba7"&gt;&lt;/div&gt;
+&lt;div id="13e5dbae-2f6d-4e75-ae83-81457ec6fee2"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#14a3728d-1d48-42b3-9983-4e7e0b75cba7');
+var element = $('#13e5dbae-2f6d-4e75-ae83-81457ec6fee2');
 
 (function(global) {
   function now() {
@@ -1327,17 +1327,6 @@ var element = $('#14a3728d-1d48-42b3-9983-4e7e0b75cba7');
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h1 id="Conclusion"&gt;&lt;center&gt;Conclusion&lt;/center&gt;&lt;a class="anchor-link" href="#Conclusion"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I had hoped that my science fiction films would be vindicated as being good movies as long as you were one of the people who 'got it', and in that sense this project backfired. Instead I've discovered that the same argument I was planning on using to defend my beloved genre actually works better as a defense of Twilight.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/br&gt;
