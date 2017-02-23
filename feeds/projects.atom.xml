@@ -79,10 +79,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="13e5dbae-2f6d-4e75-ae83-81457ec6fee2"&gt;&lt;/div&gt;
+&lt;div id="027760e7-14cb-4392-a7c9-86df3f7057f2"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#13e5dbae-2f6d-4e75-ae83-81457ec6fee2');
+var element = $('#027760e7-14cb-4392-a7c9-86df3f7057f2');
 
 (function(global) {
   function now() {
