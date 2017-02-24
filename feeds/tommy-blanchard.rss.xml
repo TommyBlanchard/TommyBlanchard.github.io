@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Tommy Blanchard - Tommy Blanchard</title><link>http://tommyblanchard.com/</link><description></description><lastBuildDate>Thu, 23 Feb 2017 00:00:00 -0500</lastBuildDate><item><title>Genres Where Audiences and Critics Disagree Most</title><link>http://tommyblanchard.com/movie-genre-ratings</link><description>&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+<rss version="2.0"><channel><title>Tommy Blanchard - Tommy Blanchard</title><link>http://tommyblanchard.com/</link><description></description><lastBuildDate>Fri, 24 Feb 2017 00:00:00 -0500</lastBuildDate><item><title>Movie Genre Ratings - Addendum</title><link>http://tommyblanchard.com/movie-genre-ratings-addendum</link><description>&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+&lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
+&lt;/header&gt;
+&lt;script&gt;
+                      function code_toggle() {
+                        if (code_shown){
+                          $('div.input').hide('500');
+                          $('#toggleButton').val('Show Code')
+                        } else {
+                          $('div.input').show('500');
+                          $('#toggleButton').val('Hide Code')
+                        }
+                        code_shown = !code_shown
+                      }
+
+                      $( document ).ready(function(){
+                        code_shown=false;
+                        $('div.input').hide()
+                      });
+                    &lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tommy Blanchard</dc:creator><pubDate>Fri, 24 Feb 2017 00:00:00 -0500</pubDate><guid isPermaLink="false">tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</guid><category>Python</category><category>Bokeh</category><category>Data exploration</category></item><item><title>Genres Where Audiences and Critics Disagree Most</title><link>http://tommyblanchard.com/movie-genre-ratings</link><description>&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
