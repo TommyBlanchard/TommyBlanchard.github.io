@@ -57,32 +57,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/jinga2">
-                            Jinga2
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/flask">
-                            Flask
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/static-site-generators">
                             Static site generators
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/requests">
-                            Requests
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-exploration">
-                            Data exploration
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -93,8 +69,32 @@
                             </a>
                         </li>
                         <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/jinga2">
+                            Jinga2
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/css">
                             CSS
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/data-exploration">
+                            Data exploration
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/requests">
+                            Requests
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/flask">
+                            Flask
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -112,7 +112,7 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <span>Tue 21 February 2017</span>
+        <span>Thu 23 February 2017</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/data-exploration">Data exploration</a></span>
 </footer><!-- /.post-info -->      <br><header id="attribution" style="color:#999; font-size: 120%; text-align: center">
 <b>This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'</b>
@@ -142,7 +142,7 @@
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction"><center>Introduction</center><a class="anchor-link" href="#Introduction">¶</a></h1><p>I recently browsing the Rotten Tomatoes page all-time favorite sci-fi series, <em><a href="https://www.rottentomatoes.com/tv/firefly/s01">Firefly</a></em>. I was surprised that critics were not impressed with the series (average rating of 7.96/10). Among 'Top Critics', this score dropped to an average of 7.25/10. But everyone I know who has seen it loves the series!</p>
 <p>Unwilling to accept that my beloved sci-fi franchise deserved this low rating from critics, I thought that maybe this was a bias with science fiction. Critics end up seeing most big movies and shows regardless of their personal tastes, so on average they might not be geeky enough to really appreciate a good science fiction movie. The typical audience who has decided to view science fiction, on the other hand, presumably are geeks who really 'get' science fiction. So we might expect audiences to rate good science fiction higher than critics, because the geeks who see science fiction really 'get it'. Consistent with this, the average audience rating of <em>Firefly</em> is 9.2/10 - a score closer to what I (a self-styled science-fiction connoisseur) think it really deserves.</p>
-<p>Is this true of the genre more generally? Do audiences tend to appreciate (or at least more highly rate) science fiction more than the critics? Unsatisfied with just hypothesizing about this, I decided to look at some data.</p>
+<p>Is this true of the genre more generally? Do audiences tend to appreciate (or at least more highly rate) science fiction media more than the critics? Unsatisfied with just hypothesizing about this, I decided to look at some data. It turns out I was very wrong.</p>
 <h1 id="Data-Source-and-Disclaimers"><center>Data Source and Disclaimers</center><a class="anchor-link" href="#Data-Source-and-Disclaimers">¶</a></h1><p>The data I analyzed is from the 10 most popular movies every year from 1975-2015. I obtained the data from <a href="https://www.crowdflower.com/data/blockbuster-database/">Crowdflower</a>. The data used was largely a matter of convenience - it was the first data source I found that was fairly large and had genre labels, audience ratings, and critic ratings. That said, since these are 'blockbuster movies', the results might be a bit different than if we included less popular movies.</p>
 </div>
 </div>
@@ -175,10 +175,10 @@
 </div>
 </div>
 <div class="output_area"><div class="prompt"></div>
-<div id="57aeded1-2e97-40e0-a658-9ffdb1fabbbb"></div>
+<div id="23ba4537-01a2-4cca-b83d-8c9f919f7d42"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#57aeded1-2e97-40e0-a658-9ffdb1fabbbb');
+var element = $('#23ba4537-01a2-4cca-b83d-8c9f919f7d42');
 
 (function(global) {
   function now() {
@@ -580,7 +580,7 @@ var element = $('#57aeded1-2e97-40e0-a658-9ffdb1fabbbb');
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>One immediately obvious observation is that critics just use a wider range of ratings. Specifically, critic scores go much lower than audience scores. Average critic scores go as low as 2.7/10 (for <em>The Blue Lagoon</em> and <em>Staying Alive</em>) and as high as 9.1 (for <em>E.T.</em>, <em>Raiders of the Lost Ark</em>, and <em>All the President's Men</em>). Audience scores, on the other hand, only go from 5 (<em>Godzilla</em>, <em>The Flinstones</em>) to 8.8 (<em>The Avengers</em>, <em>The Dark Knight</em>, <em>Guardians of the Galaxy</em>). Unsurprisingly, the average critic score is lower than the average audience score - 6.58 for critics compared to 6.96 for audiences. This bias for critics to rate films lower than audiences <a href="https://economix.blogs.nytimes.com/2013/08/14/reviewing-the-movies-audiences-vs-critics/">is consistent with what others have found</a>.</p>
-<p>So across the board, audiences rate films higher than critics. But does science fiction stand out as a genre, even taking into account the overall bias? While the points are colored by genre, there aren't any obvious patterns. The data becomes more interpretable when we average across genre.</p>
+<p>So across the board, audiences rate films higher than critics. But does science fiction stand out as a genre, taking into account the overall bias? While the points are colored by genre, there aren't any obvious patterns. The data becomes more interpretable when we average across genre.</p>
 </div>
 </div>
 </div>
@@ -1152,7 +1152,7 @@ var element = $('#57aeded1-2e97-40e0-a658-9ffdb1fabbbb');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Perhaps obvious in retrospect, <em>The Twilight Saga</em> and superhero movies is a place where critics and the audience disagree most.</p>
+<p>Perhaps obvious in retrospect, <em>The Twilight Saga</em> and superhero movies are where critics and the audience disagree most.</p>
 </div>
 </div>
 </div>
@@ -1161,7 +1161,7 @@ var element = $('#57aeded1-2e97-40e0-a658-9ffdb1fabbbb');
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="-Top-10-Movies-Audiences-Love-More-Than-Critics"><center> Top 10 Movies Audiences Love More Than Critics</center><a class="anchor-link" href="#-Top-10-Movies-Audiences-Love-More-Than-Critics">¶</a></h1><p>We can also look across all movies, what movies do the audience love much more than critics.</p>
+<h1 id="-Top-10-Movies-Audiences-Love-More-Than-Critics"><center> Top 10 Movies Audiences Love More Than Critics</center><a class="anchor-link" href="#-Top-10-Movies-Audiences-Love-More-Than-Critics">¶</a></h1><p>We can also look across all movies, what movies do the audiences love much more than critics.</p>
 </div>
 </div>
 </div>
