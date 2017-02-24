@@ -81,10 +81,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="ea884c51-d081-4e8e-823b-48988fbe71ab"&gt;&lt;/div&gt;
+&lt;div id="6b21ad1a-779f-4ef9-a570-60ee3593e425"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#ea884c51-d081-4e8e-823b-48988fbe71ab');
+var element = $('#6b21ad1a-779f-4ef9-a570-60ee3593e425');
 
 (function(global) {
   function now() {
@@ -1429,10 +1429,10 @@ var element = $('#ea884c51-d081-4e8e-823b-48988fbe71ab');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="92185877-3984-4191-b5e4-083182c9f811"&gt;&lt;/div&gt;
+&lt;div id="1020c433-73de-4f49-9ff5-ad885cf2418d"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#92185877-3984-4191-b5e4-083182c9f811');
+var element = $('#1020c433-73de-4f49-9ff5-ad885cf2418d');
 
 (function(global) {
   function now() {
@@ -2680,17 +2680,6 @@ var element = $('#92185877-3984-4191-b5e4-083182c9f811');
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;h1 id="Conclusion"&gt;&lt;center&gt;Conclusion&lt;/center&gt;&lt;a class="anchor-link" href="#Conclusion"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I had hoped that my science fiction films would be vindicated as being good movies as long as you were one of the people who 'got it', and in that sense this project backfired. Instead I've discovered that the same argument I was planning on using to defend my beloved genre actually works better as a defense of Twilight.&lt;/p&gt;
 &lt;h2 id="Update:-I've-written-an-addendum-to-this,-looking-at-the-data-after-normalizing-it-(taking-into-account-the-bias-of-the-critics/audiences)"&gt;&lt;a href="http://tommyblanchard.com/movie-genre-ratings-addendum"&gt;Update: I've written an addendum to this, looking at the data after normalizing it (taking into account the bias of the critics/audiences)&lt;/a&gt;&lt;a class="anchor-link" href="#Update:-I've-written-an-addendum-to-this,-looking-at-the-data-after-normalizing-it-(taking-into-account-the-bias-of-the-critics/audiences)"&gt;¶&lt;/a&gt;&lt;/h2&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt; 
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/br&gt;&lt;/br&gt;
