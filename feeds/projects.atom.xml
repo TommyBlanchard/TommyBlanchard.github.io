@@ -81,10 +81,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="bd6d4d8b-5790-4936-b431-d3d1782a5ca9"&gt;&lt;/div&gt;
+&lt;div id="35fb947f-8386-445f-af6b-8775ffcdd4a2"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#bd6d4d8b-5790-4936-b431-d3d1782a5ca9');
+var element = $('#35fb947f-8386-445f-af6b-8775ffcdd4a2');
 
 (function(global) {
   function now() {
@@ -1429,10 +1429,10 @@ var element = $('#bd6d4d8b-5790-4936-b431-d3d1782a5ca9');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="7f4e2e26-95a5-41d3-beaa-1b2f54f099b6"&gt;&lt;/div&gt;
+&lt;div id="bd7ea325-9525-4ffe-bb3b-35de674d69f2"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#7f4e2e26-95a5-41d3-beaa-1b2f54f099b6');
+var element = $('#bd7ea325-9525-4ffe-bb3b-35de674d69f2');
 
 (function(global) {
   function now() {
