@@ -81,10 +81,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="a3b46c41-d87e-44d6-b745-1a6579eaac79"&gt;&lt;/div&gt;
+&lt;div id="9025d42b-c779-4679-b5ce-fd27f3993971"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#a3b46c41-d87e-44d6-b745-1a6579eaac79');
+var element = $('#9025d42b-c779-4679-b5ce-fd27f3993971');
 
 (function(global) {
   function now() {
@@ -1429,10 +1429,10 @@ var element = $('#a3b46c41-d87e-44d6-b745-1a6579eaac79');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="ca4117d8-950b-4a14-a378-5dfdafd496a9"&gt;&lt;/div&gt;
+&lt;div id="75e2a7a5-c6c3-4b7a-8071-801ab8c6313b"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#ca4117d8-950b-4a14-a378-5dfdafd496a9');
+var element = $('#75e2a7a5-c6c3-4b7a-8071-801ab8c6313b');
 
 (function(global) {
   function now() {
@@ -2847,4 +2847,7 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 &lt;p&gt;After doing some research, I ended up deciding on &lt;a href="http://docs.getpelican.com/en/stable/"&gt;Pelican&lt;/a&gt;. Pelican is written in Python, my preferred language. With &lt;a href="https://github.com/danielfrg/pelican-ipynb"&gt;a simple plugin&lt;/a&gt;, publishing Jupyter Notebooks becomes almost as easy as publishing Markdown - a separate file needs to be created for the metadata. Making changes to notebooks and then republishing becomes trivial, and life is easy.&lt;/p&gt;
 &lt;h3&gt;Website host&lt;/h3&gt;
 &lt;p&gt;After I had figured out how I was going to create my website, I had to choose a place to put it. This was a no-brainer. Because I'm using a static website, I don't need any fancy server support. &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; is free and allows me to change my site just by pushing to a Github repo. It also allows custom URLs (though not with HTTPS currently). So the whole process for publishing an article is: write Markdown or Jupyter Notebook, run pelican to generate the site pages, commit and push to Github. Super easy and quick!&lt;/p&gt;
-&lt;p&gt;If you're looking for a tutorial on how to set up your own Github hosted Pelican website, &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;this tutorial&lt;/a&gt; is super helpful.&lt;/p&gt;</content><category term="Pelican"></category><category term="Python"></category><category term="Static site generators"></category></entry></feed>
+&lt;p&gt;If you're looking for a tutorial on how to set up your own Github hosted Pelican website, &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;this tutorial&lt;/a&gt; is super helpful.&lt;/p&gt;</content><category term="Pelican"></category><category term="Python"></category><category term="Static site generators"></category></entry><entry><title>Hello, world!</title><link href="http://tommyblanchard.com/hello-world" rel="alternate"></link><published>2017-01-16T00:00:00-05:00</published><updated>2017-01-16T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-01-16:/hello-world</id><summary type="html">&lt;p&gt;As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the small projects I've done while building up some of my data science skills, and hopefully eventually be releasing some more polished projects.&lt;/p&gt;
+&lt;p&gt;I also intend to write blog entries (like this one). While my projects will tend to be something that involved coding, learning a new skill, and/or exploring a data set, blog entries will just be free-form writing. I mostly intend to write about data science, statistics, science, and related things. Because I've so recently come from academia, I expect many will focus on the difference between academia and industry, and the transition. And sometimes maybe I'll write about things completely unrelated.&lt;/p&gt;
+&lt;p&gt;This site is still somewhat under construction, and the organization of it might change quite a bit as it grows/matures.&lt;/p&gt;
+&lt;p&gt;If you want to read about the technical aspect of the blog (what tools I'm using and why), see &lt;a href="http://tommyblanchard.com/this-website"&gt;this post&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>
