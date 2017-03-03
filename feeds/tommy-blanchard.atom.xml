@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard - Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/tommy-blanchard.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-02-24T00:00:00-05:00</updated><entry><title>Movie Genre Ratings - Addendum</title><link href="http://tommyblanchard.com/movie-genre-ratings-addendum" rel="alternate"></link><published>2017-02-24T00:00:00-05:00</published><updated>2017-02-24T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</id><summary type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
-&lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
-&lt;/header&gt;
-&lt;script&gt;
-                      function code_toggle() {
-                        if (code_shown){
-                          $('div.input').hide('500');
-                          $('#toggleButton').val('Show Code')
-                        } else {
-                          $('div.input').show('500');
-                          $('#toggleButton').val('Hide Code')
-                        }
-                        code_shown = !code_shown
-                      }
-
-                      $( document ).ready(function(){
-                        code_shown=false;
-                        $('div.input').hide()
-                      });
-                    &lt;/script&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard - Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/tommy-blanchard.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-02-24T00:00:00-05:00</updated><entry><title>Movie Genre Ratings - Addendum</title><link href="http://tommyblanchard.com/movie-genre-ratings-addendum" rel="alternate"></link><published>2017-02-24T00:00:00-05:00</published><updated>2017-02-24T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</id><summary type="html">&lt;p&gt;Some additional thoughts and analysis on differences in critics' and audiences' ratings of different movie genres&lt;/p&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -81,10 +62,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="0252c72c-e8db-44a9-8f19-a70c2b27d931"&gt;&lt;/div&gt;
+&lt;div id="1a7fac33-a5f5-4b81-bde4-c79ca7b253bf"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#0252c72c-e8db-44a9-8f19-a70c2b27d931');
+var element = $('#1a7fac33-a5f5-4b81-bde4-c79ca7b253bf');
 
 (function(global) {
   function now() {
@@ -1348,26 +1329,7 @@ var element = $('#0252c72c-e8db-44a9-8f19-a70c2b27d931');
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Python"></category><category term="Bokeh"></category><category term="Data exploration"></category></entry><entry><title>Genres Where Audiences and Critics Disagree Most</title><link href="http://tommyblanchard.com/movie-genre-ratings" rel="alternate"></link><published>2017-02-23T00:00:00-05:00</published><updated>2017-02-23T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-23:/movie-genre-ratings</id><summary type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
-&lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
-&lt;/header&gt;
-&lt;script&gt;
-                      function code_toggle() {
-                        if (code_shown){
-                          $('div.input').hide('500');
-                          $('#toggleButton').val('Show Code')
-                        } else {
-                          $('div.input').show('500');
-                          $('#toggleButton').val('Hide Code')
-                        }
-                        code_shown = !code_shown
-                      }
-
-                      $( document ).ready(function(){
-                        code_shown=false;
-                        $('div.input').hide()
-                      });
-                    &lt;/script&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+</content><category term="Python"></category><category term="Bokeh"></category><category term="Data exploration"></category></entry><entry><title>Genres Where Audiences and Critics Disagree Most</title><link href="http://tommyblanchard.com/movie-genre-ratings" rel="alternate"></link><published>2017-02-23T00:00:00-05:00</published><updated>2017-02-23T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-23:/movie-genre-ratings</id><summary type="html">&lt;p&gt;An investigation of what movie genres audiences and critics disagree on most&lt;/p&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -1429,10 +1391,10 @@ var element = $('#0252c72c-e8db-44a9-8f19-a70c2b27d931');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="3bb4e302-8cc5-48de-8435-aec1d27c7484"&gt;&lt;/div&gt;
+&lt;div id="0de364ca-4d3f-4fd4-bd5f-0a78a0ee070a"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#3bb4e302-8cc5-48de-8435-aec1d27c7484');
+var element = $('#0de364ca-4d3f-4fd4-bd5f-0a78a0ee070a');
 
 (function(global) {
   function now() {
@@ -2847,7 +2809,7 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 &lt;p&gt;After doing some research, I ended up deciding on &lt;a href="http://docs.getpelican.com/en/stable/"&gt;Pelican&lt;/a&gt;. Pelican is written in Python, my preferred language. With &lt;a href="https://github.com/danielfrg/pelican-ipynb"&gt;a simple plugin&lt;/a&gt;, publishing Jupyter Notebooks becomes almost as easy as publishing Markdown - a separate file needs to be created for the metadata. Making changes to notebooks and then republishing becomes trivial, and life is easy.&lt;/p&gt;
 &lt;h3&gt;Website host&lt;/h3&gt;
 &lt;p&gt;After I had figured out how I was going to create my website, I had to choose a place to put it. This was a no-brainer. Because I'm using a static website, I don't need any fancy server support. &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; is free and allows me to change my site just by pushing to a Github repo. It also allows custom URLs (though not with HTTPS currently). So the whole process for publishing an article is: write Markdown or Jupyter Notebook, run pelican to generate the site pages, commit and push to Github. Super easy and quick!&lt;/p&gt;
-&lt;p&gt;If you're looking for a tutorial on how to set up your own Github hosted Pelican website, &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;this tutorial&lt;/a&gt; is super helpful.&lt;/p&gt;</content><category term="Pelican"></category><category term="Python"></category><category term="Static site generators"></category></entry><entry><title>Hello, world!</title><link href="http://tommyblanchard.com/hello-world" rel="alternate"></link><published>2017-01-16T00:00:00-05:00</published><updated>2017-01-16T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-01-16:/hello-world</id><summary type="html">&lt;p&gt;As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the small projects I've done while building up some of my data science skills, and hopefully eventually be releasing some more polished projects.&lt;/p&gt;
+&lt;p&gt;If you're looking for a tutorial on how to set up your own Github hosted Pelican website, &lt;a href="https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/"&gt;this tutorial&lt;/a&gt; is super helpful.&lt;/p&gt;</content><category term="Pelican"></category><category term="Python"></category><category term="Static site generators"></category></entry><entry><title>Hello, world!</title><link href="http://tommyblanchard.com/hello-world" rel="alternate"></link><published>2017-01-16T00:00:00-05:00</published><updated>2017-01-16T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-01-16:/hello-world</id><summary type="html">&lt;p&gt;My first post, introducing my new blog&lt;/p&gt;</summary><content type="html">&lt;p&gt;As of this writing, I'm in the middle of the transition from academia to industry data science. This website is meant partially to replace my academic website. It's also a place for me to showcase some of my personal data science projects. I'll probably be starting with some of the small projects I've done while building up some of my data science skills, and hopefully eventually be releasing some more polished projects.&lt;/p&gt;
 &lt;p&gt;I also intend to write blog entries (like this one). While my projects will tend to be something that involved coding, learning a new skill, and/or exploring a data set, blog entries will just be free-form writing. I mostly intend to write about data science, statistics, science, and related things. Because I've so recently come from academia, I expect many will focus on the difference between academia and industry, and the transition. And sometimes maybe I'll write about things completely unrelated.&lt;/p&gt;
 &lt;p&gt;This site is still somewhat under construction, and the organization of it might change quite a bit as it grows/matures.&lt;/p&gt;
 &lt;p&gt;If you want to read about the technical aspect of the blog (what tools I'm using and why), see &lt;a href="http://tommyblanchard.com/this-website"&gt;this post&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>

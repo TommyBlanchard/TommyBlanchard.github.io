@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard - Projects</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/projects.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-02-24T00:00:00-05:00</updated><entry><title>Movie Genre Ratings - Addendum</title><link href="http://tommyblanchard.com/movie-genre-ratings-addendum" rel="alternate"></link><published>2017-02-24T00:00:00-05:00</published><updated>2017-02-24T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</id><summary type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
-&lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
-&lt;/header&gt;
-&lt;script&gt;
-                      function code_toggle() {
-                        if (code_shown){
-                          $('div.input').hide('500');
-                          $('#toggleButton').val('Show Code')
-                        } else {
-                          $('div.input').show('500');
-                          $('#toggleButton').val('Hide Code')
-                        }
-                        code_shown = !code_shown
-                      }
-
-                      $( document ).ready(function(){
-                        code_shown=false;
-                        $('div.input').hide()
-                      });
-                    &lt;/script&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard - Projects</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/projects.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-02-24T00:00:00-05:00</updated><entry><title>Movie Genre Ratings - Addendum</title><link href="http://tommyblanchard.com/movie-genre-ratings-addendum" rel="alternate"></link><published>2017-02-24T00:00:00-05:00</published><updated>2017-02-24T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</id><summary type="html">&lt;p&gt;Some additional thoughts and analysis on differences in critics' and audiences' ratings of different movie genres&lt;/p&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -81,10 +62,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="0252c72c-e8db-44a9-8f19-a70c2b27d931"&gt;&lt;/div&gt;
+&lt;div id="1a7fac33-a5f5-4b81-bde4-c79ca7b253bf"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#0252c72c-e8db-44a9-8f19-a70c2b27d931');
+var element = $('#1a7fac33-a5f5-4b81-bde4-c79ca7b253bf');
 
 (function(global) {
   function now() {
@@ -1348,26 +1329,7 @@ var element = $('#0252c72c-e8db-44a9-8f19-a70c2b27d931');
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Python"></category><category term="Bokeh"></category><category term="Data exploration"></category></entry><entry><title>Genres Where Audiences and Critics Disagree Most</title><link href="http://tommyblanchard.com/movie-genre-ratings" rel="alternate"></link><published>2017-02-23T00:00:00-05:00</published><updated>2017-02-23T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-23:/movie-genre-ratings</id><summary type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
-&lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
-&lt;/header&gt;
-&lt;script&gt;
-                      function code_toggle() {
-                        if (code_shown){
-                          $('div.input').hide('500');
-                          $('#toggleButton').val('Show Code')
-                        } else {
-                          $('div.input').show('500');
-                          $('#toggleButton').val('Hide Code')
-                        }
-                        code_shown = !code_shown
-                      }
-
-                      $( document ).ready(function(){
-                        code_shown=false;
-                        $('div.input').hide()
-                      });
-                    &lt;/script&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+</content><category term="Python"></category><category term="Bokeh"></category><category term="Data exploration"></category></entry><entry><title>Genres Where Audiences and Critics Disagree Most</title><link href="http://tommyblanchard.com/movie-genre-ratings" rel="alternate"></link><published>2017-02-23T00:00:00-05:00</published><updated>2017-02-23T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-23:/movie-genre-ratings</id><summary type="html">&lt;p&gt;An investigation of what movie genres audiences and critics disagree on most&lt;/p&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -1429,10 +1391,10 @@ var element = $('#0252c72c-e8db-44a9-8f19-a70c2b27d931');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="3bb4e302-8cc5-48de-8435-aec1d27c7484"&gt;&lt;/div&gt;
+&lt;div id="0de364ca-4d3f-4fd4-bd5f-0a78a0ee070a"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#3bb4e302-8cc5-48de-8435-aec1d27c7484');
+var element = $('#0de364ca-4d3f-4fd4-bd5f-0a78a0ee070a');
 
 (function(global) {
   function now() {
