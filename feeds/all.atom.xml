@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-03-10T16:11:04-05:00</updated><entry><title>Does the Muslim ban make us safer?</title><link href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer" rel="alternate"></link><published>2017-03-10T16:11:04-05:00</published><updated>2017-03-10T16:11:04-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-03-10:/does-the-muslim-ban-make-us-safer</id><summary type="html">&lt;p&gt;This week, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is not included - and uses different wording in the hopes of being on firmer legal ground.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-03-10T16:44:27-05:00</updated><entry><title>Does the Muslim ban make us safer?</title><link href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer" rel="alternate"></link><published>2017-03-10T16:44:27-05:00</published><updated>2017-03-10T16:44:27-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-03-10:/does-the-muslim-ban-make-us-safer</id><summary type="html">&lt;p&gt;This week, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is not included - and uses different wording in the hopes of being on firmer legal ground.&lt;/p&gt;
 &lt;p&gt;Trump and his administration &lt;a href="http://www.cnbc.com/2017/01/29/trump-america-proud-nation-of-immigrants-says-this-is-not-about-religion.html"&gt;have claimed that this ban is to protect Americans&lt;/a&gt;. How effective is this ban for that purpose? I looked at data originally collected by &lt;a href="https://www.newamerica.org/in-depth/terrorism-in-america/part-i-overview-terrorism-cases-2001-today/"&gt;New America&lt;/a&gt;. This data is from records of criminal convictions and deaths of terrorists. The data contains terrorist activity from after 9/11 up to 2017.&lt;/p&gt;
 &lt;p&gt;The ban is supposed to protect Americans from terrorism. An obvious metric we can look at for how much harm terrorists from the banned countries do to America is looking at the number of people killed on American soil by terrorists from these countries.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Terrorism deaths" src="http://tommyblanchard.com/images/terrorism/terror-fig1.png"&gt;&lt;/p&gt;
@@ -11,11 +11,11 @@
 &lt;p&gt;&lt;img alt="Rare deaths" src="http://tommyblanchard.com/images/terrorism/terror-fig3.png"&gt;&lt;/p&gt;
 &lt;p&gt;There are plenty of costs to the Muslim ban - it exacerbates &lt;a href="https://www.scientificamerican.com/article/trump-immigration-ban-can-worsen-u-s-doctor-shortage-hurt-hospitals/"&gt;the doctor shortage&lt;/a&gt; and it &lt;a href="http://www.slate.com/articles/health_and_science/climate_desk/2017/02/trump_s_ban_will_also_staunch_scientific_progress.html"&gt;hurts U.S. science&lt;/a&gt;. Many worry that &lt;a href="http://www.nbcnews.com/news/us-news/trump-travel-ban-makes-america-less-safe-ex-top-security-n717206"&gt;the move hurts intelligence gathering&lt;/a&gt; on terrorist organizations by hurting relations with the banned countries, making us less safe from terrorists.&lt;/p&gt;
 &lt;p&gt;In terms of protecting Americans, legislation on roller-coasters would likely be more effective at keeping Americans safe than immigration policy reform possibly could.&lt;/p&gt;
-&lt;p&gt;Sources for non-terrorism death rates:&lt;/p&gt;
-&lt;p&gt;Alligators: Wikipedia (https://en.wikipedia.org/wiki/List_of_fatal_alligator_attacks_in_the_United_States). Data for 2001-2017&lt;/p&gt;
-&lt;p&gt;Enema administration: Centers for Disease Control and Prevention (https://wonder.cdc.gov/controller/datarequest/D132). Data for 1999-2016.&lt;/p&gt;
-&lt;p&gt;Roller-coasters: Injury Prevention (http://injuryprevention.bmj.com/content/11/5/309). Data for 1994-2004&lt;/p&gt;
-&lt;p&gt;Lightning: National Weather Service (http://origin-www.nws.noaa.gov/om/lightning/resources/RecentLightningDeaths.pdf) Data for 2006-2013&lt;/p&gt;</content><category term="Data exploration"></category><category term="Data visualization"></category><category term="Terrorism"></category><category term="Politics"></category></entry><entry><title>Movie Genre Ratings - Addendum</title><link href="http://tommyblanchard.com/movie-genre-ratings-addendum" rel="alternate"></link><published>2017-02-24T00:00:00-05:00</published><updated>2017-02-24T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</id><summary type="html">&lt;p&gt;Some additional thoughts and analysis on differences in critics' and audiences' ratings of different movie genres&lt;/p&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
+&lt;p&gt;&lt;em&gt;Sources for non-terrorism death rates:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Alligators: &lt;a href="https://en.wikipedia.org/wiki/List_of_fatal_alligator_attacks_in_the_United_States"&gt;Wikipedia&lt;/a&gt;. Data for 2001-2017&lt;/p&gt;
+&lt;p&gt;Enema administration: &lt;a href="https://wonder.cdc.gov/controller/datarequest/D132"&gt;Centers for Disease Control and Prevention&lt;/a&gt;. Data for 1999-2016.&lt;/p&gt;
+&lt;p&gt;Roller-coasters: &lt;a href="http://injuryprevention.bmj.com/content/11/5/309"&gt;Injury Prevention&lt;/a&gt;. Data for 1994-2004&lt;/p&gt;
+&lt;p&gt;Lightning: &lt;a href="http://origin-www.nws.noaa.gov/om/lightning/resources/RecentLightningDeaths.pdf"&gt;National Weather Service&lt;/a&gt;. Data for 2006-2013&lt;/p&gt;</content><category term="Data exploration"></category><category term="Data visualization"></category><category term="Terrorism"></category><category term="Politics"></category></entry><entry><title>Movie Genre Ratings - Addendum</title><link href="http://tommyblanchard.com/movie-genre-ratings-addendum" rel="alternate"></link><published>2017-02-24T00:00:00-05:00</published><updated>2017-02-24T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-24:/movie-genre-ratings-addendum</id><summary type="html">&lt;p&gt;Some additional thoughts and analysis on differences in critics' and audiences' ratings of different movie genres&lt;/p&gt;</summary><content type="html">&lt;br&gt;&lt;header id="attribution" style="color:#999; font-size: 120%; text-align: center"&gt;
 &lt;b&gt;This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'&lt;/b&gt;
 &lt;/header&gt;
 &lt;script&gt;
@@ -78,10 +78,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="3a87b8d9-16c0-47ae-8a69-40fa932d4f1f"&gt;&lt;/div&gt;
+&lt;div id="029fe1aa-2bc6-47d3-b341-2d7a5a51b576"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#3a87b8d9-16c0-47ae-8a69-40fa932d4f1f');
+var element = $('#029fe1aa-2bc6-47d3-b341-2d7a5a51b576');
 
 (function(global) {
   function now() {
@@ -1407,10 +1407,10 @@ var element = $('#3a87b8d9-16c0-47ae-8a69-40fa932d4f1f');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="6da5f5a8-84ff-49b0-ab46-1e9024f39ce5"&gt;&lt;/div&gt;
+&lt;div id="98c9a683-a236-41be-b324-e5c4df115ea5"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#6da5f5a8-84ff-49b0-ab46-1e9024f39ce5');
+var element = $('#98c9a683-a236-41be-b324-e5c4df115ea5');
 
 (function(global) {
   function now() {
