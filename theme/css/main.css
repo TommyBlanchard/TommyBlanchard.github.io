@@ -597,12 +597,13 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     #banner nav ul li {width: 100%; margin: 0; display: flex; border-bottom: 1px solid #fff}
     
     /* Headings */
+/*
     h1 {font-size: 200% }
-    h2 {font-size: 160%}	/* 22px */
-    h3 {font-size: 140%}	/* 20px */
-    h4 {font-size: 120%}	/* 18px */
-    h5 {font-size: 110%}	/* 16px */
-    h6 {font-size: 100%}		/* 14px */    
+    h2 {font-size: 160%}	
+    h3 {font-size: 140%}	
+    h4 {font-size: 120%}	
+    h5 {font-size: 110%}	
+    h6 {font-size: 100%}		
 
     h1, h2, h3, h4, h5, h6 {
         font-weight: 400;
