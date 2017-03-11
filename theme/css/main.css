@@ -562,14 +562,16 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
         width: 90%;
     }
     
-    #bk-canvas-wrapper {
+    div.bk-canvas-wrapper {
         width: 100% !important;
         height: auto !important;
+        padding-top:100% !important;
     }
     
-    #bk-plot-layout {
+    div.bk-plot-layout {
         width: 100% !important;
         height: auto !important;
+        padding-top:100% !important;
     }
     
     div.bk-plot-wrapper {
@@ -577,10 +579,11 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
         height: auto !important;
     }
     
-    #bk-canvas {
+    .bk-canvas {
         width: 100% !important;
         height: auto !important;
     }
+    
     
     #banner nav {
         float: left;
