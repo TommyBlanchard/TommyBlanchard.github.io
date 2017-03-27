@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-03-10T00:00:00-05:00</updated><entry><title>Does the Muslim ban make us safer?</title><link href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer" rel="alternate"></link><published>2017-03-10T00:00:00-05:00</published><updated>2017-03-10T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-03-10:/does-the-muslim-ban-make-us-safer</id><summary type="html">&lt;p&gt;This week, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is not included - and uses different wording in the hopes of being on firmer legal ground.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-03-10T00:00:00-05:00</updated><entry><title>Does the Muslim ban make us safer?</title><link href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer" rel="alternate"></link><published>2017-03-10T00:00:00-05:00</published><updated>2017-03-10T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-03-10:/does-the-muslim-ban-make-us-safer</id><summary type="html">&lt;p&gt;On March 6, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq …&lt;/p&gt;</summary><content type="html">&lt;p&gt;On March 6, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq is not included - and uses different wording in the hopes of being on firmer legal ground.&lt;/p&gt;
 &lt;p&gt;Trump and his administration &lt;a href="http://www.cnbc.com/2017/01/29/trump-america-proud-nation-of-immigrants-says-this-is-not-about-religion.html"&gt;have claimed that this ban is to protect Americans&lt;/a&gt;. How effective is this ban for that purpose? I looked at data originally collected by &lt;a href="https://www.newamerica.org/in-depth/terrorism-in-america/part-i-overview-terrorism-cases-2001-today/"&gt;New America&lt;/a&gt;. This data is from records of criminal convictions and deaths of terrorists. The data contains terrorist activity from after 9/11 up to 2017.&lt;/p&gt;
 &lt;p&gt;The ban is supposed to protect Americans from terrorism. An obvious metric we can look at for how much harm terrorists from the banned countries do to America is looking at the number of people killed on American soil by terrorists from these countries.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Terrorism deaths" src="http://tommyblanchard.com/images/terrorism/terror-fig1.png"&gt;&lt;/p&gt;
@@ -81,10 +81,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="9c281271-eddc-4cff-90fa-3a1a153d33b1"&gt;&lt;/div&gt;
+&lt;div id="160fdf65-0dcf-4f25-9c70-ba359ef5dd98"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#9c281271-eddc-4cff-90fa-3a1a153d33b1');
+var element = $('#160fdf65-0dcf-4f25-9c70-ba359ef5dd98');
 
 (function(global) {
   function now() {
@@ -1404,10 +1404,10 @@ var element = $('#9c281271-eddc-4cff-90fa-3a1a153d33b1');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="08934fdc-0dac-4dd2-9c25-f47459114093"&gt;&lt;/div&gt;
+&lt;div id="1d770edb-d234-40ba-aa46-d154c450774a"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#08934fdc-0dac-4dd2-9c25-f47459114093');
+var element = $('#1d770edb-d234-40ba-aa46-d154c450774a');
 
 (function(global) {
   function now() {
