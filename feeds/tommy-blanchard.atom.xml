@@ -95,10 +95,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="b3830621-e360-48b3-acda-c40de969cbd7"&gt;&lt;/div&gt;
+&lt;div id="f2b970a0-2ee6-40db-aa80-a9b8dc30411d"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#b3830621-e360-48b3-acda-c40de969cbd7');
+var element = $('#f2b970a0-2ee6-40db-aa80-a9b8dc30411d');
 
 (function(global) {
   function now() {
@@ -1418,10 +1418,10 @@ var element = $('#b3830621-e360-48b3-acda-c40de969cbd7');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="740fadbd-4859-4784-93ca-b18f77e183c8"&gt;&lt;/div&gt;
+&lt;div id="8fd70856-80cd-4f56-8d2a-54d931573116"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#740fadbd-4859-4784-93ca-b18f77e183c8');
+var element = $('#8fd70856-80cd-4f56-8d2a-54d931573116');
 
 (function(global) {
   function now() {
@@ -2811,7 +2811,7 @@ TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
 &lt;p&gt;Once I was forced to really open my eyes to the possibility of leaving, suddenly I had to consider what an industry job could offer me. It was painful going through the process of changing my mentality and accepting that I might never get another publication, but that was okay because publications only mean anything in academia.&lt;/p&gt;
 &lt;p&gt;Eventually I started learning more about data science. I learned how it would allow me to work with different data, do the parts of science I love (analysis), and give me freedom to find jobs I wanted. I thought it sounded like a much better place for me. Hopefully that judgment was right!&lt;/p&gt;
 &lt;h3&gt;Update&lt;/h3&gt;
-&lt;p&gt;I wrote a retrospective on my first few months in industry and how I feel now about the move from academia. See it here.&lt;/p&gt;</content><category term="Academia"></category><category term="Life"></category></entry><entry><title>Simple Stock Ticker App</title><link href="http://tommyblanchard.com/simple-stock-ticker-app" rel="alternate"></link><published>2017-02-04T15:14:21-05:00</published><updated>2017-02-04T15:14:21-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-04:/simple-stock-ticker-app</id><summary type="html">&lt;p&gt;This was just a very simple learning project I did as part of &lt;a href="https://www.thedataincubator.com/"&gt;The Data Incubator&lt;/a&gt; program.&lt;/p&gt;
+&lt;p&gt;I wrote a retrospective on my first few months in industry and how I feel now about the move from academia. See it &lt;a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="Academia"></category><category term="Life"></category></entry><entry><title>Simple Stock Ticker App</title><link href="http://tommyblanchard.com/simple-stock-ticker-app" rel="alternate"></link><published>2017-02-04T15:14:21-05:00</published><updated>2017-02-04T15:14:21-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-02-04:/simple-stock-ticker-app</id><summary type="html">&lt;p&gt;This was just a very simple learning project I did as part of &lt;a href="https://www.thedataincubator.com/"&gt;The Data Incubator&lt;/a&gt; program.&lt;/p&gt;
 &lt;p&gt;The project itself was just a simple stock ticker. It requires as input the ticker, and produces a graph of the stock prices over time. &lt;a href="http://day8blanchard.herokuapp.com/index"&gt;Here is the finished product&lt;/a&gt;. You can also …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was just a very simple learning project I did as part of &lt;a href="https://www.thedataincubator.com/"&gt;The Data Incubator&lt;/a&gt; program.&lt;/p&gt;
 &lt;p&gt;The project itself was just a simple stock ticker. It requires as input the ticker, and produces a graph of the stock prices over time. &lt;a href="http://day8blanchard.herokuapp.com/index"&gt;Here is the finished product&lt;/a&gt;. You can also see the code for it &lt;a href="https://github.com/TommyBlanchard/FlaskHerokuStockTicker"&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;Flask Framework&lt;/h3&gt;
