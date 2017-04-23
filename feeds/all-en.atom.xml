@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all-en.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-04-09T00:00:00-04:00</updated><entry><title>Retrospective on leaving academia for industry data science</title><link href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science" rel="alternate"></link><published>2017-04-09T00:00:00-04:00</published><updated>2017-04-09T00:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-04-09:/retrospective-on-leaving-academia-for-industry-data-science</id><summary type="html">&lt;p&gt;It's been two and a half months since I left academia to take a job as a data scientist in industry. Although I haven't been in my new job for very long yet, I wanted to check in with my current thoughts about whether the transition was worth it and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's been two and a half months since I left academia to take a job as a data scientist in industry. Although I haven't been in my new job for very long yet, I wanted to check in with my current thoughts about whether the transition was worth it and the differences between working in academia and industry.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all-en.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2017-04-23T00:00:00-04:00</updated><entry><title>How to make the transition from academia to data science</title><link href="http://tommyblanchard.com/how-to-make-the-transition-from-academia-to-data-science" rel="alternate"></link><published>2017-04-23T00:00:00-04:00</published><updated>2017-04-23T00:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-04-23:/how-to-make-the-transition-from-academia-to-data-science</id><summary type="html">&lt;p&gt;Ever since I've started writing about my transition from academia to industry (both &lt;a href="http://tommyblanchard.com/reasons-i-left-academia"&gt;my reasons for leaving&lt;/a&gt; and &lt;a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science"&gt;what I think about the transition in retrospect&lt;/a&gt;), I've started receiving a lot of requests for advice on making that transition. Sometimes these requests come from former peers, former professors looking to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ever since I've started writing about my transition from academia to industry (both &lt;a href="http://tommyblanchard.com/reasons-i-left-academia"&gt;my reasons for leaving&lt;/a&gt; and &lt;a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science"&gt;what I think about the transition in retrospect&lt;/a&gt;), I've started receiving a lot of requests for advice on making that transition. Sometimes these requests come from former peers, former professors looking to advise students, or just someone who read one of my blog posts online.&lt;/p&gt;
+&lt;p&gt;I'm always happy to reply to these requests as best as I can given my experiences, but I figured since so many people seem interested I it might be useful to put my thoughts in a blog post.&lt;/p&gt;
+&lt;h2&gt;What do I need to know to be a data scientist?&lt;/h2&gt;
+&lt;p&gt;My main message to most of the people that have been asking me for advice is not to worry too much. People seem to think you need to know everything to be a data scientist. If you have a PhD in the sciences or any quantitative discipline, you're likely most of the way to having the skills you need, so don't be scared to take that next step (by just looking at and applying to jobs). Put yourself out there and let potential employers decide whether you have the skills to work for them or not, don't do their job for them.&lt;/p&gt;
+&lt;p&gt;If you really want to know what I think are the essentials to get a first data science position, the main classes of skills you need to have should come as no surprise:
+1. &lt;strong&gt;Be a decent programmer&lt;/strong&gt;: Python and R are the languages that are most common. Being comfortable in both opens more doors, but you can make due with one or the other. SQL is also used frequently, so at least do a short tutorial on it (basic queries are simple enough that it's not super difficult to pick up the necessities).
+2. &lt;strong&gt;Know some machine-learning&lt;/strong&gt;: You should understand basic machine-learning concepts and have at some experience with some of the most common algorithms (like tree-based methods, logistic regression, dimensionality reduction, etc.)
+3. &lt;strong&gt;Know some traditional stats&lt;/strong&gt;: You should know about p-values, regressions, t-tests, statistical significance.&lt;/p&gt;
+&lt;p&gt;These are the bare essentials. You'll need to be more than just 'decent' in at least one of these categories (which one depends on the job, read on), but the point is, these should be skills you already have or could gain in a short period of time through some additional reading/practice. The skills involved in data science are so broad, no one is an expert in all of them. As long as you know the basics, and have some areas where you're particularly strong, you should be able to find a somewhere that your skills could be useful.&lt;/p&gt;
+&lt;h2&gt;Other skills that are useful&lt;/h2&gt;
+&lt;p&gt;Some people seem convinced that they need an understanding of every big data technology under the sun to be a data scientist. To the uninitiated, the bizarre names you might hear (Hadoop, Spark, MongoDB, etc.) just sound intimidating. The truth is, they're not that complicated, and you don't need to be an expert in them to get a data science job.&lt;/p&gt;
+&lt;p&gt;Different data science teams use different tools. Some may use some big data tools for everything and really need someone who can jump into that workflow right away. But in my experience, the majority of data science jobs have these skills listed as 'Preferred but not required', if they're listed at all.&lt;/p&gt;
+&lt;p&gt;Knowing specific packages and algorithms might be required by specific jobs. &lt;strong&gt;The best way to figure out what you might need to know for the kinds of jobs your interested in is to just start looking.&lt;/strong&gt; Go to &lt;a href="https://www.indeed.com/"&gt;Indeed&lt;/a&gt; or any other job posting site and just start looking at jobs. Find some that interest you, and figure out what skills they want, and get to work on those skills.&lt;/p&gt;
+&lt;h2&gt;Where do I learn these skills?&lt;/h2&gt;
+&lt;p&gt;Once you get a sense of what skills you might need to gain or strengthen, where do you go to get them? For almost any package under the sun, it's easy to just google a tutorial or free online course to learn the basics.&lt;/p&gt;
+&lt;p&gt;Some people opt to go to boot camps. My overall opinion is that they are good for getting a general overview if you can afford to take a couple of months off full-time, but I don't think they are necessary.&lt;/p&gt;
+&lt;h4&gt;Start applying/interviewing as early as possible&lt;/h4&gt;
+&lt;p&gt;I find I learn best by being forced to solve problems. I think what taught me the most about being a data scientist was &lt;em&gt;applying and interviewing&lt;/em&gt;. Interviewers will often give you a coding challenge or small project to work on at home before they bring you in for an in-person interview. These can be anything from a quick one hour coding exercise to a multi-day project where you have to implement a recommendation engine. These are great for learning, because they're nice small projects that are, by definition, what interviewers want you to know. Treating them as a learning exercise helps in two ways. First, they're efficient for learning skills. Second, it will take the edge off when, inevitably, you get rejected repeatedly after interviewing. Interviewing is hard and it can really suck to get rejected after you've put in a lot of time and effort and fallen in love with the idea of working at a particular company. A better mentality is to approach interviews as being a success as long as you've learned something.&lt;/p&gt;
+&lt;p&gt;There are plenty of other good resources for learning some of the essential skills to being a data scientist. Here's a woefully incomplete guide:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To brush up on programming, try the &lt;a href="https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview"&gt;Cracking the Coding Interview resources at HackerRank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For machine-learning, &lt;a href="https://www.amazon.com/gp/product/1461471370/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=1461471370&amp;amp;linkCode=as2&amp;amp;tag=tommyblanchar-20&amp;amp;linkId=274873f56d6b671eec6503342836a1b7"&gt;An Introduction to Statistical Learning&lt;/a&gt; is excellent. &lt;a href="https://www.amazon.com/gp/product/0387848576/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0387848576&amp;amp;linkCode=as2&amp;amp;tag=tommyblanchar-20&amp;amp;linkId=2bff6a12fa8c459f1187ee75759152df"&gt;The Elements of Statistical Learning&lt;/a&gt; is more comprehensive but denser.&lt;/li&gt;
+&lt;li&gt;To just learn some basic packages and data skills, try working your way through some of the &lt;a href="https://www.kaggle.com/c/titanic/details/tutorials"&gt;Titanic tutorials at Kaggle&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I think my main piece of advice is this: You're probably closer than you know to getting a data science interview, and you should take the next steps (looking at job listings, or applying to some of them) as early as possible to better guide your search. Good luck!&lt;/p&gt;</content><category term="Academia"></category><category term="Industry"></category><category term="Job hunting"></category><category term="Data science"></category></entry><entry><title>Retrospective on leaving academia for industry data science</title><link href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science" rel="alternate"></link><published>2017-04-09T00:00:00-04:00</published><updated>2017-04-09T00:00:00-04:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2017-04-09:/retrospective-on-leaving-academia-for-industry-data-science</id><summary type="html">&lt;p&gt;It's been two and a half months since I left academia to take a job as a data scientist in industry. Although I haven't been in my new job for very long yet, I wanted to check in with my current thoughts about whether the transition was worth it and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's been two and a half months since I left academia to take a job as a data scientist in industry. Although I haven't been in my new job for very long yet, I wanted to check in with my current thoughts about whether the transition was worth it and the differences between working in academia and industry.&lt;/p&gt;
 &lt;p&gt;In a lot of ways, being an industry data scientist is a lot like being a post-doc. I'm paid to tackle intellectual problems, I have a lot of freedom in how I approach problems, and there is emphasis placed on professional development (attending conferences, etc.). Of course, there is a change of emphasis on what types of tasks I do - as an academic I spent a lot of time collecting data and writing, in industry the emphasis is more on doing analyses and communicating results verbally or through simple reports.&lt;/p&gt;
 &lt;h2&gt;The problems I had in academia I no longer have in industry&lt;/h2&gt;
 &lt;p&gt;I made the decision to do leave academia for a number of reasons, outlined in a &lt;a href="http://tommyblanchard.com/reasons-i-left-academia"&gt;previous post&lt;/a&gt;. The main reasons were that I was lonely, stressed out, and no longer found the research held any interest for me.&lt;/p&gt;
@@ -95,10 +120,10 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="bbd95a48-9150-4e3f-a416-7b640d236706"&gt;&lt;/div&gt;
+&lt;div id="f2093fba-7a3e-4c9f-b636-0c911102907f"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#bbd95a48-9150-4e3f-a416-7b640d236706');
+var element = $('#f2093fba-7a3e-4c9f-b636-0c911102907f');
 
 (function(global) {
   function now() {
@@ -1418,10 +1443,10 @@ var element = $('#bbd95a48-9150-4e3f-a416-7b640d236706');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="08363c92-314a-4884-9425-978af600bbd1"&gt;&lt;/div&gt;
+&lt;div id="2e79c2c5-aa9d-43ad-adbf-6f08433144eb"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#08363c92-314a-4884-9425-978af600bbd1');
+var element = $('#2e79c2c5-aa9d-43ad-adbf-6f08433144eb');
 
 (function(global) {
   function now() {
@@ -2748,35 +2773,35 @@ PLUGINS = [&amp;quot;tag_cloud&amp;quot;]
 &lt;h1&gt;Settings and CSS Styling&lt;/h1&gt;
 &lt;p&gt;The tag cloud should now display, just not necessarily how you want or where you want.&lt;/p&gt;
 &lt;p&gt;The plugin allows you to have different sizes for tags based on how common they are. This can be altered by changing the TAG_CLOUD_STEPS value (default is 4, you can set TAG_CLOUD_STEPS=num in &lt;strong&gt;pelicanconf.py&lt;/strong&gt;). So use the following, adding as many li.tag-# as you have TAG_CLOUD_STEPS. You can also style the tag cloud list any way you want:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="nc"&gt;.tagcloud&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-  &lt;span class="nb"&gt;list-style&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nb"&gt;padding&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tagcloud&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="k"&gt;list-style&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;padding&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 
-&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="nc"&gt;.tagcloud&lt;/span&gt; &lt;span class="nt"&gt;li&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nb"&gt;display&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;inline&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;block&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;ul&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tagcloud&lt;/span&gt; &lt;span class="nt"&gt;li&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;inline-block&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 
-&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="nc"&gt;.tag-1&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nb"&gt;font-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;150%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tag-1&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;150&lt;/span&gt;&lt;span class="kt"&gt;%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 
-&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="nc"&gt;.tag-2&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nb"&gt;font-size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;120%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nt"&gt;li&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;tag-2&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;120&lt;/span&gt;&lt;span class="kt"&gt;%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;You can also use CSS to style the div the tag appears in. Here is mine:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="nn"&gt;#tagcloud&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;   
-    &lt;span class="nb"&gt;right&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;-150px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nb"&gt;top&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;250px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nb"&gt;position&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nb"&gt;width&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;140px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nb"&gt;background&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;white&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="nb"&gt;border&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;radius&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;moz&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;border&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;radius&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-    &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;webkit&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;border&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;radius&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt; &lt;span class="m"&gt;10px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;tagcloud&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;   
+    &lt;span class="k"&gt;right&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;-150&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;top&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;250&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;140&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;white&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;border-radius&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kp"&gt;-moz-&lt;/span&gt;&lt;span class="k"&gt;border-radius&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="kp"&gt;-webkit-&lt;/span&gt;&lt;span class="k"&gt;border-radius&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
