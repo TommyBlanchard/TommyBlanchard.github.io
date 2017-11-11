@@ -64,7 +64,7 @@ hr { border: 2px solid #EEEEEE; }
 section#wrapper{
     width: 800px;
     margin: auto auto auto auto;
-    position: relative;
+    position: relative; 
 }
 
 section#rightwrapper{
