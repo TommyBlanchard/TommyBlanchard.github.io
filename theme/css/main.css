@@ -67,15 +67,18 @@ section#wrapper{
     position: relative;
 }
 
-div#tagcloud{   
+section#rightwrapper{
     right: -150px;
     top: 250px;
     position: absolute;
     width: 140px;
-    background: white;
     border-radius: 10px 10px 10px 10px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+div#tagcloud{   
+    background: white;   
 }
 
 
