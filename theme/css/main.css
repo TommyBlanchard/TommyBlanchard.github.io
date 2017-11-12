@@ -552,6 +552,10 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
         width: 100%;
     }
 
+    section#rightwrapper{
+    display: none;
+    }
+    
     div#tagcloud{   
         display: none;
     }
