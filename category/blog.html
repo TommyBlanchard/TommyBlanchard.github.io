@@ -61,10 +61,10 @@
             <div id="tagcloud">
                     <b><center>Blog Tags</center></b>
                 <ul class="tagcloud">
-                        <li class="tag-0">
+                        <li class="tag-1">
                             <a href="http://tommyblanchard.com/tag/data-science">
                             Data science
-                                    <span class="badge">(6)</span>
+                                    <span class="badge">(7)</span>
                             </a>
                         </li>
                         <li class="tag-1">
@@ -92,20 +92,20 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/bootcamps">
-                            Bootcamps
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-engineer">
-                            Data engineer
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/healthcare">
                             Healthcare
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/bootcamp">
+                            Bootcamp
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/bootcamps">
+                            Bootcamps
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -116,8 +116,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/bootcamp">
-                            Bootcamp
+                            <a href="http://tommyblanchard.com/tag/data-engineer">
+                            Data engineer
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -160,23 +160,42 @@
 </section>
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/motivation-in-academia-vs-industry">Motivation in Academia vs Industry</a></h1>
+                    <h1 class="entry-title"><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist">"Lessons learned in my first year as a data scientist"</a></h1>
 <footer class="post-info">
-        <span>Sun 21 January 2018</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/academia">Academia</a>, <a href="http://tommyblanchard.com/tag/life">Life</a>, <a href="http://tommyblanchard.com/tag/industry">Industry</a></span>
-</footer><!-- /.post-info --><p>I’ve been in industry working as a data scientist for a year now after leaving academia. By all measures I can think of, it’s been a good year. I got lucky with having a great manager, I’ve gotten a bunch of experience and learned a lot, I work at a place where doing good work means actually helping sick people, and I even lucked out with a promotion, allowing me to try out a slightly more managerial position so I get to see how I like those responsibilities while still making my own development contributions.</p>
-<p>However, I wanted to revisit my appraisal of my life in academia vs industry. Rereading my <a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science">previous post about this</a>, I agree with everything I said. On the whole, the issues I had in academia aren’t an issue in industry, and overall I still can’t imagine going back to academia.</p>
-<p>But I’ve been thinking lately about what’s been the biggest tradeoff for me: the motivational structure. With academia, there are a bunch of somewhat quantifiable metrics that are often looked at to approximate how much you’ve accomplished as a scientist - your number of first-author publications, h-index, etc. Of course there are issues with these metrics, and a lot of controversy around how much weight is put on them to judge a scholar. However, one thing I’ve realized is that (at least for me) they are incredibly effective motivators.</p>
-<p>It feels incredibly good to get a new first-author publication when that is the main metric by which you’re judged. It goes on your CV, and that accomplishment will follow you wherever you go. Every citation it accrues goes down on a sort of permanent record of achievement for you. It feels a lot like building something, where every incremental piece adds up.</p>
-<p>There’s no real equivalent in industry. When a project is completed, it might come up between you and your manager in your performance review. If it’s a big project, you might put it on your resume to help the next time you’re looking for a job.</p>
-<p>This motivational structure for academia is a double-edged sword. It gave me a sense of purpose and progression, quantifiable goals and accomplishments. However, it was a bit <em>too</em> effective. I didn’t take much time off because I wanted to keep moving towards that next publication. I felt guilty reading if it wasn’t reading something I hoped would give me a new project idea for a quick publication. And of course, when there was a big set back in my project, it would take a big psychological toll. </p>
-<p>I’ve been trying, both at work and in my private life, to find things that will help give me some of this sense of progression and purpose. I’ve had mixed success - certainly I’ve found some things motivating and rewarding in a similar way, but not in as sustained a way as publications were when I was an academic. It just seems to take more effort to find these things.</p>
-<p>A probably healthier way of looking at things is with a growth-mindset - that it’s the skills I’ve gained and lessons learned that are important, not the specific accomplishments I’ve made. But growth is hard to measure, and it’s often hard to see how far you’ve come. It’s hard to get super excited about growth.</p>
-<p>On balance I certainly still think the move to industry was doubtless the right one for me. The same lack of a super motivating goal also makes it much easier to leave work at work and have a better work-life balance. But this is probably the biggest issue I’ve struggled with since the shift. It was something I worried about before leaving, and that worry has turned out to be justified.</p><p><a href="http://tommyblanchard.com/motivation-in-academia-vs-industry#disqus_thread">comments</a></p>                </article>
+        <span>Thu 25 January 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a></span>
+</footer><!-- /.post-info --><p>It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what I’ve learned has been about how to actually make my skills useful to others in the company.</p>
+<p>For context, I work in a healthcare company where the data science group acts kind of like a consulting firm - we take on projects to create predictive models and provide other analytical support. For that reason, a lot of the lessons I’ve learned have more to do with the issues with operationalizing data science projects in the business.</p>
+<h2>Feature engineering is important</h2>
+<p>One of the big lessons from the year is that feature engineering is the most important part of building a predictive model. This might not be a surprised to anyone with a lot of machine learning experience, and I certainly had heard this when I started. But if I'm honest, it was hard for me to come up with examples of when or why it was important before I started. Seeing repeated examples of this in practice have really made me understand it on a deeper level. The kind of model you use doesn’t matter if your features suck, and being able to understand what kinds of features will be useful is a skill that requires abstract thinking and intuitive math. This is what makes machine learning hard.</p>
+<h2>Getting the best performance is not important</h2>
+<p>When I was initially learning data science and machine learning, there was a lot of emphasis on performance metrics. The truth is, for almost every project, you can get 90% of the actual value of the project quickly and the last 10% will take you ten times longer. For most projects, it just isn’t worth it. While with Kaggle you want to perfect the model as much as possible because a .01 increase in your performance metric of choice can make or break you, in the real world, tiny increases rarely matter (though obviously this depends on the industry and project).</p>
+<h2>The hard part of projects isn't the machine learning, but everything else</h2>
+<p>More important than knowing how to build the best predictive model is knowing how to translate a business problem into a problem a predictive model can help with, and translating a predictive model into something actionable. When people from other departments hear we can build predictive models, they often come up with some idea of something they think would be interesting to predict. Often, their ideas don’t make sense, but explaining why that’s the case, the technical issues involved, and coming up with an alternative that will work - that’s important.
+It’s also important that once a model is built, the output is actually usable - it’s easy to predict things, but often the prediction is only useful if it comes with some additional insight. Using tools like <a href="https://github.com/marcotcr/lime">lime</a> has been useful and is part of the solution, but sometimes your features are not actionable or easy to understand for the end user, so lime is useful but not a silver bullet - more thought needs to be put in than just to stick lime on the end.</p>
+<h2>Ask the right questions BEFORE you start a project</h2>
+<p>Finally, probably the most important lesson I’ve learned the hard way this year: Make sure you know up front where the data is going to come from and how the project is going to be used before putting too much effort into it or committing to any kind of deadline. 
+I had one project described to me that I was excited to tackle and promised a quick turn-around on, only to learn that writing the algorithm was the easy part. I was given a sample of data and had assumed that meant there was a process in place for me to acquire the data. In reality, there was no such process, and it took months to figure out how to get access to the necessary data. I ended up looking pretty bad for going way over my initial time estimate, even though most of that time was spent waiting for people to respond to emails so I could track down and get access to the necessary data. Figuring out data pipelines is really hard in a big company!</p>
+<p>I also had to pick up a few projects that were started before me when another data scientist left. One was a dashboard put together to help navigate and visualize some text data. I was amazed when I talked to the end-user to check what else they wanted done with the project, and discovered all of the changes they wanted involved removing features. The dashboard was massively over-engineered, with some of its major functionality either removed or left in but never used. Worse, the dashboard was never meant to be in long-term use and would be retired in a year, so there was no chance these features would find eventual use. This meant time was wasted twice - once creating those features, and again going back and removing them to simplify the dashboard.</p>
+<p>This and other experiences really taught me the importance of having a close feedback loop with the end user of whatever project I’m working on. A biweekly, half-hour meeting can end up saving a lot of time.</p><p><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist#disqus_thread">comments</a></p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <ol id="posts-list" class="hfeed">
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://tommyblanchard.com/motivation-in-academia-vs-industry" rel="bookmark"
+                           title="Permalink to Motivation in Academia vs Industry">Motivation in Academia vs Industry</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>Sun 21 January 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/academia">Academia</a>, <a href="http://tommyblanchard.com/tag/life">Life</a>, <a href="http://tommyblanchard.com/tag/industry">Industry</a></span>
+</footer><!-- /.post-info -->                <p>I’ve been in industry working as a data scientist for a year now after leaving academia. By all measures I can think of, it’s been a good year. I got lucky with having a great manager, I’ve gotten a bunch of experience and learned a lot, I …</p>
+                <a class="readmore" href="http://tommyblanchard.com/motivation-in-academia-vs-industry">read more</a>
+<p><a href="http://tommyblanchard.com/motivation-in-academia-vs-industry#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
+            </article></li>
             <li><article class="hentry">
                 <header>
                     <h1><a href="http://tommyblanchard.com/should-i-do-a-data-science-bootcamp" rel="bookmark"
@@ -295,23 +314,10 @@
                 <a class="readmore" href="http://tommyblanchard.com/reasons-i-left-academia">read more</a>
 <p><a href="http://tommyblanchard.com/reasons-i-left-academia#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
             </article></li>
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/hello-world" rel="bookmark"
-                           title="Permalink to Hello, world!">Hello, world!</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Mon 16 January 2017</span>
-
-</footer><!-- /.post-info -->                <p>My first post, introducing my new blog</p>
-                <a class="readmore" href="http://tommyblanchard.com/hello-world">read more</a>
-<p><a href="http://tommyblanchard.com/hello-world#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
             </ol><!-- /#posts-list -->
 <p class="paginator">
-    Page 1 / 1
+    Page 1 / 2
+        <a href="http://tommyblanchard.com/category/blog2.html">&raquo;</a>
 </p>
             </section><!-- /#content -->
         </section>
