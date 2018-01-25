@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2018-01-25T00:00:00-05:00</updated><entry><title>"Lessons learned in my first year as a data scientist"</title><link href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist" rel="alternate"></link><published>2018-01-25T00:00:00-05:00</published><updated>2018-01-25T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2018-01-25:/lessons-learned-in-my-first-year-as-a-data-scientist</id><summary type="html">&lt;p&gt;It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what I’ve learned has been about how to actually make my skills useful to others in the company.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tommy Blanchard</title><link href="http://tommyblanchard.com/" rel="alternate"></link><link href="http://tommyblanchard.com/feeds/all.atom.xml" rel="self"></link><id>http://tommyblanchard.com/</id><updated>2018-01-25T00:00:00-05:00</updated><entry><title>Lessons learned in my first year as a data scientist</title><link href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist" rel="alternate"></link><published>2018-01-25T00:00:00-05:00</published><updated>2018-01-25T00:00:00-05:00</updated><author><name>Tommy Blanchard</name></author><id>tag:tommyblanchard.com,2018-01-25:/lessons-learned-in-my-first-year-as-a-data-scientist</id><summary type="html">&lt;p&gt;It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what I’ve learned has been about how to actually make my skills useful to others in the company.&lt;/p&gt;
 &lt;p&gt;For context, I work in a healthcare company where the data science group acts kind of like a consulting firm - we take on projects to create predictive models and provide other analytical support. For that reason, a lot of the lessons I’ve learned have more to do with the issues with operationalizing data science projects in the business.&lt;/p&gt;
 &lt;h2&gt;Feature engineering is important&lt;/h2&gt;
 &lt;p&gt;One of the big lessons from the year is that feature engineering is the most important part of building a predictive model. This might not be a surprised to anyone with a lot of machine learning experience, and I certainly had heard this when I started. But if I'm honest, it was hard for me to come up with examples of when or why it was important before I started. Seeing repeated examples of this in practice have really made me understand it on a deeper level. The kind of model you use doesn’t matter if your features suck, and being able to understand what kinds of features will be useful is a skill that requires abstract thinking and intuitive math. This is what makes machine learning hard.&lt;/p&gt;
@@ -196,10 +196,10 @@ I had one project described to me that I was excited to tackle and promised a qu
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="fa80f01b-8ff5-45a2-9157-11f610f29f98"&gt;&lt;/div&gt;
+&lt;div id="d5e48202-f2ec-40f2-9c1c-f22491fba8ea"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#fa80f01b-8ff5-45a2-9157-11f610f29f98');
+var element = $('#d5e48202-f2ec-40f2-9c1c-f22491fba8ea');
 
 (function(global) {
   function now() {
@@ -1519,10 +1519,10 @@ var element = $('#fa80f01b-8ff5-45a2-9157-11f610f29f98');
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="cafce517-5d47-447d-ae6a-8e4bec41963c"&gt;&lt;/div&gt;
+&lt;div id="6fe66a33-753c-48b7-ad74-fb274d992084"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript "&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#cafce517-5d47-447d-ae6a-8e4bec41963c');
+var element = $('#6fe66a33-753c-48b7-ad74-fb274d992084');
 
 (function(global) {
   function now() {
