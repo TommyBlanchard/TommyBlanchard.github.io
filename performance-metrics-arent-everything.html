@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <meta charset="utf-8" />
-        <title>Data Science in Healthcare</title>
+        <title>Performance metrics aren't everything</title>
         <link rel="stylesheet" href="http://tommyblanchard.com/theme/css/main.css" />
         <link href="http://tommyblanchard.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Tommy Blanchard Atom Feed" />
     
@@ -17,10 +17,10 @@
         <![endif]-->
     
             <meta name="twitter:card" content="summary">
-            <meta name="og:url" content="http://tommyblanchard.com/data-science-in-healthcare">
-            <meta name="og:title" content="Data Science in Healthcare">
-            <meta name="og:description" content="I've recently written a couple of guest blog posts about data science in the healthcare space. The first is a pretty general article about some of the challenges and opportunities for data s">
-            <meta name="description" content="I've recently written a couple of guest blog posts about data science in the healthcare space. The first is a pretty general article about some of the challenges and opportunities for data s">
+            <meta name="og:url" content="http://tommyblanchard.com/performance-metrics-arent-everything">
+            <meta name="og:title" content="Performance metrics aren&#39;t everything">
+            <meta name="og:description" content="Lately I’ve been getting pretty annoyed with an obsession with performance metrics. It’s like someone let the word out about what area under the ROC c">
+            <meta name="description" content="Lately I’ve been getting pretty annoyed with an obsession with performance metrics. It’s like someone let the word out about what area under the ROC c">
                 <meta name="og:image" content="http://tommyblanchard.com/images/tommy.jpg">            
                 <meta name="twitter:image:src" content="http://tommyblanchard.com/images/tommy.jpg">
             <meta name="twitter:creator" content="@TommyCBlanchard">
@@ -171,30 +171,33 @@
   <article>
     <header>
       <h1 class="entry-title">
-        <a href="http://tommyblanchard.com/data-science-in-healthcare" rel="bookmark"
-           title="Permalink to Data Science in Healthcare">Data Science in Healthcare</a></h1>
+        <a href="http://tommyblanchard.com/performance-metrics-arent-everything" rel="bookmark"
+           title="Permalink to Performance metrics aren't everything">Performance metrics aren't everything</a></h1>
     </header>
 <section>
     <p id="post-share-links">
         Share this article:
-        <a href="http://twitter.com/home?status=Data%20Science%20in%20Healthcare%20http%3A//tommyblanchard.com/data-science-in-healthcare" target="_blank" title="Share on Twitter">Twitter</a>
+        <a href="http://twitter.com/home?status=Performance%20metrics%20aren%27t%20everything%20http%3A//tommyblanchard.com/performance-metrics-arent-everything" target="_blank" title="Share on Twitter">Twitter</a>
         •
-        <a href="http://www.facebook.com/sharer/sharer.php?u=http%3A//tommyblanchard.com/data-science-in-healthcare" target="_blank" title="Share on Facebook">Facebook</a>
+        <a href="http://www.facebook.com/sharer/sharer.php?u=http%3A//tommyblanchard.com/performance-metrics-arent-everything" target="_blank" title="Share on Facebook">Facebook</a>
         •
-        <a href="https://plus.google.com/share?url=http%3A//tommyblanchard.com/data-science-in-healthcare" target="_blank" title="Share on Google Plus">Google+</a>
+        <a href="https://plus.google.com/share?url=http%3A//tommyblanchard.com/performance-metrics-arent-everything" target="_blank" title="Share on Google Plus">Google+</a>
         •
-        <a href="https://sharetodiaspora.github.io/?title=Data%20Science%20in%20Healthcare&url=http%3A//tommyblanchard.com/data-science-in-healthcare" target="_blank" title="Share on Diaspora">Diaspora*</a>
+        <a href="https://sharetodiaspora.github.io/?title=Performance%20metrics%20aren%27t%20everything&url=http%3A//tommyblanchard.com/performance-metrics-arent-everything" target="_blank" title="Share on Diaspora">Diaspora*</a>
         •
-        <a href="mailto:?subject=Data%20Science%20in%20Healthcare&amp;body=http%3A//tommyblanchard.com/data-science-in-healthcare" target="_blank" title="Share via Email">Email</a>
+        <a href="mailto:?subject=Performance%20metrics%20aren%27t%20everything&amp;body=http%3A//tommyblanchard.com/performance-metrics-arent-everything" target="_blank" title="Share via Email">Email</a>
     </p>
 </section>
     <div class="entry-content">
 <footer class="post-info">
-        <span>Tue 14 November 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/healthcare">Healthcare</a>, <a href="http://tommyblanchard.com/tag/data-science">Data Science</a></span>
-</footer><!-- /.post-info -->      <p>I've recently written a couple of guest blog posts about data science in the healthcare space.</p>
-<p>The first is a pretty general article about some of the challenges and opportunities for data science and predictive analytics in healthcare. You can find it <a href="https://data-science-blog.com/blog/2017/09/04/data-science-and-predictive-analytics-in-healthcare/">here</a>.</p>
-<p>The second one is about the importance of domain knowledge in data science, with a focus again on healthcare. It talks about why domain knowledge is important, and ideas of how to get it if you (like me) are a data science without a medical background working in healthcare. Find that one <a href="https://data-science-blog.com/blog/2017/11/10/the-importance-of-domain-knowledge-a-healthcare-data-science-perspective/">here</a>.</p>
+        <span>Fri 09 February 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a>, <a href="http://tommyblanchard.com/tag/performance-metrics">Performance metrics</a></span>
+</footer><!-- /.post-info -->      <p>Lately I’ve been getting pretty annoyed with an obsession with performance metrics. It’s like someone let the word out about what <a href="http://gim.unmc.edu/dxtests/roc3.htm">area under the ROC curve</a> is and suddenly everyone thinks that’s the only measure of whether a data science project is ‘good’ or not.</p>
+<p>The problem is, whether a model is good or not typically relies on much more than [insert your favorite performance metric here]. Yes, if your model is predicting at chance, it’s almost certainly useless. But even slightly above chance it might be immensely useful (conversely, even with perfect predictions it might be useless). The usefulness of a predictive model is a function of what it enables you to do that you wouldn’t be able to do without it. What actions or interventions will the project as a whole allow that would not otherwise happen, and how valuable are those?</p>
+<p>Unfortunately, a little knowledge can be a dangerous thing. I’ve had projects where the predictive accuracy of a model is completely irrelevant - the model was built just to eliminate the effects of a few variables on some outcome (i.e. to get the residual). After showing how well the model captured the trends in those few variables, the non-technical people who had seen a predictive model before immediately started asking about the area under the ROC curve, and judging the project on this. Yet the value of the project was just removing those trends from the outcome, which the model did beautifully.</p>
+<p>Return On Investment (brought up often and referred to as ROI by those who want you to know they’ve taken a business class) is a better concept to keep in mind for thinking about the value of a project, even if in practice it’s often not possible to work it out exactly. What is the (value - cost) of having this model in production? The cost of a false predictions and the payoff of true predictions are just as important to figuring this out as the predictive accuracy of a model. There is a lot that a data scientist can do to alter these costs and payoffs, and sometimes that’s a better place to focus effort than getting an extra 0.00001 precision in your model.</p>
+<p>For example, often a model is expected to not only make a prediction, but give some idea of why that prediction was made. This is what makes tools like <a href="https://github.com/marcotcr/lime">LIME</a> that explain where a prediction has come from so useful. Unfortunately, they don’t completely solve the issue because explanations are complicated. Some explanations might be less useful than others. Explaining a patient is likely to be sick because they are old might be true, but that doesn’t make the explanation or the prediction useful. Additional work of picking out those features that yield explanations of interest (or grouping features together in a way that makes sense) is also necessary. Doing this work well might create a tool that drastically improves the efficiency of some process. Doing it poorly might mean your model directs effort to the wrong places, creating cost and no value. These are both in the realm of possibilities regardless of how accurate your model is.</p>
+<p>There are plenty of other examples of ways you can use a predictive model beyond just its prediction, or add value on top of that prediction. Knowing a performance metric doesn’t mean you can judge a project’s value. Real projects aren’t Kaggle competitions where the only thing that matters is predictive accuracy.</p>
 
     </div><!-- /.entry-content -->
       
@@ -214,8 +217,8 @@
       <h2>Comments !</h2>
       <div id="disqus_thread"></div>
       <script type="text/javascript">
-        var disqus_identifier = "data-science-in-healthcare";
-        var disqus_url = "http://tommyblanchard.com/data-science-in-healthcare";
+        var disqus_identifier = "performance-metrics-arent-everything";
+        var disqus_url = "http://tommyblanchard.com/performance-metrics-arent-everything";
         (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//tommyblanchard.disqus.com/embed.js';

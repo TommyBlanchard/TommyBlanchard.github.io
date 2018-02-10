@@ -64,7 +64,7 @@
                         <li class="tag-1">
                             <a href="http://tommyblanchard.com/tag/data-science">
                             Data science
-                                    <span class="badge">(7)</span>
+                                    <span class="badge">(8)</span>
                             </a>
                         </li>
                         <li class="tag-1">
@@ -73,7 +73,7 @@
                                     <span class="badge">(5)</span>
                             </a>
                         </li>
-                        <li class="tag-1">
+                        <li class="tag-2">
                             <a href="http://tommyblanchard.com/tag/industry">
                             Industry
                                     <span class="badge">(4)</span>
@@ -85,28 +85,10 @@
                                     <span class="badge">(3)</span>
                             </a>
                         </li>
-                        <li class="tag-2">
+                        <li class="tag-3">
                             <a href="http://tommyblanchard.com/tag/job-hunting">
                             Job hunting
                                     <span class="badge">(2)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-engineer">
-                            Data engineer
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/education">
-                            Education
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/healthcare">
-                            Healthcare
-                                    <span class="badge">(1)</span>
                             </a>
                         </li>
                         <li class="tag-4">
@@ -122,14 +104,38 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/bootcamp">
-                            Bootcamp
+                            <a href="http://tommyblanchard.com/tag/data-engineer">
+                            Data engineer
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/performance-metrics">
+                            Performance metrics
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
                         <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/data-analyst">
                             Data analyst
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/education">
+                            Education
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/bootcamp">
+                            Bootcamp
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/healthcare">
+                            Healthcare
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -160,28 +166,34 @@
 </section>
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist">Lessons learned in my first year as a data scientist</a></h1>
+                    <h1 class="entry-title"><a href="http://tommyblanchard.com/performance-metrics-arent-everything">Performance metrics aren't everything</a></h1>
 <footer class="post-info">
-        <span>Thu 25 January 2018</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a></span>
-</footer><!-- /.post-info --><p>It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what I’ve learned has been about how to actually make my skills useful to others in the company.</p>
-<p>For context, I work in a healthcare company where the data science group acts kind of like a consulting firm - we take on projects to create predictive models and provide other analytical support. For that reason, a lot of the lessons I’ve learned have more to do with the issues with operationalizing data science projects in the business.</p>
-<h2>Feature engineering is important</h2>
-<p>One of the big lessons from the year is that feature engineering is the most important part of building a predictive model. This might not be a surprised to anyone with a lot of machine learning experience, and I certainly had heard this when I started. But if I'm honest, it was hard for me to come up with examples of when or why it was important before I started. Seeing repeated examples of this in practice have really made me understand it on a deeper level. The kind of model you use doesn’t matter if your features suck, and being able to understand what kinds of features will be useful is a skill that requires abstract thinking and intuitive math. This is what makes machine learning hard.</p>
-<h2>Getting the best performance is not important</h2>
-<p>When I was initially learning data science and machine learning, there was a lot of emphasis on performance metrics. The truth is, for almost every project, you can get 90% of the actual value of the project quickly and the last 10% will take you ten times longer. For most projects, it just isn’t worth it. While with Kaggle you want to perfect the model as much as possible because a .01 increase in your performance metric of choice can make or break you, in the real world, tiny increases rarely matter (though obviously this depends on the industry and project).</p>
-<h2>The hard part of projects isn't the machine learning, but everything else</h2>
-<p>More important than knowing how to build the best predictive model is knowing how to translate a business problem into a problem a predictive model can help with, and translating a predictive model into something actionable. When people from other departments hear we can build predictive models, they often come up with some idea of something they think would be interesting to predict. Often, their ideas don’t make sense, but explaining why that’s the case, the technical issues involved, and coming up with an alternative that will work - that’s important.
-It’s also important that once a model is built, the output is actually usable - it’s easy to predict things, but often the prediction is only useful if it comes with some additional insight. Using tools like <a href="https://github.com/marcotcr/lime">lime</a> has been useful and is part of the solution, but sometimes your features are not actionable or easy to understand for the end user, so lime is useful but not a silver bullet - more thought needs to be put in than just to stick lime on the end.</p>
-<h2>Ask the right questions BEFORE you start a project</h2>
-<p>Finally, probably the most important lesson I’ve learned the hard way this year: Make sure you know up front where the data is going to come from and how the project is going to be used before putting too much effort into it or committing to any kind of deadline. 
-I had one project described to me that I was excited to tackle and promised a quick turn-around on, only to learn that writing the algorithm was the easy part. I was given a sample of data and had assumed that meant there was a process in place for me to acquire the data. In reality, there was no such process, and it took months to figure out how to get access to the necessary data. I ended up looking pretty bad for going way over my initial time estimate, even though most of that time was spent waiting for people to respond to emails so I could track down and get access to the necessary data. Figuring out data pipelines is really hard in a big company!</p>
-<p>I also had to pick up a few projects that were started before me when another data scientist left. One was a dashboard put together to help navigate and visualize some text data. I was amazed when I talked to the end-user to check what else they wanted done with the project, and discovered all of the changes they wanted involved removing features. The dashboard was massively over-engineered, with some of its major functionality either removed or left in but never used. Worse, the dashboard was never meant to be in long-term use and would be retired in a year, so there was no chance these features would find eventual use. This meant time was wasted twice - once creating those features, and again going back and removing them to simplify the dashboard.</p>
-<p>This and other experiences really taught me the importance of having a close feedback loop with the end user of whatever project I’m working on. A biweekly, half-hour meeting can end up saving a lot of time.</p><p><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist#disqus_thread">comments</a></p>                </article>
+        <span>Fri 09 February 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a>, <a href="http://tommyblanchard.com/tag/performance-metrics">Performance metrics</a></span>
+</footer><!-- /.post-info --><p>Lately I’ve been getting pretty annoyed with an obsession with performance metrics. It’s like someone let the word out about what <a href="http://gim.unmc.edu/dxtests/roc3.htm">area under the ROC curve</a> is and suddenly everyone thinks that’s the only measure of whether a data science project is ‘good’ or not.</p>
+<p>The problem is, whether a model is good or not typically relies on much more than [insert your favorite performance metric here]. Yes, if your model is predicting at chance, it’s almost certainly useless. But even slightly above chance it might be immensely useful (conversely, even with perfect predictions it might be useless). The usefulness of a predictive model is a function of what it enables you to do that you wouldn’t be able to do without it. What actions or interventions will the project as a whole allow that would not otherwise happen, and how valuable are those?</p>
+<p>Unfortunately, a little knowledge can be a dangerous thing. I’ve had projects where the predictive accuracy of a model is completely irrelevant - the model was built just to eliminate the effects of a few variables on some outcome (i.e. to get the residual). After showing how well the model captured the trends in those few variables, the non-technical people who had seen a predictive model before immediately started asking about the area under the ROC curve, and judging the project on this. Yet the value of the project was just removing those trends from the outcome, which the model did beautifully.</p>
+<p>Return On Investment (brought up often and referred to as ROI by those who want you to know they’ve taken a business class) is a better concept to keep in mind for thinking about the value of a project, even if in practice it’s often not possible to work it out exactly. What is the (value - cost) of having this model in production? The cost of a false predictions and the payoff of true predictions are just as important to figuring this out as the predictive accuracy of a model. There is a lot that a data scientist can do to alter these costs and payoffs, and sometimes that’s a better place to focus effort than getting an extra 0.00001 precision in your model.</p>
+<p>For example, often a model is expected to not only make a prediction, but give some idea of why that prediction was made. This is what makes tools like <a href="https://github.com/marcotcr/lime">LIME</a> that explain where a prediction has come from so useful. Unfortunately, they don’t completely solve the issue because explanations are complicated. Some explanations might be less useful than others. Explaining a patient is likely to be sick because they are old might be true, but that doesn’t make the explanation or the prediction useful. Additional work of picking out those features that yield explanations of interest (or grouping features together in a way that makes sense) is also necessary. Doing this work well might create a tool that drastically improves the efficiency of some process. Doing it poorly might mean your model directs effort to the wrong places, creating cost and no value. These are both in the realm of possibilities regardless of how accurate your model is.</p>
+<p>There are plenty of other examples of ways you can use a predictive model beyond just its prediction, or add value on top of that prediction. Knowing a performance metric doesn’t mean you can judge a project’s value. Real projects aren’t Kaggle competitions where the only thing that matters is predictive accuracy.</p><p><a href="http://tommyblanchard.com/performance-metrics-arent-everything#disqus_thread">comments</a></p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <ol id="posts-list" class="hfeed">
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist" rel="bookmark"
+                           title="Permalink to Lessons learned in my first year as a data scientist">Lessons learned in my first year as a data scientist</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>Thu 25 January 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a></span>
+</footer><!-- /.post-info -->                <p>It’s been a year since I started my first job as a data scientist. In that time, I’ve learned a lot, but most of that learning hasn’t been the type I expected. I’ve certainly learned some things about new technologies and techniques, but much of what …</p>
+                <a class="readmore" href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist">read more</a>
+<p><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
+            </article></li>
             <li><article class="hentry">
                 <header>
                     <h1><a href="http://tommyblanchard.com/motivation-in-academia-vs-industry" rel="bookmark"
@@ -299,20 +311,6 @@ I had one project described to me that I was excited to tackle and promised a qu
 </footer><!-- /.post-info -->                <p>It's been two and a half months since I left academia to take a job as a data scientist in industry. Although I haven't been in my new job for very long yet, I wanted to check in with my current thoughts about whether the transition was worth it and …</p>
                 <a class="readmore" href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science">read more</a>
 <p><a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer" rel="bookmark"
-                           title="Permalink to Does the Muslim ban make us safer?">Does the Muslim ban make us safer?</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Fri 10 March 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/data-exploration">Data exploration</a>, <a href="http://tommyblanchard.com/tag/data-visualization">Data visualization</a>, <a href="http://tommyblanchard.com/tag/terrorism">Terrorism</a>, <a href="http://tommyblanchard.com/tag/politics">Politics</a></span>
-</footer><!-- /.post-info -->                <p>On March 6, Donald Trump signed a second executive order banning people from certain majority-muslim countries from entering the USA. The previous order banned citizens of seven countries: Syria, Iran, Sudan, Libya, Somalia, Yemen, and Iraq, but was stopped after legal action. The new ban applies to six countries - Iraq …</p>
-                <a class="readmore" href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer">read more</a>
-<p><a href="http://tommyblanchard.com/does-the-muslim-ban-make-us-safer#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
             </article></li>
             </ol><!-- /#posts-list -->
 <p class="paginator">
