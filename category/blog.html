@@ -64,7 +64,7 @@
                         <li class="tag-1">
                             <a href="http://tommyblanchard.com/tag/data-science">
                             Data science
-                                    <span class="badge">(8)</span>
+                                    <span class="badge">(9)</span>
                             </a>
                         </li>
                         <li class="tag-1">
@@ -92,14 +92,14 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-engineer">
-                            Data engineer
+                            <a href="http://tommyblanchard.com/tag/career">
+                            Career
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/education">
-                            Education
+                            <a href="http://tommyblanchard.com/tag/data-analyst">
+                            Data analyst
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -110,8 +110,14 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/performance-metrics">
-                            Performance metrics
+                            <a href="http://tommyblanchard.com/tag/data-science-training">
+                            Data science training
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/education">
+                            Education
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -122,20 +128,20 @@
                             </a>
                         </li>
                         <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/performance-metrics">
+                            Performance metrics
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/bootcamp">
                             Bootcamp
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-science-training">
-                            Data science training
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/data-analyst">
-                            Data analyst
+                            <a href="http://tommyblanchard.com/tag/data-engineer">
+                            Data engineer
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -166,20 +172,41 @@
 </section>
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="http://tommyblanchard.com/performance-metrics-arent-everything">Performance metrics aren't everything</a></h1>
+                    <h1 class="entry-title"><a href="http://tommyblanchard.com/its-okay-to-not-be-a-data-scientist">It’s okay to not be a data scientist</a></h1>
 <footer class="post-info">
-        <span>Fri 09 February 2018</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a>, <a href="http://tommyblanchard.com/tag/performance-metrics">Performance metrics</a></span>
-</footer><!-- /.post-info --><p>Lately I’ve been getting pretty annoyed with an obsession with performance metrics. It’s like someone let the word out about what <a href="http://gim.unmc.edu/dxtests/roc3.htm">area under the ROC curve</a> is and suddenly everyone thinks that’s the only measure of whether a data science project is ‘good’ or not.</p>
-<p>The problem is, whether a model is good or not typically relies on much more than [insert your favorite performance metric here]. Yes, if your model is predicting at chance, it’s almost certainly useless. But even slightly above chance it might be immensely useful (conversely, even with perfect predictions it might be useless). The usefulness of a predictive model is a function of what it enables you to do that you wouldn’t be able to do without it. What actions or interventions will the project as a whole allow that would not otherwise happen, and how valuable are those?</p>
-<p>Unfortunately, a little knowledge can be a dangerous thing. I’ve had projects where the predictive accuracy of a model is completely irrelevant - the model was built just to eliminate the effects of a few variables on some outcome (i.e. to get the residual). After showing how well the model captured the trends in those few variables, the non-technical people who had seen a predictive model before immediately started asking about the area under the ROC curve, and judging the project on this. Yet the value of the project was just removing those trends from the outcome, which the model did beautifully.</p>
-<p>Return On Investment (brought up often and referred to as ROI by those who want you to know they’ve taken a business class) is a better concept to keep in mind for thinking about the value of a project, even if in practice it’s often not possible to work it out exactly. What is the (value - cost) of having this model in production? The cost of a false predictions and the payoff of true predictions are just as important to figuring this out as the predictive accuracy of a model. There is a lot that a data scientist can do to alter these costs and payoffs, and sometimes that’s a better place to focus effort than getting an extra 0.00001 precision in your model.</p>
-<p>For example, often a model is expected to not only make a prediction, but give some idea of why that prediction was made. This is what makes tools like <a href="https://github.com/marcotcr/lime">LIME</a> that explain where a prediction has come from so useful. Unfortunately, they don’t completely solve the issue because explanations are complicated. Some explanations might be less useful than others. Explaining a patient is likely to be sick because they are old might be true, but that doesn’t make the explanation or the prediction useful. Additional work of picking out those features that yield explanations of interest (or grouping features together in a way that makes sense) is also necessary. Doing this work well might create a tool that drastically improves the efficiency of some process. Doing it poorly might mean your model directs effort to the wrong places, creating cost and no value. These are both in the realm of possibilities regardless of how accurate your model is.</p>
-<p>There are plenty of other examples of ways you can use a predictive model beyond just its prediction, or add value on top of that prediction. Knowing a performance metric doesn’t mean you can judge a project’s value. Real projects aren’t Kaggle competitions where the only thing that matters is predictive accuracy.</p><p><a href="http://tommyblanchard.com/performance-metrics-arent-everything#disqus_thread">comments</a></p>                </article>
+        <span>Tue 20 February 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a>, <a href="http://tommyblanchard.com/tag/career">Career</a></span>
+</footer><!-- /.post-info --><h2>Everyone wants to be a data scientist</h2>
+<p>Being a data scientist has been hyped a lot in the past few years. Glassdoor has listed it as the #1 <a href="https://www.glassdoor.com/List/Best-Jobs-in-America-LST_KQ0,20.htm">Best Job in America</a> 3 years in a row, and it isn’t hard to find <a href="https://data36.com/become-data-scientist-7-plus-1-selfish-reasons/">blog posts</a> talking about how great being a data scientist is. It’s no surprise, then, that the <a href="https://www.reddit.com/r/datascience/">main data science subreddit</a> seems to be mostly people asking for advice on how to <em>become</em> a data scientist, rather than about data science.</p>
+<p>I’ve been feeling pretty ambivalent about a lot of the advice I’ve seen (and previously given), and I worry it’s been doing people a disservice. A lot of the advice out there (and advertising from certain online courses/bootcamps) make it sound like the only things you need to be a data scientist are a few technical skills - so it’s no surprise that there are questions <a href="https://www.reddit.com/r/datascience/comments/7u0a4d/why_is_the_pay_gap_so_large_between_data_analysts/">like this</a> asking why the pay gap between data analysts and data scientists is so large if the lists of technical skills each need to have are the same.</p>
+<h2>Why isn’t everyone a data scientist?</h2>
+<p>The truth is, there is more to being a data scientist than learning how to import sklearn. I have to tread carefully here. I don’t want to be seen as gatekeeping. But I think there needs to be some reality check on the idea that anyone can do one machine learning project and put it on github to land a job paying a 6-figure income.</p>
+<p>According to the 2017 <a href="https://www.burtchworks.com/">Burtch Works</a> ‘Salaries of Data Scientists’ report, about 90% of data scientists have advanced degrees (~40% PhDs, ~50% Masters). Of those 10% without a graduate degree, my guess (I don’t have stats on this) the majority have a lot of experience either with pretty high-level data analytics or software engineering. </p>
+<p>There are reasons for the large proportion of graduate degrees. Graduate degrees (especially PhDs) in quantitative disciplines indicate that a person has had a certain amount of experience with exploring abstract concepts, developing intuitions for statistical relationships, devising ways of testing hypotheses, translating data into stories, communicating complex results, etc. It may only take a couple of months to learn Python and how to wrangle data in Pandas and build a model in sklearn, but that’s just the surface-level stuff. The real world has complications that require you to have an intuition behind the math and understand what will and won’t work - and how to show that it will or won’t work.</p>
+<p>I don’t mean to imply a PhD is required to be a data scientist - that is empirically false (60% don’t, after all). There are many different paths to becoming a data scientist. <strong>But there’s no easy path</strong>. </p>
+<p>The thing to realize about all of those data science bootcamps and online courses is this: for most of the people who get a data scientist job after them, the skills they learned in those courses were just the icing on the cake. If you have a quantitative PhD, or tonnes of software engineering experience, or years of working closely with data scientists as a data analyst, maybe all you need is a short course to pick up how to use a couple of Python packages and you’ll be competitive. If you don’t, most likely you have a longer road to being a data scientist.</p>
+<h2>You don’t have to be a data scientist</h2>
+<p>Gaining new skills is fun and probably good for your career regardless of what title you end up with. It’s worth picking up skills that allow you to do things you enjoy. If you currently don’t work as an analytics professional, learning online or doing a data science course could certainly help land that first data analyst position. Maybe if you’re a current data analyst working at a high level, learning some of those skills and incorporating them into your work could eventually lead to a data science position down the road.</p>
+<p>But there are more ways ‘up’ than one. Being a data scientist doesn’t need to be your goal. You can end up on a management track and end up leading a team of data analysts. That may lead to managing a large data analytics group, or even to being Chief Analytics Officer one day. My point is, a lot of people are a bit too obsessed with the title ‘Data Scientist’. It’s a good job, but I think people are overvaluing it and underestimating the expected level of experience for it. There are lots of great analytics jobs (and lots of great non-analytics jobs, for that matter), and I think it would benefit some people to take their eyes off the shiny, hyped up ‘data scientist’ title and judge their options more objectively.</p><p><a href="http://tommyblanchard.com/its-okay-to-not-be-a-data-scientist#disqus_thread">comments</a></p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <ol id="posts-list" class="hfeed">
+            <li><article class="hentry">
+                <header>
+                    <h1><a href="http://tommyblanchard.com/performance-metrics-arent-everything" rel="bookmark"
+                           title="Permalink to Performance metrics aren't everything">Performance metrics aren't everything</a></h1>
+                </header>
+
+                <div class="entry-content">
+<footer class="post-info">
+        <span>Fri 09 February 2018</span>
+<span>| tags: <a href="http://tommyblanchard.com/tag/data-science">Data science</a>, <a href="http://tommyblanchard.com/tag/performance-metrics">Performance metrics</a></span>
+</footer><!-- /.post-info -->                <p>Lately I’ve been getting pretty annoyed with an obsession with performance metrics. It’s like someone let the word out about what <a href="http://gim.unmc.edu/dxtests/roc3.htm">area under the ROC curve</a> is and suddenly everyone thinks that’s the only measure of whether a data science project is ‘good’ or not.</p>
+<p>The problem …</p>
+                <a class="readmore" href="http://tommyblanchard.com/performance-metrics-arent-everything">read more</a>
+<p><a href="http://tommyblanchard.com/performance-metrics-arent-everything#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
+            </article></li>
             <li><article class="hentry">
                 <header>
                     <h1><a href="http://tommyblanchard.com/lessons-learned-in-my-first-year-as-a-data-scientist" rel="bookmark"
@@ -297,20 +324,6 @@
 </footer><!-- /.post-info -->                <p>Ever since I've started writing about my transition from academia to industry (both <a href="http://tommyblanchard.com/reasons-i-left-academia">my reasons for leaving</a> and <a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science">what I think about the transition in retrospect</a>), I've started receiving a lot of requests for advice on making that transition. Sometimes these requests come from former peers, former professors looking to …</p>
                 <a class="readmore" href="http://tommyblanchard.com/how-to-make-the-transition-from-academia-to-data-science">read more</a>
 <p><a href="http://tommyblanchard.com/how-to-make-the-transition-from-academia-to-data-science#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
-            </article></li>
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science" rel="bookmark"
-                           title="Permalink to Retrospective on leaving academia for industry data science">Retrospective on leaving academia for industry data science</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <span>Sun 09 April 2017</span>
-<span>| tags: <a href="http://tommyblanchard.com/tag/academia">Academia</a>, <a href="http://tommyblanchard.com/tag/life">Life</a>, <a href="http://tommyblanchard.com/tag/industry">Industry</a>, <a href="http://tommyblanchard.com/tag/data-science">Data science</a></span>
-</footer><!-- /.post-info -->                <p>It's been two and a half months since I left academia to take a job as a data scientist in industry. Although I haven't been in my new job for very long yet, I wanted to check in with my current thoughts about whether the transition was worth it and …</p>
-                <a class="readmore" href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science">read more</a>
-<p><a href="http://tommyblanchard.com/retrospective-on-leaving-academia-for-industry-data-science#disqus_thread">comments</a></p>                </div><!-- /.entry-content -->
             </article></li>
             </ol><!-- /#posts-list -->
 <p class="paginator">
