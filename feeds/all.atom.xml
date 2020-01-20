@@ -250,10 +250,10 @@ I had one project described to me that I was excited to tackle and promised a qu
 &lt;/div&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="24f75f14-3c92-4d8e-a163-909ebed06d1c"&gt;&lt;/div&gt;
+&lt;div id="84d5c676-53fc-4cc1-9cb9-1e82a457dca2"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript"&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#24f75f14-3c92-4d8e-a163-909ebed06d1c');
+var element = $('#84d5c676-53fc-4cc1-9cb9-1e82a457dca2');
 
 (function(global) {
   function now() {
@@ -1565,10 +1565,10 @@ var element = $('#24f75f14-3c92-4d8e-a163-909ebed06d1c');
 &lt;/div&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="568e693d-395b-4971-86d1-286682d2d927"&gt;&lt;/div&gt;
+&lt;div id="44d01ef1-77b4-47bf-bafc-90eec4bfda7c"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript"&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#568e693d-395b-4971-86d1-286682d2d927');
+var element = $('#44d01ef1-77b4-47bf-bafc-90eec4bfda7c');
 
 (function(global) {
   function now() {
