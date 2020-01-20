@@ -92,14 +92,8 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/css">
-                            CSS
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/jinga2">
-                            Jinga2
+                            <a href="http://tommyblanchard.com/tag/terrorism">
+                            Terrorism
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -110,8 +104,26 @@
                             </a>
                         </li>
                         <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/heroku">
-                            Heroku
+                            <a href="http://tommyblanchard.com/tag/movies">
+                            Movies
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/jinga2">
+                            Jinga2
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/css">
+                            CSS
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/flask">
+                            Flask
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -122,26 +134,14 @@
                             </a>
                         </li>
                         <li class="tag-4">
+                            <a href="http://tommyblanchard.com/tag/heroku">
+                            Heroku
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
                             <a href="http://tommyblanchard.com/tag/static-site-generators">
                             Static site generators
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/movies">
-                            Movies
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/terrorism">
-                            Terrorism
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="http://tommyblanchard.com/tag/flask">
-                            Flask
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -195,7 +195,7 @@
 <footer class="post-info">
         <span>Fri 24 February 2017</span>
 <span>| tags: <a href="http://tommyblanchard.com/tag/python">Python</a>, <a href="http://tommyblanchard.com/tag/bokeh">Bokeh</a>, <a href="http://tommyblanchard.com/tag/data-exploration">Data exploration</a></span>
-</footer><!-- /.post-info --><br><header id="attribution" style="color:#999; font-size: 120%; text-align: center">
+</footer><!-- /.post-info --><br /><header id="attribution" style="color:#999; font-size: 120%; text-align: center">
 <b>This article was created with Jupyter. To see the code generating all figures and outputs, click 'Show Code'</b>
 </header>
 <script>
@@ -215,11 +215,8 @@
                         $('div.input').hide()
                       });
                     </script>
-<div style="text-align: center;"><form action="javascript:code_toggle()"><input id="toggleButton" style="font-size: 200%; width: 10em" type="submit" value="Show Code" /></form></div><br>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div style="text-align: center;"><form action="javascript:code_toggle()"><input id="toggleButton" style="font-size: 200%; width: 10em" type="submit" value="Show Code" /></form></div><br /><div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Introduction"><center>Introduction</center><a class="anchor-link" href="#Introduction">¶</a></h1><p>In <a href="http://tommyblanchard.com/movie-genre-ratings">a previous post</a>, I looked at trends in critic and audience ratings of movies. One finding was that critics on average rate movies lower than audiences. One potential explanation for this is that there is more selection bias with audience ratings - only people who are an audience likely to enjoy a film will tend to see (and therefore rate) it. In other words, if you asked an audience member or a critic how much enjoyment they would get out of seeing a film they rated a 5, you would get similar responses.</p>
 <p>However, an alternative explanation is that when I compare audience and critic responses, I'm comparing apples and oranges. Maybe critics, having made a career of rating things, actually have a better calibrated rating scale. As a population, they use a wider range of values. Under this explanation, a 5 from an audience (around the lowest I saw for any movie) is actually more like a 2 from a critic.</p>
@@ -234,7 +231,7 @@
 <div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
 
 <span class="c1">#Import some tools we'll use</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -256,15 +253,17 @@
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_html rendered_html output_subarea ">
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_html rendered_html output_subarea">
 </div>
 </div>
-<div class="output_area"><div class="prompt"></div>
-<div id="a8f97801-d786-4a41-b8a1-ffe309bbf753"></div>
-<div class="output_subarea output_javascript ">
+<div class="output_area">
+<div class="prompt"></div>
+<div id="03f218ec-4e68-4170-a057-24a7872346c8"></div>
+<div class="output_subarea output_javascript">
 <script type="text/javascript">
-var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
+var element = $('#03f218ec-4e68-4170-a057-24a7872346c8');
 
 (function(global) {
   function now() {
@@ -399,7 +398,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [2]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">###Just copying and pasting the code from the other notebook and zscoring</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">###Just copying and pasting the code from the other notebook and zscoring</span>
 <span class="c1">##DATA PREP</span>
 
 <span class="c1">#Read in the data</span>
@@ -440,7 +439,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [3]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Themes aren't really supported yet in Bokeh, so define a function to do styling</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Themes aren't really supported yet in Bokeh, so define a function to do styling</span>
 <span class="k">def</span> <span class="nf">styleBokeh</span><span class="p">(</span><span class="n">p</span><span class="p">):</span>
     <span class="c1">#Hide the bokeh toolbar</span>
     <span class="n">p</span><span class="o">.</span><span class="n">toolbar_location</span> <span class="o">=</span> <span class="kc">None</span>
@@ -466,7 +465,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [4]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##SCATTER PLOT ALL MOVIES</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">##SCATTER PLOT ALL MOVIES</span>
 
 <span class="c1">#Make a data source for bokeh to use</span>
 <span class="n">mov_source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">mov</span><span class="p">)</span>
@@ -509,8 +508,9 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_html rendered_html output_subarea ">
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_html rendered_html output_subarea">
 <div class="bk-root">
 <div class="bk-plotdiv" id="a54e96a0-1e33-4cb6-834b-960e835a72c5"></div>
 </div>
@@ -655,10 +655,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The audience and critic ratings have about the same ranges, and the red line seems to go straight through the center of the movies. Great! Now we can look at how this changes things by genre.</p>
 </div>
@@ -669,7 +667,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [5]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##DATA PREP FOR GENRE PLOTS</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">##DATA PREP FOR GENRE PLOTS</span>
 
 <span class="c1">#Melt the genre columns so we only have one. This will give multiple entries for movies with more than one genre</span>
 <span class="n">melted_mov</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span>
@@ -699,7 +697,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [6]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">##SCATTER PLOT FOR GENRE SCORES</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">##SCATTER PLOT FOR GENRE SCORES</span>
 
 <span class="c1">#Make a data source for bokeh</span>
 <span class="n">genre_revs_source</span> <span class="o">=</span> <span class="n">ColumnDataSource</span><span class="p">(</span><span class="n">genre_revs</span><span class="p">)</span>
@@ -748,8 +746,9 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_html rendered_html output_subarea ">
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_html rendered_html output_subarea">
 <div class="bk-root">
 <div class="bk-plotdiv" id="768b02f5-64d0-46c4-abc6-01df46dcc3f4"></div>
 </div>
@@ -894,10 +893,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now we can see what genres audiences like more than average (above 0 on the y-axis), what critics like more than average (to the right of 0 on the x-axis). We can also see where audiences and critics disagree most <em>relative to their normal ratings</em>. So while audience members rate drama movies higher than critics do on average, when you take the audience's tendency to rate everything pretty high into account, critics actually like drama more.</p>
 <p>Again this is easier to see if we take the difference.</p>
@@ -909,7 +906,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [7]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">genre_revs</span> <span class="o">=</span> <span class="n">genre_revs</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'dif'</span><span class="p">,</span> <span class="n">ascending</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">genre_revs</span> <span class="o">=</span> <span class="n">genre_revs</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'dif'</span><span class="p">,</span> <span class="n">ascending</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
 <span class="n">p</span> <span class="o">=</span> <span class="n">Bar</span><span class="p">(</span><span class="n">genre_revs</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(),</span>
         <span class="n">values</span><span class="o">=</span><span class="s1">'dif'</span><span class="p">,</span>
         <span class="n">label</span><span class="o">=</span><span class="n">CatAttr</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'genre'</span><span class="p">],</span> <span class="n">sort</span><span class="o">=</span><span class="kc">False</span><span class="p">),</span>
@@ -926,8 +923,9 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt"></div>
-<div class="output_html rendered_html output_subarea ">
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_html rendered_html output_subarea">
 <div class="bk-root">
 <div class="bk-plotdiv" id="1806a496-af20-4ff0-831d-822c670996b8"></div>
 </div>
@@ -1072,10 +1070,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now we see that Fantasy is still the genre audiences disagree with critics most about, but we also get a neat separation - there are genres audiences like relatively more (fantasy, adventure, and action), and those that critics like relatively more (thriller, drama, comedy, crime, romance). Sci-fi, animation, and family is where there is the most agreement.</p>
 <p>For completeness, I'm including the top 10 lists I generated for the last post. The lists are notably quite similar.</p>
@@ -1087,7 +1083,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [8]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Make mov presentable for printing</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Make mov presentable for printing</span>
 <span class="n">print_mov</span> <span class="o">=</span> <span class="n">mov</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">'Genre_1'</span><span class="p">,</span> <span class="s1">'Genre_2'</span><span class="p">,</span> <span class="s1">'Genre_3'</span><span class="p">,</span> <span class="s1">'colors'</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">print_mov</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Title'</span><span class="p">,</span> <span class="s1">'Audience Score'</span><span class="p">,</span> <span class="s1">'Critic Score'</span><span class="p">,</span> <span class="s1">'Difference'</span><span class="p">,</span> <span class="s1">'Genres'</span><span class="p">]</span>
 </pre></div>
@@ -1095,10 +1091,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Top-10-Fantasy-Movies-Audiences-Love-More-Than-Critics">Top 10 Fantasy Movies Audiences Love More Than Critics<a class="anchor-link" href="#Top-10-Fantasy-Movies-Audiences-Love-More-Than-Critics">¶</a></h1><p>We still get lots of twilight and superhero movies on this scale.</p>
 </div>
@@ -1109,7 +1103,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [9]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Get the titles of the 10 fantasy movies with the greatest difference between audience and critics</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Get the titles of the 10 fantasy movies with the greatest difference between audience and critics</span>
 <span class="n">fantasy_movie_titles</span> <span class="o">=</span> <span class="p">(</span><span class="n">melted_mov</span><span class="p">[</span><span class="n">melted_mov</span><span class="p">[</span><span class="s1">'genre'</span><span class="p">]</span> <span class="o">==</span> <span class="s1">'Fantasy'</span><span class="p">]</span><span class="o">.</span>
                         <span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'dif'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
                         <span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
@@ -1128,7 +1122,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
+<div class="output_area">
+<div class="prompt output_prompt">Out[9]:</div>
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
 <table border="1" class="dataframe">
@@ -1231,10 +1226,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="-Top-10-Movies-Audiences-Love-More-Than-Critics"><center> Top 10 Movies Audiences Love More Than Critics</center><a class="anchor-link" href="#-Top-10-Movies-Audiences-Love-More-Than-Critics">¶</a></h1><p>This list has mostly the same movies as the unstandardized version, with some of the ordering slightly different.</p>
 </div>
@@ -1245,7 +1238,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [10]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">top10_table</span> <span class="o">=</span> <span class="n">print_mov</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Difference'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">top10_table</span> <span class="o">=</span> <span class="n">print_mov</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Difference'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
 <span class="n">top10_table</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span>
 <span class="n">top10_table</span>
 </pre></div>
@@ -1254,7 +1247,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
+<div class="output_area">
+<div class="prompt output_prompt">Out[10]:</div>
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
 <table border="1" class="dataframe">
@@ -1357,10 +1351,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="-Movies-Critics-Love-More-Than-Audiences-"><center> Movies Critics Love More Than Audiences </center><a class="anchor-link" href="#-Movies-Critics-Love-More-Than-Audiences-">¶</a></h1><p>Again, this mostly looks the same as the unstandardized list.</p>
 </div>
@@ -1371,7 +1363,7 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 <div class="prompt input_prompt">In [11]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">bot10_table</span> <span class="o">=</span> <span class="n">print_mov</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Difference'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">bot10_table</span> <span class="o">=</span> <span class="n">print_mov</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Difference'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">]</span>
 <span class="n">bot10_table</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">)</span>
 <span class="n">bot10_table</span>
 </pre></div>
@@ -1380,7 +1372,8 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 <div class="output_wrapper">
 <div class="output">
-<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
+<div class="output_area">
+<div class="prompt output_prompt">Out[11]:</div>
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
 <table border="1" class="dataframe">
@@ -1483,15 +1476,14 @@ var element = $('#a8f97801-d786-4a41-b8a1-ffe309bbf753');
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Conclusion"><center>Conclusion</center><a class="anchor-link" href="#Conclusion">¶</a></h1><p>I think you could spend a lot of time discussing what the best way of interpreting the audience and critic scores - it's a strange case where we have a seemingly intuitive score (a 10-point scale), but we don't know if our populations (critics and audiences) are using them the same. It's nice that for the most part, this difference in interpretation doesn't change much in terms of what genres or movies audiences and critics disagree on most.</p>
 </div>
 </div>
-</div></br></br>
+</div>
+
 <script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
