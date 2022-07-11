@@ -286,10 +286,10 @@ I had one project described to me that I was excited to tackle and promised a qu
 &lt;/div&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="64756888-40e7-4f46-9c91-6c6ddef9e947"&gt;&lt;/div&gt;
+&lt;div id="18b5e1a1-c737-4182-9049-2e529616c5c0"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript"&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#64756888-40e7-4f46-9c91-6c6ddef9e947');
+var element = $('#18b5e1a1-c737-4182-9049-2e529616c5c0');
 
 (function(global) {
   function now() {
@@ -1601,10 +1601,10 @@ var element = $('#64756888-40e7-4f46-9c91-6c6ddef9e947');
 &lt;/div&gt;
 &lt;div class="output_area"&gt;
 &lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div id="c6059a49-0176-460b-a7d6-ec4f70f3320a"&gt;&lt;/div&gt;
+&lt;div id="f589fbff-b93d-4d98-85f5-4acc3e3ff45c"&gt;&lt;/div&gt;
 &lt;div class="output_subarea output_javascript"&gt;
 &lt;script type="text/javascript"&gt;
-var element = $('#c6059a49-0176-460b-a7d6-ec4f70f3320a');
+var element = $('#f589fbff-b93d-4d98-85f5-4acc3e3ff45c');
 
 (function(global) {
   function now() {
