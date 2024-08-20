@@ -64,31 +64,25 @@
                         <li class="tag-1">
                             <a href="https://tommyblanchard.com/tag/python">
                             Python
-                                    <span class="badge">(5)</span>
-                            </a>
-                        </li>
-                        <li class="tag-1">
-                            <a href="https://tommyblanchard.com/tag/data-exploration">
-                            Data exploration
                                     <span class="badge">(3)</span>
-                            </a>
-                        </li>
-                        <li class="tag-1">
-                            <a href="https://tommyblanchard.com/tag/bokeh">
-                            Bokeh
-                                    <span class="badge">(3)</span>
-                            </a>
-                        </li>
-                        <li class="tag-2">
-                            <a href="https://tommyblanchard.com/tag/data-visualization">
-                            Data visualization
-                                    <span class="badge">(2)</span>
                             </a>
                         </li>
                         <li class="tag-2">
                             <a href="https://tommyblanchard.com/tag/pelican">
                             Pelican
                                     <span class="badge">(2)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="https://tommyblanchard.com/tag/data-exploration">
+                            Data exploration
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="https://tommyblanchard.com/tag/data-visualization">
+                            Data visualization
+                                    <span class="badge">(1)</span>
                             </a>
                         </li>
                         <li class="tag-4">
@@ -100,12 +94,6 @@
                         <li class="tag-4">
                             <a href="https://tommyblanchard.com/tag/politics">
                             Politics
-                                    <span class="badge">(1)</span>
-                            </a>
-                        </li>
-                        <li class="tag-4">
-                            <a href="https://tommyblanchard.com/tag/movies">
-                            Movies
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -124,6 +112,12 @@
                         <li class="tag-4">
                             <a href="https://tommyblanchard.com/tag/flask">
                             Flask
+                                    <span class="badge">(1)</span>
+                            </a>
+                        </li>
+                        <li class="tag-4">
+                            <a href="https://tommyblanchard.com/tag/bokeh">
+                            Bokeh
                                     <span class="badge">(1)</span>
                             </a>
                         </li>
@@ -180,10 +174,9 @@
 <p>By default, Pelican does not have a tag cloud. In recent versions, <a href="http://docs.getpelican.com/en/stable/faq.html#my-tag-cloud-is-missing-broken-since-i-upgraded-pelican">they've taken the tag cloud functionality out of the main program</a> and put it into <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">a plugin</a>. However, the plugin counts all tags across all articles, meaning my 'Blog' tags would be mixed in with the 'Projects' tags. I ended up needing to modify the plugin to get the functionality I wanted. Instructions in case you want to do the same thing are below.</p>
 <h1>Set up</h1>
 <p>Since I modified the base tag_cloud plugin, the set up is very similar to that described on the official <a href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud">tag cloud plugin page</a>. First, <strong>pelicanconf.py</strong> needs to be modified to look for the tag cloud plugin. If this is your first plugin, you should simply add these lines:</p>
-<div class="highlight"><pre><span></span><span class="n">PLUGIN_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="ss">&quot;plugins&quot;</span><span class="p">]</span>
-<span class="n">PLUGINS</span> <span class="o">=</span> <span class="p">[</span><span class="ss">&quot;tag_cloud&quot;</span><span class="p">]</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>PLUGIN_PATHS = [&quot;plugins&quot;]
+PLUGINS = [&quot;tag_cloud&quot;]
+</code></pre></div>
 
 <p>Otherwise, just add "tag_cloud" to your current PLUGINS list.</p>
 <p>Next, you'll need the tag_cloud.py file, and need to place it in your plugins folder. You can download my version of tag_cloud.py from the <a href="https://github.com/TommyBlanchard/pelican-plugins/tree/master/tag_cloud">github repo</a>.</p>
@@ -192,88 +185,85 @@
 <p>To display the tag clouds is a little more complicated than with the basic plugin. You probably don't want to tag clouds showing up on every page - I only wanted them on the category pages themselves, article pages, and tags pages.</p>
 <p>The different themes all have similar structures, but some might be a bit different. I use the <a href="https://github.com/blueicefield/pelican-blueidea">blueidea theme</a>.</p>
 <p>To have the tag list for a category appear on article pages, the following code should be added <strong>article.html</strong>:</p>
-<div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nv">div</span> <span class="nv">id</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">tagcloud</span><span class="s2">&quot;</span><span class="o">&gt;</span>
-    {<span class="o">%</span> <span class="k">for</span> <span class="nv">cat</span> <span class="nv">in</span> <span class="nv">tag_cloud</span> <span class="o">%</span>}
-        {<span class="o">%</span> <span class="k">if</span> <span class="nv">article</span>.<span class="nv">category</span> <span class="o">==</span> <span class="nv">cat</span>.<span class="mi">0</span> <span class="o">%</span>}
-                <span class="o">&lt;</span><span class="nv">b</span><span class="o">&gt;&lt;</span><span class="nv">center</span><span class="o">&gt;</span>{{ <span class="nv">cat</span>.<span class="mi">0</span> }} <span class="nv">Tags</span><span class="o">&lt;/</span><span class="nv">center</span><span class="o">&gt;&lt;/</span><span class="nv">b</span><span class="o">&gt;</span>
-                <span class="o">&lt;</span><span class="nv">ul</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">tagcloud</span><span class="s2">&quot;</span><span class="o">&gt;</span>
-                    {<span class="o">%</span> <span class="k">for</span> <span class="nv">tag</span> <span class="nv">in</span> <span class="nv">cat</span>.<span class="mi">1</span> <span class="o">%</span>}
-                        <span class="o">&lt;</span><span class="nv">li</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">tag-{{ tag.1 }}</span><span class="s2">&quot;</span><span class="o">&gt;</span>
-                            <span class="o">&lt;</span><span class="nv">a</span> <span class="nv">href</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">{{ SITEURL }}/{{ tag.0.url }}</span><span class="s2">&quot;</span><span class="o">&gt;</span>
-                                {{ <span class="nv">tag</span>.<span class="mi">0</span> }}
-                                {<span class="o">%</span> <span class="k">if</span> <span class="nv">TAG_CLOUD_BADGE</span> <span class="o">%</span>}
-                                    <span class="o">&lt;</span><span class="nv">span</span> <span class="nv">class</span><span class="o">=</span><span class="s2">&quot;</span><span class="s">badge</span><span class="s2">&quot;</span><span class="o">&gt;</span><span class="ss">(</span>{{ <span class="nv">tag</span>.<span class="mi">2</span> }}<span class="ss">)</span><span class="o">&lt;/</span><span class="nv">span</span><span class="o">&gt;</span>
-                                {<span class="o">%</span> <span class="k">endif</span> <span class="o">%</span>}
-                            <span class="o">&lt;/</span><span class="nv">a</span><span class="o">&gt;</span>
-                        <span class="o">&lt;/</span><span class="nv">li</span><span class="o">&gt;</span>
-                    {<span class="o">%</span> <span class="nv">endfor</span> <span class="o">%</span>}                        
-            <span class="o">&lt;/</span><span class="nv">ul</span><span class="o">&gt;</span> 
-         {<span class="o">%</span> <span class="k">endif</span> <span class="o">%</span>}
-     {<span class="o">%</span> <span class="nv">endfor</span> <span class="o">%</span>}
-<span class="o">&lt;/</span><span class="nv">div</span><span class="o">&gt;</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;div</span><span class="w"> </span><span class="na">id=</span><span class="s">&quot;tagcloud&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="cp">{%</span> <span class="k">for</span> <span class="nv">cat</span> <span class="k">in</span> <span class="nv">tag_cloud</span> <span class="cp">%}</span>
+<span class="w">        </span><span class="cp">{%</span> <span class="k">if</span> <span class="nv">article.category</span> <span class="o">==</span> <span class="nv">cat.0</span> <span class="cp">%}</span>
+<span class="w">                </span><span class="nt">&lt;b&gt;&lt;center&gt;</span><span class="cp">{{</span> <span class="nv">cat.0</span> <span class="cp">}}</span><span class="w"> </span>Tags<span class="nt">&lt;/center&gt;&lt;/b&gt;</span>
+<span class="w">                </span><span class="nt">&lt;ul</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;tagcloud&quot;</span><span class="nt">&gt;</span>
+<span class="w">                    </span><span class="cp">{%</span> <span class="k">for</span> <span class="nv">tag</span> <span class="k">in</span> <span class="nv">cat.1</span> <span class="cp">%}</span>
+<span class="w">                        </span><span class="nt">&lt;li</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;tag-</span><span class="cp">{{</span> <span class="nv">tag.1</span> <span class="cp">}}</span><span class="s">&quot;</span><span class="nt">&gt;</span>
+<span class="w">                            </span><span class="nt">&lt;a</span><span class="w"> </span><span class="na">href=</span><span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">SITEURL</span> <span class="cp">}}</span><span class="s">/</span><span class="cp">{{</span> <span class="nv">tag.0.url</span> <span class="cp">}}</span><span class="s">&quot;</span><span class="nt">&gt;</span>
+<span class="w">                                </span><span class="cp">{{</span> <span class="nv">tag.0</span> <span class="cp">}}</span>
+<span class="w">                                </span><span class="cp">{%</span> <span class="k">if</span> <span class="nv">TAG_CLOUD_BADGE</span> <span class="cp">%}</span>
+<span class="w">                                    </span><span class="nt">&lt;span</span><span class="w"> </span><span class="na">class=</span><span class="s">&quot;badge&quot;</span><span class="nt">&gt;</span>(<span class="cp">{{</span> <span class="nv">tag.2</span> <span class="cp">}}</span>)<span class="nt">&lt;/span&gt;</span>
+<span class="w">                                </span><span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<span class="w">                            </span><span class="nt">&lt;/a&gt;</span>
+<span class="w">                        </span><span class="nt">&lt;/li&gt;</span>
+<span class="w">                    </span><span class="cp">{%</span> <span class="k">endfor</span> <span class="cp">%}</span><span class="w">                        </span>
+<span class="w">            </span><span class="nt">&lt;/ul&gt;</span><span class="w"> </span>
+<span class="w">         </span><span class="cp">{%</span> <span class="k">endif</span> <span class="cp">%}</span>
+<span class="w">     </span><span class="cp">{%</span> <span class="k">endfor</span> <span class="cp">%}</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div>
 
 <p>The placement of the code depends a bit on how you plan to style it and where you want it to show up. I have mine near the top, right below <strong>{% block content %}</strong></p>
 <p>To add the tag cloud to the tags and categories pages, the same code needs to be added to index.html. Place it within the first item conditional, right after this:</p>
-<div class="highlight"><pre><span></span>{# <span class="nv">First</span> <span class="nv">item</span> #}
-{<span class="o">%</span> <span class="k">if</span> <span class="k">loop</span>.<span class="nv">first</span> <span class="nv">and</span> <span class="nv">not</span> <span class="nv">articles_page</span>.<span class="nv">has_previous</span><span class="ss">()</span> <span class="o">%</span>}
-</pre></div>
-
+<div class="highlight"><pre><span></span><code><span class="c">{# First item #}</span>
+<span class="cp">{%</span> <span class="k">if</span> <span class="nb">loop</span><span class="nv">.first</span> <span class="k">and</span> <span class="k">not</span> <span class="nv">articles_page.has_previous</span><span class="o">()</span> <span class="cp">%}</span>
+</code></pre></div>
 
 <p>This will take the category of the first article appearing on the page and generate the appropriate category tag cloud.</p>
 <h1>Settings and CSS Styling</h1>
 <p>The tag cloud should now display, just not necessarily how you want or where you want.</p>
 <p>The plugin allows you to have different sizes for tags based on how common they are. This can be altered by changing the TAG_CLOUD_STEPS value (default is 4, you can set TAG_CLOUD_STEPS=num in <strong>pelicanconf.py</strong>). So use the following, adding as many li.tag-# as you have TAG_CLOUD_STEPS. You can also style the tag cloud list any way you want:</p>
-<div class="highlight"><pre><span></span><span class="nt">ul</span><span class="p">.</span><span class="nc">tagcloud</span> <span class="p">{</span>
-  <span class="k">list-style</span><span class="p">:</span> <span class="kc">none</span><span class="p">;</span>
-    <span class="k">padding</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="nt">ul</span><span class="p">.</span><span class="nc">tagcloud</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="k">list-style</span><span class="p">:</span><span class="w"> </span><span class="kc">none</span><span class="p">;</span>
+<span class="w">    </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nt">ul</span><span class="p">.</span><span class="nc">tagcloud</span> <span class="nt">li</span> <span class="p">{</span>
-    <span class="k">display</span><span class="p">:</span> <span class="kc">inline-block</span><span class="p">;</span>
+<span class="nt">ul</span><span class="p">.</span><span class="nc">tagcloud</span><span class="w"> </span><span class="nt">li</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">display</span><span class="p">:</span><span class="w"> </span><span class="kc">inline-block</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nt">li</span><span class="p">.</span><span class="nc">tag-1</span> <span class="p">{</span>
-    <span class="k">font-size</span><span class="p">:</span> <span class="mi">150</span><span class="kt">%</span><span class="p">;</span>
+<span class="nt">li</span><span class="p">.</span><span class="nc">tag-1</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">150</span><span class="kt">%</span><span class="p">;</span>
 <span class="p">}</span>
 
-<span class="nt">li</span><span class="p">.</span><span class="nc">tag-2</span> <span class="p">{</span>
-    <span class="k">font-size</span><span class="p">:</span> <span class="mi">120</span><span class="kt">%</span><span class="p">;</span>
+<span class="nt">li</span><span class="p">.</span><span class="nc">tag-2</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">120</span><span class="kt">%</span><span class="p">;</span>
 <span class="p">}</span>
-</pre></div>
-
+</code></pre></div>
 
 <p>You can also use CSS to style the div the tag appears in. Here is mine:</p>
-<div class="highlight"><pre><span></span><span class="nt">div</span><span class="p">#</span><span class="nn">tagcloud</span><span class="p">{</span>   
-    <span class="k">right</span><span class="p">:</span> <span class="mi">-150</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">top</span><span class="p">:</span> <span class="mi">250</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">position</span><span class="p">:</span> <span class="kc">absolute</span><span class="p">;</span>
-    <span class="k">width</span><span class="p">:</span> <span class="mi">140</span><span class="kt">px</span><span class="p">;</span>
-    <span class="k">background</span><span class="p">:</span> <span class="kc">white</span><span class="p">;</span>
-    <span class="k">border-radius</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
-    <span class="kp">-moz-</span><span class="k">border-radius</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
-    <span class="kp">-webkit-</span><span class="k">border-radius</span><span class="p">:</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span> <span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+<div class="highlight"><pre><span></span><code><span class="nt">div</span><span class="p">#</span><span class="nn">tagcloud</span><span class="p">{</span><span class="w">   </span>
+<span class="w">    </span><span class="k">right</span><span class="p">:</span><span class="w"> </span><span class="mi">-150</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">top</span><span class="p">:</span><span class="w"> </span><span class="mi">250</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">position</span><span class="p">:</span><span class="w"> </span><span class="kc">absolute</span><span class="p">;</span>
+<span class="w">    </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">140</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="kc">white</span><span class="p">;</span>
+<span class="w">    </span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="kp">-moz-</span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">    </span><span class="kp">-webkit-</span><span class="k">border-radius</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="p">;</span>
 <span class="p">}</span>
-</pre></div>
-
+</code></pre></div>
 
 <p>(I have a fixed-width wrapper around everything including my tagcloud, so this positioning puts my sidebar just outside of the main content area)</p>
 <p>Full list of settings and defaults (you can add these lines to pelicanconf.py and change whatever values you want. If they don't exist in pelicanconf.py the defaults will be used):</p>
-<div class="highlight"><pre><span></span><span class="nv">TAG_CLOUD_STEPS</span><span class="o">=</span><span class="mi">4</span> #<span class="nv">number</span> <span class="nv">of</span> <span class="nv">different</span> <span class="nv">sizes</span> <span class="nv">of</span> <span class="nv">fonts</span> <span class="nv">in</span> <span class="nv">the</span> <span class="nv">tag</span> <span class="nv">cloud</span>
-<span class="nv">TAG_CLOUD_MAX_ITEMS</span><span class="o">=</span><span class="mi">100</span> #<span class="nv">number</span> <span class="nv">of</span> <span class="nv">different</span> <span class="nv">tags</span> <span class="nv">that</span> <span class="nv">can</span> <span class="nv">appear</span> <span class="nv">in</span> <span class="nv">tag</span> <span class="nv">cloud</span>
-<span class="nv">TAG_CLOUD_SORTING</span><span class="o">=</span><span class="s1">&#39;</span><span class="s">size</span><span class="s1">&#39;</span> #<span class="nv">how</span> <span class="nv">tags</span> <span class="nv">will</span> <span class="nv">be</span> <span class="nv">ordered</span> <span class="nv">in</span> <span class="nv">the</span> <span class="nv">tag</span> <span class="nv">cloud</span>. <span class="nv">Valid</span> <span class="nv">values</span>: <span class="k">random</span>, <span class="nv">alphabetically</span>, <span class="nv">alphabetically</span><span class="o">-</span><span class="nv">rev</span>, <span class="nv">size</span> <span class="nv">and</span> <span class="nv">size</span><span class="o">-</span><span class="nv">rev</span>
-<span class="nv">TAG_CLOUD_BADGE</span><span class="o">=</span><span class="nv">True</span> #<span class="k">If</span> <span class="nv">True</span>, <span class="nv">displays</span> <span class="nv">the</span> <span class="nv">number</span> <span class="nv">of</span> <span class="nv">articles</span> <span class="nv">in</span> <span class="nv">each</span> <span class="nv">tag</span>
-</pre></div>
-
+<div class="highlight"><pre><span></span><code>TAG_CLOUD_STEPS=4 #number of different sizes of fonts in the tag cloud
+TAG_CLOUD_MAX_ITEMS=100 #number of different tags that can appear in tag cloud
+TAG_CLOUD_SORTING=&#39;size&#39; #how tags will be ordered in the tag cloud. Valid values: random, alphabetically, alphabetically-rev, size and size-rev
+TAG_CLOUD_BADGE=True #If True, displays the number of articles in each tag
+</code></pre></div>
 
 <h1>Known issues</h1>
 <p>If you have overlap in the tags used between the two categories, the page for that tag will give the tag cloud for whatever the first article on the page is for that tag.</p>
 <p>Since I used the same names as for the basic tag cloud plugin, this is not compatible with the base tag cloud.</p>
 <p>If this somehow becomes popular, I might try to make this plugin a bit more official - giving it a unique name, adding some tests, and creating a tagcloud.html file that just gets included instead of copying and pasting the same code to two separate locations. So if you're using the plugin (or interested in it), let me know! Right now I only put in enough work to get it working for myself.</p><p><a href="https://tommyblanchard.com/unique-tag-cloud-for-each-category-in-pelican#disqus_thread">comments</a></p>                </article>
-<p class="paginator">
-    Page 1 / 1
-</p>
+<nav>
+  <ul>
+    <li>Page 1 / 1</li>
+  </ul>
+</nav>
             </aside><!-- /#featured -->
             </ol><!-- /#posts-list -->
             </section><!-- /#content -->
