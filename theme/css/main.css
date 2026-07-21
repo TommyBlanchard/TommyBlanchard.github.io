@@ -36,12 +36,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000305;
 }
 
-h1 { font-size: 2.4em;  margin: 1.1em 0 .4em; }
+h1 { font-size: 2.9em;  margin: 1.1em 0 .45em; }
 h2 {
 	font-size: 1.9em;
 	margin: 1.5em 0 .45em;
 	padding-bottom: .12em;
-	border-bottom: 2px solid #008db8;
+	border-bottom: 1px solid #d8dcdd;
 }
 h3 { font-size: 1.45em; margin: 1.4em 0 .4em; }
 h4 { font-size: 1.2em;  margin: 1.3em 0 .4em; }
