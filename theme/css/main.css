@@ -13,7 +13,7 @@
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&subset=latin);
 
 /***** Global *****/
 /* Body */
@@ -22,26 +22,34 @@ body {
     color: #000305;
     font-size: 100%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    line-height: 1.429;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     text-align: left;
 }
 
 /* Headings */
-h1 {font-size: 2em }
-h2 {font-size: 1.571em}	/* 22px */
-h3 {font-size: 1.429em}	/* 20px */
-h4 {font-size: 1.286em}	/* 18px */
-h5 {font-size: 1.143em}	/* 16px */
-h6 {font-size: 1em}		/* 14px */
-
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
-	line-height: 1.1;
-	margin-bottom: .8em;
-    font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-weight: 700;
+	line-height: 1.15;
+	color: #000305;
 }
+
+h1 { font-size: 2.4em;  margin: 1.1em 0 .4em; }
+h2 {
+	font-size: 1.9em;
+	margin: 1.5em 0 .45em;
+	padding-bottom: .12em;
+	border-bottom: 2px solid #008db8;
+}
+h3 { font-size: 1.45em; margin: 1.4em 0 .4em; }
+h4 { font-size: 1.2em;  margin: 1.3em 0 .4em; }
+h5 { font-size: 1.1em;  margin: 1.3em 0 .4em; }
+h6 { font-size: 1em;    margin: 1.3em 0 .4em; }
+
+#content > h1:first-child,
+.entry-title { margin-top: 0; }
 
 .anchor-link {
     display: none
@@ -55,8 +63,6 @@ h1, h2, h3, h4, h5, h6 {
     display: none
 }
 
-h3, h4, h5, h6 { margin-top: .8em; }
-	
 hr { border: 2px solid #EEEEEE; }
 
 /* Word Cloud */
@@ -215,7 +221,7 @@ img {
 }
 
 	/* Banner */
-	#banner h1 {font-size: 3.571em; line-height: 0;}
+	#banner h1 {font-size: 3.571em; line-height: 0; margin: 0; padding-bottom: 0; border-bottom: none;}
 	#banner h1 a:link, #banner h1 a:visited {
 		color: #000305;
 		display: block;
@@ -364,8 +370,14 @@ img {
 }
 #featured figure img {display: block; float: right;}
 
-#featured h2 {color: #008DB8; font-size: 1.714em; margin-bottom: 0.333em;}
-#featured h3 {font-size: 1.429em; margin-bottom: .5em;}
+#featured h2 {
+	color: #008DB8;
+	font-size: 1.714em;
+	margin: 0 0 0.333em;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+#featured h3 {font-size: 1.429em; margin: 0 0 .5em;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
 #featured h3 a:hover, #featured h3 a:active {color: #fff;}
@@ -404,8 +416,9 @@ img {
 #extras h2 {
 	color: #008db8;
 	font-size: 1.429em;
-	margin-bottom: .25em;
+	margin: .75em 0 .25em;
 	padding: 0 3px;
+	border-bottom: none;
 }
 
 #extras a:link, #extras a:visited {
@@ -431,28 +444,10 @@ img {
 		float: right;
 		width: 175px;
 	}
-	
-	#extras div[class='social'] a {
-		background-repeat: no-repeat;
-		background-position: 3px 6px;
-		padding-left: 25px;
-	}
-	
-		/* Icons */
-		#extras .social a {background-size: 18px;}
-		#extras .social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
-		#extras .social a[href*='github.com'], 
-		#extras .social a[href*='git.io'] {background-image: url('../images/icons/github.png');}
-		#extras .social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
-		#extras .social a[href*='groups.google.com'] {background-image: url('../images/icons/google-plus.png');}
-		#extras .social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-		#extras .social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
-		#extras .social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
-		#extras .social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
-		#extras .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
-		#extras .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
-        #extras .social a[href*='scholar.google.com'] {background-image: url('../images/icons/google-scholar.png');}
 
+	.social ul { list-style: none; margin: 0; padding: 0; }
+	.social .social-item { padding-left: 0; background: none; }
+	.social .social-link { padding-left: 0; background: none; }
 
 /*
 	Footer
@@ -544,7 +539,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#add-comment * {margin-bottom: .5em;}
 
 /* MOBILE */
-@media only screen and (max-device-width: 600px) {
+@media only screen and (max-width: 600px) {
     .body {clear: both; margin: 0 auto; width: 100%;}
     
     section#wrapper{
@@ -621,20 +616,16 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     #banner nav ul {float: left; width: 100%}
     #banner nav ul li {width: 100%; margin: 0; display: flex; border-bottom: 1px solid #fff}
     
-    /* Headings */
-    h1 {font-size: 200% }
-    h2 {font-size: 160%}	
-    h3 {font-size: 140%}	
-    h4 {font-size: 120%}	
-    h5 {font-size: 110%}	
-    h6 {font-size: 100%}		
+    /* Headings — sizes only. Weight, margins and the h2 rule inherit from global. */
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.6em; }
+    h3 { font-size: 1.3em; }
+    h4 { font-size: 1.15em; }
+    h5 { font-size: 1.05em; }
+    h6 { font-size: 1em; }
 
-    h1, h2, h3, h4, h5, h6 {
-        font-weight: 400;
-        line-height: 1.1;
-        margin-bottom: .8em;
-        font-family: 'Yanone Kaffeesatz', arial, serif;
-    }
+    #banner h1 {font-size: 2.4em;}
+    .entry-title {font-size: 2em;}
     
     #banner h1 a:hover, #banner h1 a:active {
 		background: none;
@@ -680,4 +671,4 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     width: 100%;
     }
     
-} */
+}
